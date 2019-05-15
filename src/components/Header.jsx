@@ -1,59 +1,26 @@
 import React from 'react';
-import styled from '@emotion/styled';
-import Img from 'gatsby-image';
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
-
-const Wrapper = styled.header`
-  -webkit-clip-path: polygon(100% 0, 0 0, 0 70%, 50% 100%, 100% 70%);
-  clip-path: polygon(100% 0, 0 0, 0 70%, 50% 100%, 100% 70%);
-  @media (max-width: ${props => props.theme.breakpoints.s}) {
-    -webkit-clip-path: polygon(100% 0, 0 0, 0 90%, 50% 100%, 100% 90%);
-    clip-path: polygon(100% 0, 0 0, 0 90%, 50% 100%, 100% 90%);
-  }
-  background: ${props => props.theme.gradient.rightToLeft};
-  height: 300px;
-  @media (max-width: ${props => props.theme.breakpoints.m}) {
-    height: 300px;
-  }
-  @media (max-width: ${props => props.theme.breakpoints.s}) {
-    height: 275px;
-  }
-  position: relative;
-  overflow: hidden;
-`;
-
-const Text = styled.div`
-  color: ${props => props.theme.colors.white.base};
-  z-index: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-  max-width: ${props => props.theme.layout.base};
-  padding: 0 2rem;
-  margin-bottom: 3rem;
-  align-items: center;
-`;
-
-const Subtitle = styled.p`
-  max-width: 650px;
-  color: ${props => props.theme.colors.white.light};
-`;
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Header = ({ children, title, date, cover }) => (
-  <Wrapper>
-    <Img fluid={cover || {} || [] || ''} />
-    <Text>
-      <h1>{title}</h1>
-      <h3>{date}</h3>
-
-      {children && <Subtitle>{children}</Subtitle>}
-    </Text>
-  </Wrapper>
+  <HeaderWrapper>
+    <Container>
+      <Grid>
+        <Text>
+          <h1>
+            Transformando a caixa preta da Internet em uma caixa de ferramentas.
+          </h1>
+          <br />
+          <p>
+            <StyledAnchorLink href="#trilhas">
+              Vamos começar? &nbsp;&#x2794;
+            </StyledAnchorLink>
+          </p>
+        </Text>
+      </Grid>
+    </Container>
+  </HeaderWrapper>
 );
 
 export default Header;
@@ -75,3 +42,70 @@ Header.defaultProps = {
   date: false,
   title: false,
 };
+
+export const Container = styled.div`
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  @media (min-width: 575px) {
+    max-width: 540px;
+  }
+  @media (min-width: 767px) {
+    max-width: 720px;
+  }
+  @media (min-width: 991px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1199px) {
+    max-width: 1200px;
+  }
+`;
+
+const HeaderWrapper = styled.header`
+  padding-top: 96px;
+  @media (max-width: 991px) {
+    padding-top: 128px;
+  }
+`;
+
+const Art = styled.figure`
+  width: 100%;
+  margin: 0;
+  > div {
+    width: 120%;
+    margin-bottom: -4.5%;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }
+`;
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 64px;
+  @media (max-width: 991px) {
+    grid-template-columns: 1fr;
+    grid-gap: 80px;
+    > ${Art} {
+      order: 2;
+    }
+  }
+`;
+
+const Text = styled.div`
+  justify-self: center;
+  @media (max-width: 991px) {
+    justify-self: start;
+  }
+`;
+
+const StyledAnchorLink = styled(AnchorLink)`
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+`;
