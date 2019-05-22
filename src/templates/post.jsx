@@ -19,6 +19,12 @@ const PostSuggestion = styled.div`
   margin: 1rem 3rem 0 3rem;
 `;
 
+const postCover = styled.div`
+  display: flex;
+  height: 250px;
+  overflow: hide
+`;
+
 const Post = ({ data, pageContext }) => {
   const { next, prev } = pageContext;
   const post = data.markdownRemark;
@@ -26,6 +32,7 @@ const Post = ({ data, pageContext }) => {
   const title = post.frontmatter.title;
   const date = post.frontmatter.date;
   const html = post.html;
+  console.log(image)
   return (
     <Layout>
       <SEO
@@ -35,6 +42,9 @@ const Post = ({ data, pageContext }) => {
         pathname={post.frontmatter.path}
         article
       />
+      
+      <img style={{marginBottom: 0, width: '100%'}} src={image.src} alt="Gatsby Logo" />
+
       <Container>
         <Content input={html} />
         <TagsBlock list={post.frontmatter.tags || []} />
@@ -43,7 +53,7 @@ const Post = ({ data, pageContext }) => {
         <PostSuggestion>
           {prev && (
             <Link to={prev.frontmatter.path}>
-              Previous
+              Anterior
               <h3>{prev.frontmatter.title}</h3>
             </Link>
           )}
@@ -51,7 +61,7 @@ const Post = ({ data, pageContext }) => {
         <PostSuggestion>
           {next && (
             <Link to={next.frontmatter.path}>
-              Next
+              Proximo
               <h3>{next.frontmatter.title}</h3>
             </Link>
           )}
