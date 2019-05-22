@@ -7,7 +7,7 @@ import { Header, PostList } from 'components';
 import { Layout } from 'layouts';
 import theme from '../../config/theme';
 import brain from '../../static/logo/brain.png';
-import {Container} from '../components/header'
+import {Container} from '../components/Header'
 
 const PostWrapper = styled.div`
   display: flex;
