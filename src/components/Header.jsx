@@ -9,23 +9,22 @@ const Header = ({ children, title, date, cover }) => (
   <HeaderWrapper>
     <Container>
       <h1 style={absoluteTitle}>
-        APOIO TÉCNICO
+        INSTRUMENTANDO PESSOAS
       </h1>
       <h1 style={secondLine}>
-        PARA ATIVISTAS ONLINE
+        FORTALECENDO COMUNIDADES
       </h1>
       <Grid>
         <Text>
           <h3 style={headerText}>
-            Uma plataforma para difusão do conhecimento de forma simples e acessível
-            sobre como as tecnologias podem ajudar no enfretamento ao discurso de ódio na internet
+            Uma plataforma sobre como a tecnologia pode ajudar no enfrentamento da Intolerância Online
           </h3>
           <br />
           <p style={{textAlign: 'center', marginBottom: 0}}>
             <div style={bolinha}></div>
 
             <StyledAnchorLink style={{marginTop: 10}} href="#trilhas">
-              Vamos começar?;
+              Vamos começar?
             </StyledAnchorLink>
           </p>
         </Text>
