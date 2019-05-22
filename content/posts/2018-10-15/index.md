@@ -1,5 +1,5 @@
 ---
-path: "/post-three"
+path: "/trilha-três"
 cover: "./toolset.jpeg"
 date: "2018-10-17"
 title: "Dados: Transformando em ferramentas"
