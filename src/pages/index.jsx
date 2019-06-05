@@ -100,10 +100,12 @@ const Index = ({ data }) => {
           <Grid>
             <Text>
               <div style={retangleSlogan}></div>
-              <h2 style={sloganTitle}>Transformamos a caixa preta da Internet em uma caixa de ferramentas</h2>
+              <h2 style={sloganTitle}>Traduzindo a caixa preta da Internet em uma caixa de ferramentas</h2>
               <p style={sloganBody}>
-                Mineramos, conectamos e te conduzimos nos porquês da internet. Assim você não irá se perder 
-                em meio às 23 abas abertas no seu computador :)
+                Por vezes a Internet é uma caixa preta que ninguém sabe muito bem como 
+                funciona ou acha complicada demais para entender. Nosso objetivo aqui é oferecer conteúdos 
+                concisos, didáticos e exemplificados sobre temas capazes de contribuir com outras 
+                iniciativas que também lutam contra a discriminação e intolerância na Rede.
               </p>
             </Text>
             <Text>
