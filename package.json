@@ -51,6 +51,7 @@
     "react-headroom": "^2.2.4",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.18",
+    "scrollprogress": "^3.0.2",
     "styled-components": "^4.2.0",
     "typeface-candal": "0.0.54",
     "typeface-open-sans": "0.0.54",
