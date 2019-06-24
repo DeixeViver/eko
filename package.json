@@ -51,6 +51,7 @@
     "react-google-font-loader": "^1.0.5",
     "react-headroom": "^2.2.4",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.7.0",
     "react-typography": "^0.16.18",
     "scrollprogress": "^3.0.2",
     "styled-components": "^4.2.0",
