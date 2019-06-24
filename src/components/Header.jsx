@@ -7,9 +7,9 @@ import person from '../../static/logo/person.jpeg';
 
 const Header = ({ children, title, date, cover }) => (
   <HeaderWrapper>
-    <Container>
-      <h1 style={absoluteTitle}>
-        INSTRUMENTANDO PESSOAS
+     {/*<Container>
+     <h1 style={absoluteTitle}>
+        APOIO TÉCNICO
       </h1>
       <h1 style={secondLine}>
         FORTALECENDO COMUNIDADES
@@ -33,7 +33,7 @@ const Header = ({ children, title, date, cover }) => (
 
         </Text>
       </Grid>
-    </Container>
+    </Container>*/}
   </HeaderWrapper>
 );
 
