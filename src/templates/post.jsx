@@ -8,13 +8,15 @@ import '../styles/prism';
 import ScrollProgress from 'scrollprogress';
 
 const progressElement = document.querySelector('.progress-bar');
-var yScroll = 10;
+var yScroll = 1;
 const progressObserver = new ScrollProgress((x, y) => {
   if(!!progressElement)
     progressElement.style.width = y * 100 + '%';
   console.log(progressElement)
   yScroll = y;
 });
+
+
 
 const progressBar = {
 backgroundColor: 'rebeccapurple',
@@ -65,8 +67,8 @@ const Post = ({ data, pageContext }) => {
   return (
     <Layout>
       <ProgressBar />
-      <div style={progressBar} className="progress-bar"></div>
-      <BarraDisgraca style={progressBar} className="progress-bar" />
+      {/*<div style={progressBar} className="progress-bar"></div>
+      <BarraDisgraca style={progressBar} className="progress-bar" />*/}
 
       <SEO
         title={title}

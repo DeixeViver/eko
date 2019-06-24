@@ -9,7 +9,7 @@ import ScrollProgress from 'scrollprogress';
 
 const progressElement = document.querySelector('.progress-bar');
 
-var yScroll = 10;
+var yScroll = 0;
 
 const progressObserver = new ScrollProgress((x, y) => {
   if(!!progressElement)
@@ -24,20 +24,21 @@ const ProgressBar = () => (
 
 
   <div style={progressBarra} className="progress-bar"></div>
-  <BarraDisgraca yScroll={yScroll} style={progressBarra} className="progress-bar" />
   </div>
 );
 
 export default ProgressBar;
 
 const progressBarra = {
-  backgroundColor: 'rebeccapurple',
-  height: '5px',
+  background: ' linear-gradient(to right, #d153b5 0%,#d4a900 100%)',//'rebeccapurple',
+  height: '15px',
   position: 'fixed',
   top: 0,
   bottom: 0,
+  borderBottomRightRadius: '20px'
   };
   
+
   const BarraDisgraca = styled.div`
   background-color: rebeccapurple;
   height: 100px;
