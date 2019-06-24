@@ -7,17 +7,17 @@ import person from '../../static/logo/person.jpeg';
 
 import ScrollProgress from 'scrollprogress';
 
-const progressElement = document.querySelector('.progress-bar');
+//const progressElement = document.querySelector('.progress-bar');
 
 var yScroll = 0;
 
-const progressObserver = new ScrollProgress((x, y) => {
+/*const progressObserver = new ScrollProgress((x, y) => {
   if(!!progressElement)
     progressElement.style.width = y * 100 + '%';
   
   console.log(progressElement)
   yScroll = y;
-});
+});*/
 
 const ProgressBar = () => (
   <div>

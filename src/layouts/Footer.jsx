@@ -56,7 +56,7 @@ const Footer = () => (
       <span>
         Projeto Financiado, motivado e inspirado pelo SAFERNET
       </span>
-      <img style={imgMember} src={safernet} alt={name} />
+      <img style={imgMember} src={safernet} alt={"Safernet Logo"} />
     </Text>
   </Wrapper>
 );

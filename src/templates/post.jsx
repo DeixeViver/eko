@@ -1,20 +1,21 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { graphql, Link } from 'gatsby';
 import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import { Layout, Container, Content } from 'layouts';
 import { TagsBlock, Header, SEO, ProgressBar } from 'components';
 import '../styles/prism';
-import ScrollProgress from 'scrollprogress';
+//import ScrollProgress from 'scrollprogress';
 
-const progressElement = document.querySelector('.progress-bar');
+/*const progressElement = document.querySelector('.progress-bar');
 var yScroll = 1;
 const progressObserver = new ScrollProgress((x, y) => {
   if(!!progressElement)
     progressElement.style.width = y * 100 + '%';
   console.log(progressElement)
   yScroll = y;
-});
+});*/
+var yScroll = 1;
 
 
 
@@ -63,6 +64,7 @@ const Post = ({ data, pageContext }) => {
   const title = post.frontmatter.title;
   const date = post.frontmatter.date;
   const html = post.html;
+
   console.log(image)
   return (
     <Layout>

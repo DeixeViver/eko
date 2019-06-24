@@ -234,6 +234,7 @@ const TeamWrapper = styled.div`
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   let number = getNumber();
+  
 
   const StyledMultipleBg = styled.div`
     display: flex;
