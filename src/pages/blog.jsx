@@ -7,10 +7,12 @@ import { Layout } from 'layouts';
 
 const Blog = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
+  console.log(edges);
   return (
     <Layout>
       <Helmet title={'Blog Page'} />
       <Header title="Blog Page">Gatsby Tutorial Starter</Header>
+      <p>VEM BALANCAR CUDURO</p>
       {edges.map(({ node }) => (
         <BlogList
           key={node.id}

@@ -19,6 +19,24 @@ export const colors = {
     light: '#3e5fbc',
     dark: '#284187',
   },
+  orange: {
+    base: "#ea5639",
+    light: "#ef775f"
+  },
+  green: {
+    base: "#80b041",
+    light: "#ace63c"
+  },
+  yellow: {
+    base: "#ffe400",
+    light: "#fceb39",
+  },
+  blue: {
+    base: "#2a5a9a"
+  },
+  pink: {
+    base: "#b14a91"
+  }
 };
 
 export const shadow = {
