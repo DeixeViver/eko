@@ -49,7 +49,7 @@ const imgMember = {
 const Footer = () => (
   <Wrapper>
     <TextDeixe>
-      <span>Feito com muito amor pela equipe DeixeVirVer</span>
+      <span>Feito com muito amor pela equipe Deixe ViVer</span>
     </TextDeixe>
     
     <Text>

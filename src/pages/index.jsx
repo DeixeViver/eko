@@ -19,7 +19,7 @@ import GoogleFontLoader from 'react-google-font-loader';
 
 import franklin from '../../static/time/franklin.jpg';
 import iris from '../../static/time/iris.jpg';
-import lorena from '../../static/time/lorena.jpg';
+import lorena from '../../static/time/lorena.png';
 import jamile from '../../static/time/jamile.jpg';
 import TeamMember from '../components/TeamMember';
 
@@ -53,7 +53,7 @@ export const team = [
       image: lorena,
       name: "Lorena Pereira",
       shortDescription: "Cientista de Dados com Conteúdo",
-      largeDescription: "Jean Rosier é sócio e professor da Perestroika. Palestrante internacional dos eventos TEDx(Madrid), Ouishare (Paris), Worldz(Hollywod) e CLEIN (Medellin). É responsável pela expansão internacional da escola além de influencer da Hyper Island na Suécia. Liderou workshops de criatividade para marcas globais como: Red Bull, LinkedIn, Coca-Cola, Oracle, Walmart e Rede Globo.",
+      largeDescription: "Em formação para sempre :) aprendendo com tudo ao meu redor. Bacharela em Análise de Sistemas pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredtio que a tecologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
       instagram: "lorenaps3"
   },
 
@@ -295,10 +295,12 @@ const ContinuedDivStyled = styled.div`
           <Grid>
             <Text>
               <span style={retangleSlogan}></span>
-              <h2 style={sloganTitle}>Transformamos a caixa preta da Internet em uma caixa de ferramentas SOBRE NOSSA PROPOSTA</h2>
+              <h2 style={sloganTitle}>Nós queremos um Contato Bilateral</h2>
               <p style={sloganBody}>
-                Texto sobre nossa proposta com alguma imagem/adrinka do ladoMineramos, conectamos e te conduzimos nos porquês da internet. Assim você não irá se perder 
-                em meio às 23 abas abertas no seu computador :)
+                Por vezes nós temos a propagação de discriminação na Rede. 
+                As pessoas têm sua vida influenciada pela tecnologia, 
+                mas o processo de desenvolvimento dessas tecnologias muitas 
+                vezes não está levando em conta as pessoas que serão atingidas.
               </p>
             </Text>
             <Text>
@@ -313,12 +315,13 @@ const ContinuedDivStyled = styled.div`
           <Grid>
             <Text>
               <RetangleSloganA></RetangleSloganA>
-              <h2 style={sloganTitle}>SEÇÃO explicando adrinkas e tal</h2>
+              <h2 style={sloganTitle}>Pergunte-me Como!</h2>
               <p style={sloganBody}>
-                Por vezes a Internet é uma caixa preta que ninguém sabe muito bem como 
-                funciona ou acha complicada demais para entender. Nosso objetivo aqui é oferecer conteúdos 
-                concisos, didáticos e exemplificados sobre temas capazes de contribuir com outras 
-                iniciativas que também lutam contra a discriminação e intolerância na Rede.
+                Através do entendimento das nossas Trilhas do Conhecimento!
+                A ideia das Trilhas é comunicar temas relacionados a 
+                tecnologia e que são capazes de ajudar no protagonismos de outras iniciativas 
+                no enfrentamento da discriminação online. <br></br>
+                E tudo isso de uma forma simples e prática!
               </p>
             </Text>
             <Text>
@@ -333,7 +336,7 @@ const ContinuedDivStyled = styled.div`
 
       
       <PostWrapper>
-        <h2 style={{fontSize: '52px', textAlign: 'center', color: '#f5f5f5', marginBottom: "3rem", fontFamily: "Confortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI</h2>
+        <h2 style={{fontSize: '52px', textAlign: 'center', color: '#f5f5f5', marginBottom: "3rem", fontFamily: "Confortaa, cursive", fontWeight: '700'}}>COMECE NAS TRILHAS</h2>
         {edges.map(({ node }) => (
           <PostList
             key={node.id}
