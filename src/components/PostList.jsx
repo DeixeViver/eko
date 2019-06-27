@@ -5,6 +5,7 @@ import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import theme from '../../config/theme';
 
+
 const Wrapper = styled.article`
   margin-bottom: 2rem;
   position: relative;
@@ -28,19 +29,23 @@ const Wrapper = styled.article`
   }
 `;
 
-const StyledLink = styled(Link)`
-  position: absolute;
+const StyledLinkk = styled(Link)`
+  /*position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0;*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem;
+  align-items: flex-end;
   z-index: 3;
+  height: 100%;
   border-radius: ${props => props.theme.borderRadius.default};
-  &:after {
+  transition: 2s;
+
+  /*&:after {
     content: '';
     position: absolute;
     display: block;
@@ -54,15 +59,34 @@ const StyledLink = styled(Link)`
       to bottom,
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.3) 50%,
-      rgba(0, 0, 0, 0.7) 80%,
-      rgba(0, 0, 0, 0.8) 100%
+      rgba(0, 0, 0, 0.4) 80%,
+      rgba(0, 0, 0, 0.5) 100%
     );
-    z-index: -10;
+    transition: 2s;
+    z-index: 100;
     border-radius: ${theme.borderRadius.default};
     transition: opacity ${theme.transitions.default.duration};
-  }
+  }*/
 `;
 
+const Info = styled.div`
+  color: ${props => props.theme.colors.white.light};
+  margin: 0 1rem 1.25rem 1.25rem;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  z-index: 101
+`;
+
+const Title = styled.h2`
+  margin-bottom: 0.6rem;
+  font-size: 42px;
+  font-family: ${props => props.theme.fontFamily.conforta};
+`;
+
+const PostList = ({ cover, path, date, title, excerpt, colorsBg }) => {
+    
+console.log(colorsBg);
 const Image = styled.div`
   position: absolute;
   top: 0;
@@ -71,7 +95,8 @@ const Image = styled.div`
   left: 0;
   bottom: 0;
   z-index: 1;
-  object-fit: cover;
+  object-fit: cover;  
+  background-color: #ff0000
   border-radius: ${props => props.theme.borderRadius.default};
   img {
     border-radius: ${props => props.theme.borderRadius.default};
@@ -84,21 +109,38 @@ const Image = styled.div`
   }
 `;
 
-const Info = styled.div`
-  color: ${props => props.theme.colors.white.light};
-  margin: 0 1rem 1.25rem 1.25rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-`;
+const Wrapper = styled.article`
+  margin-bottom: 2rem;
+  z-index: 100;
+  width: 100%;
+  max-width: 800px;
+  border-radius: ${props => props.theme.borderRadius.default};
+  box-shadow: ${props => props.theme.shadow.feature.small.default};
+  transition: ${props => props.theme.transitions.boom.transition};
+  background: linear-gradient(90deg, 
+                              ${colorsBg[0]} 0%,
+                              ${colorsBg[1]} 25%,
+                              ${colorsBg[2]} 100%);
 
-const Title = styled.h2`
-  margin-bottom: 0.6rem;
-`;
+  height: 25rem;
 
-const PostList = ({ cover, path, date, title, excerpt }) => (
+  &:hover {
+    box-shadow: ${props => props.theme.shadow.feature.small.hover};
+    transform: scale(1.04);
+  }
+
+  @media (max-width: 1000px) {
+
+  }
+
+  @media (max-width: 700px) {
+    height: 15rem;
+  }
+`;
+  
+  return(
   <Wrapper>
-    <Image>
+    {/*<Image>
       <Img fluid={cover} />
     </Image>
     <StyledLink to={path}>
@@ -107,9 +149,15 @@ const PostList = ({ cover, path, date, title, excerpt }) => (
         <Title>{title}</Title>
         <span>{excerpt}</span>
       </Info>
-    </StyledLink>
+    </StyledLink>*/}
+    <StyledLinkk to={path}>
+      <Info>
+        <Title>{title}</Title>
+        <span style={{fontFamily: 'Comfortaa, cursive'}}>{excerpt}</span>
+      </Info>
+    </StyledLinkk>
   </Wrapper>
-);
+)};
 
 export default PostList;
 
@@ -119,4 +167,5 @@ PostList.propTypes = {
   excerpt: PropTypes.string,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  colorsBg: PropTypes.array.isRequired
 };

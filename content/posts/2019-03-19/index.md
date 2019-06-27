@@ -2,9 +2,10 @@
 path: '/algoritmos-invisiveis'
 cover: './blocks.jpg'
 date: "2019-03-15"
-title: 'Trilha 01 — Algoritmos Invisíveis'
+title: 'Algoritmos Invisíveis'
 published: true
-tags: ['trilha', 'conhecimento']
+tags: ['algoritmo', 'trilha', 'conhecimento']
+
 ---
 
 # Trilha 01 — Algoritmos Invisíveis
