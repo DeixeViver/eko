@@ -256,12 +256,13 @@ const Index = ({ data }) => {
     }
   `;
 
-  const SyledIntro = styled.div`
+  const SyledIntro = styled.h1`
     font-size: 45px;
     margin: 3rem 0.5rem;
     font-family: 'Comfortaa', cursive;
     text-align: center;
-    text-shadow: 1px 1px 3px rgba(230, 230, 230, 1);
+    line-height: 1.6;
+    text-shadow: 2px 3px 8px rgba(170, 170, 170, 1);
     @media (min-width: 40em) {
       font-size: 55px;
       margin: 0 1rem;
