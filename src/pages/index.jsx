@@ -261,6 +261,7 @@ const Index = ({ data }) => {
     margin: 3rem 0.5rem;
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    text-shadow: 1px 1px 3px rgba(230, 230, 230, 1);
     @media (min-width: 40em) {
       font-size: 55px;
       margin: 0 1rem;
