@@ -2,22 +2,18 @@
 path: '/algoritmos-invisiveis'
 cover: './blocks.jpg'
 date: "2019-03-15"
-title: 'Algoritmos Invisíveis'
+title: 'Trilha 01 - Algoritmos Invisíveis'
 published: true
 tags: ['algoritmo', 'trilha', 'conhecimento']
 
 ---
 
-# Trilha 01 — Algoritmos Invisíveis
-
-### A caixa preta da Internet e sua relação com Discurso de Ódio
+## O espaço inacessível da Internet e sua relação com Discurso de Ódio
 
 ## O que são Algoritmos?
 
 São um série de instruções que a fim de alcançar um objetivo.
 Simples, fácil e prático assim!
-
-<img src="https://media.giphy.com/media/BzxPg00u8EG9z9uMvK/giphy.gif" data-canonical-src="https://media.giphy.com/media/BzxPg00u8EG9z9uMvK/giphy.gif" width="500" height="400" />
 
 Se pensarmos no que fazemos diariamente, seguimos uma série de passos a fim de completar pequenas atividades ao longo do dia. </br>
 <strong>Pensa aqui comigo: Do que eu preciso para pegar o ônibus até o trabalho/faculdade/escola pela manhã?
@@ -44,13 +40,11 @@ São uma série de passos para que você consiga chegar lá, correto? Mas e se p
 
 E agora? Quem quer descrever o que acontece quando você dá o sinal de parada e o ônibus para lá longe? Quando para né!?
 
-<img src="https://media.giphy.com/media/ojtdpE8iqOgsE/giphy.gif" data-canonical-src="https://media.giphy.com/media/ojtdpE8iqOgsE/giphy.gif" width="500" height="400" />
+<img src="efeito.png" width="500" height="400" />
 
 Acho que você já deve ter entendido a ideia. A verdade é que nós estamos acostumados a seguir algoritmos todos os dias, e muitas das coisas que fazemos, como “Ir até o ponto de ônibus”, já engloba uma série de outros passos menores ainda. Quando uma etapa do algoritmo engloba um outro conjunto de etapas é o que chamamos de encapsulamento. Assim o nosso algoritmo “Pegar o ônibus” tem o algoritmo “Ir até o ponto de ônibus” encapsulado dentro dele.
 
 Massa! Agora que já sabermos o que são algoritmos por definição e já conseguimos pensar em exemplos reais na nossa vida, vamos entender como exatamente isso acontece na Internet.
-
-<img src="https://media.giphy.com/media/tXL4FHPSnVJ0A/giphy.gif" data-canonical-src="https://media.giphy.com/media/tXL4FHPSnVJ0A/giphy.gif" width="500" height="400" />
 
 
 O que os algoritmos fazem na Internet?
@@ -69,9 +63,6 @@ Muitas vezes eles precisam de dados de entrada, no caso, para fazer login em red
 
 E é assim, através desses dados de entrada que um outro algoritmo vai aprendendo as suas preferências na rede, com quais pessoas você mais se relaciona, quais os assuntos que você mais se importa, as postagens que você mais curte, e no fim te dá como resultado, uma rede social com conteúdo personalizado. Ele assume pelas suas curtidas quais são as postagens que você quer ver e organiza o seu Feed a partir disso, e é nesse momento que vai sendo construída a sua bolha social.
 
-<img src="https://media.giphy.com/media/WuGSL4LFUMQU/giphy.gif" data-canonical-src="https://media.giphy.com/media/WuGSL4LFUMQU/giphy.gif" width="500" height="400" />
-
-
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/B8ofWFx525s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A cima um ótimo TED Talk do Eli Pariser, feito em março de 2011, que explica o contexto e reflete criticamente a respeito desse conceito de bolhas sociais. Nós não vamos nos aprofundar nessa discussão agora, mas recomendamos fortemente que você assista.
@@ -85,7 +76,7 @@ Tomando o Facebook como exemplo, você pode ver nesse link o que a política da 
 
 ## Beleza, entendi. Mas o que isso tem haver com o combate a Intolerância e o Discurso de Ódio Online?
 
-<img src="https://media.giphy.com/media/l0HlKrB02QY0f1mbm/giphy.gif" data-canonical-src="https://media.giphy.com/media/l0HlKrB02QY0f1mbm/giphy.gif" width="500" height="400" />
+<img src="efeito.png" width="500" height="400" />
 
 Me apressei né? Calma aí, vamos voltar: O que é Discurso de Ódio?
 
