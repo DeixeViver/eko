@@ -63,7 +63,7 @@ Muitas vezes eles precisam de dados de entrada, no caso, para fazer login em red
 
 E é assim, através desses dados de entrada que um outro algoritmo vai aprendendo as suas preferências na rede, com quais pessoas você mais se relaciona, quais os assuntos que você mais se importa, as postagens que você mais curte, e no fim te dá como resultado, uma rede social com conteúdo personalizado. Ele assume pelas suas curtidas quais são as postagens que você quer ver e organiza o seu Feed a partir disso, e é nesse momento que vai sendo construída a sua bolha social.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/B8ofWFx525s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/B8ofWFx525s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
 A cima um ótimo TED Talk do Eli Pariser, feito em março de 2011, que explica o contexto e reflete criticamente a respeito desse conceito de bolhas sociais. Nós não vamos nos aprofundar nessa discussão agora, mas recomendamos fortemente que você assista.
 
