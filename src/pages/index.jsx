@@ -53,7 +53,7 @@ export const team = [
       image: lorena,
       name: "Lorena Pereira",
       shortDescription: "Cientista de Dados com Conteúdo",
-      largeDescription: "Em formação para sempre :) aprendendo com tudo ao meu redor. Bacharela em Análise de Sistemas pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredtio que a tecologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
+      largeDescription: "Em formação para sempre :) aprendendo com tudo ao meu redor. Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredtio que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
       instagram: "lorenaps3"
   },
 
@@ -291,19 +291,24 @@ const ContinuedDivStyled = styled.div`
       />
 
       <StyledMultipleBg>
-        <SyledIntro>Mudando o contato entre Pessoas, Tecnologia e o Enfrentamento da Discriminação Online</SyledIntro>
+        <SyledIntro>Transformando o invisível em ferramenta contra a Discriminação Online</SyledIntro>
       </StyledMultipleBg>
       <ContinuedDivStyled>
         <Container>
           <Grid>
             <Text>
               <span style={retangleSlogan}></span>
-              <h2 style={sloganTitle}>Nós queremos um Contato Bilateral</h2>
+              <h2 style={sloganTitle}>Invisível aos olhos, mas bem ali no botão <i>'Publicar'</i></h2>
               <p style={sloganBody}>
-                Por vezes nós temos a propagação de discriminação na Rede. 
-                As pessoas têm sua vida influenciada pela tecnologia, 
-                mas o processo de desenvolvimento dessas tecnologias muitas 
-                vezes não está levando em conta as pessoas que serão atingidas.
+                As pessoas têm sua vida influenciada pela tecnologia, mas o 
+                processo de desenvolvimento dessas tecnologias muitas vezes não 
+                está levando em conta as pessoas que serão atingidas.
+                <br></br>
+                <br></br>
+                <b>
+                Como podemos entender melhor o cenário por trás das Redes 
+                e usar isso para combater a discriminação na Internet? </b><br></br>
+                É o sobre isso o que vamos falar aqui!
               </p>
             </Text>
             <Text>
@@ -318,13 +323,24 @@ const ContinuedDivStyled = styled.div`
           <Grid>
             <Text>
               <RetangleSloganA></RetangleSloganA>
-              <h2 style={sloganTitle}>Pergunte-me Como!</h2>
+              <h2 style={sloganTitle}>Conteúdo sem ranço</h2>
               <p style={sloganBody}>
-                Através do entendimento das nossas Trilhas do Conhecimento!
-                A ideia das Trilhas é comunicar temas relacionados a 
-                tecnologia e que são capazes de ajudar no protagonismos de outras iniciativas 
-                no enfrentamento da discriminação online. <br></br>
-                E tudo isso de uma forma simples e prática!
+                A ideia das Trilhas do Conhecimento é passar o conteúdo 
+                de forma simples e prática. 
+                <br></br>
+                <br></br>
+                E para dar um <i>tchan</i> nessa 
+                experiência dividimos as Trilhas em conceitos fundamentais, 
+                assim a cada conceito que você aprende você ganha 
+                símbolos Adinkras - 
+                <a href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> Um sistema 
+                de escrita africano incrível.</a>
+                <br></br>
+                <br></br>
+                Você sabia que nos Adinkras existe um símbolo só para expressar  
+                “Advertência contra calúnia, difamação e o falar mal do outro 
+                pelas costas”?<br></br>
+                - Lindo, maravilhoso, Ícone sem defeitos. 
               </p>
             </Text>
             <Text>
