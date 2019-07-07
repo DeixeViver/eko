@@ -29,7 +29,7 @@ export const team = [
       image: franklin,
       name: "Franklin Silva",
       shortDescription: "Engenheiro de Software Criativo",
-      largeDescription: "Jean Rosier é sócio e professor da Perestroika. Palestrante internacional dos eventos TEDx(Madrid), Ouishare (Paris), Worldz(Hollywod) e CLEIN (Medellin). É responsável pela expansão internacional da escola além de influencer da Hyper Island na Suécia. Liderou workshops de criatividade para marcas globais como: Red Bull, LinkedIn, Coca-Cola, Oracle, Walmart e Rede Globo.",
+      largeDescription: "Formado em Análise e Desenvolvimento de Sistemas pelo IFBAIANO e Desenvolvimento Mobile/Web pelo College of San Francisco além de Mestrando em Engenharia de Software pela UFBA. Defendo o uso da internet como meio para difundir boas ideias e criar conexões com significado, de forma a derrubar preconceitos e garantir uma melhor vivência em sociedade. ",
       instagram: "itsfranklins"
   },
   {
@@ -91,6 +91,16 @@ export const chooseColor = (number) => {
   }
 }
 
+const chooseFrontMatterColor = (name) => {
+  console.log(name);
+  if(name == "algoritmo")
+      return theme.colors.subsetA;
+  else if(name == "dados")
+      return theme.colors.subsetB;
+  else
+    return theme.colors.subsetC;
+}
+
 const fadeInDown = keyframes`
   0% {
     transform: translate3d(0, -10%, 0);
@@ -136,18 +146,9 @@ const PostWrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 0 0 0;
-  padding: 2rem 4rem 2rem 2rem;
-  background: linear-gradient(90deg, 
-                                ${theme.colors.primary.dark} 0%,
-                                ${theme.colors.primary.dark} 25%,
-                                ${theme.colors.pink.base} 25%,
-                                ${theme.colors.pink.base} 50%,
-                                ${theme.colors.blue.base} 50%,
-                                ${theme.colors.blue.base} 75%,
-                                ${theme.colors.green.base} 75%,
-                                ${theme.colors.green.base} 100%);
+  padding: 8rem 2rem;
   @media (max-width: 1000px) {
     padding: 4rem 2rem 1rem 2rem;
   }
@@ -178,7 +179,7 @@ const StyledAbout = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 5rem 4rem 3rem 4rem;
+  padding: 10rem 0;
   background: ${theme.colors.blue.base};
   @media (max-width: 1000px) {
     padding: 4rem 2rem 1rem 4rem;
@@ -255,11 +256,13 @@ const Index = ({ data }) => {
     }
   `;
 
-  const SyledIntro = styled.div`
+  const SyledIntro = styled.h1`
     font-size: 45px;
     margin: 3rem 0.5rem;
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    line-height: 1.6;
+    text-shadow: 2px 3px 8px rgba(170, 170, 170, 1);
     @media (min-width: 40em) {
       font-size: 55px;
       margin: 0 1rem;
@@ -272,7 +275,7 @@ const Index = ({ data }) => {
 
 const ContinuedDivStyled = styled.div`
   background-image:  linear-gradient(180deg, ${chooseColor(number)} 0%, ${chooseColor(number)} 50%, ${theme.colors.blue.base} 100%);
-  height: 500px;
+  padding: 10rem 0;
 `;
 
   return (
@@ -336,22 +339,26 @@ const ContinuedDivStyled = styled.div`
 
       
       <PostWrapper>
-        <h2 style={{fontSize: '52px', textAlign: 'center', color: '#f5f5f5', marginBottom: "3rem", fontFamily: "Confortaa, cursive", fontWeight: '700'}}>COMECE NAS TRILHAS</h2>
-        {edges.map(({ node }) => (
-          <PostList
-            key={node.id}
-            cover={node.frontmatter.cover.childImageSharp.fluid}
-            path={node.frontmatter.path}
-            title={node.frontmatter.title}
-            date={node.frontmatter.date}
-            excerpt={node.excerpt}
-          />
-        ))}
+        <h2 style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE NAS TRILHAS</h2>
+        
+        <div style={{display: 'flex', flexDirection: "column", alignItems: 'center'}}>
+          {edges.map(({ node }) => (
+            <PostList
+              key={node.id}
+              cover={node.frontmatter.cover.childImageSharp.fluid}
+              path={node.frontmatter.path}
+              title={node.frontmatter.title}
+              date={node.frontmatter.date}
+              excerpt={node.excerpt}
+              colorsBg={chooseFrontMatterColor(node.frontmatter.tags[0])}
+            />
+          ))}
+        </div>
       </PostWrapper>
 
       <TeamWrapper>
 
-        <h2 style={{fontSize: '35px', textAlign: 'center', color: '#343434', marginBottom: "3rem", fontFamily: "Confortaa, cursive", fontWeight: '400'}}>O TIME</h2>
+        <h2 style={{fontSize: '35px', textAlign: 'center', color: '#343434', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>O TIME</h2>
 
 
         <GridMember>
@@ -369,7 +376,6 @@ const ContinuedDivStyled = styled.div`
           ))}
         </GridMember>
       </TeamWrapper>
-      <ViewDivisor/>
     </Layout>
   );
 };
@@ -389,6 +395,7 @@ Index.propTypes = {
               title: PropTypes.string.isRequired,
               date: PropTypes.string.isRequired,
               tags: PropTypes.array,
+              colors: PropTypes.array,
             }),
           }),
         }).isRequired

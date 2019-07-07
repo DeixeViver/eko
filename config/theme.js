@@ -36,7 +36,10 @@ export const colors = {
   },
   pink: {
     base: "#b14a91"
-  }
+  },
+  subsetA: ["#ff8b1a", "#d26b29", "#b14a91"],
+  subsetB: ["#4670a3", "#618a8e", "#b14a91"],
+  subsetC: ["#abbe37", "#80b033", "#b14a91"],
 };
 
 export const shadow = {
@@ -88,6 +91,7 @@ export const theme = {
     body: `Open Sans,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
     // eslint-disable-next-line
     heading: `Candal, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
+    conforta: 'Comfortaa, cursive'
   },
   layout: {
     article: '46rem',
