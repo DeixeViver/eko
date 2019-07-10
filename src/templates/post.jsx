@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import { Layout, Container, Content } from 'layouts';
 import { TagsBlock, Header, SEO, ProgressBar } from 'components';
 import '../styles/prism';
-//import ScrollProgress from 'scrollprogress';
 
 /*const progressElement = document.querySelector('.progress-bar');
 var yScroll = 1;
@@ -17,15 +16,6 @@ const progressObserver = new ScrollProgress((x, y) => {
 });*/
 var yScroll = 1;
 
-
-
-const progressBar = {
-backgroundColor: 'rebeccapurple',
-height: '5px',
-position: 'fixed',
-top: 0,
-bottom: 0,
-};
 
 const BarraDisgraca = styled.div`
 background-color: rebeccapurple;
@@ -68,10 +58,7 @@ const Post = ({ data, pageContext }) => {
   console.log(image)
   return (
     <Layout>
-      <ProgressBar />
-      {/*<div style={progressBar} className="progress-bar"></div>
-      <BarraDisgraca style={progressBar} className="progress-bar" />*/}
-
+       <ProgressBar />
       <SEO
         title={title}
         description={post.frontmatter.description || post.excerpt || ' '}
