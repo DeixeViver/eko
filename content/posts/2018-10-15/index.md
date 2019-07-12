@@ -13,9 +13,18 @@ tags: ['dados', 'trilha', 'conhecimento']
 
 Dados são pequenas observações sobre um determinado contexto. 
 Podem ser públicos, privados, abertos ou não.
-Por exemplo:
 
-[imagem]
+
+**[ilustrar com imagem]**
+____________________________________________________________________________________________
+Por exemplo:
+- Nome
+- Nome de usuário
+- Site
+- Biografia
+- Email
+- Telefone
+____________________________________________________________________________________________
 
 Tudo isso são dados, pequenas observações sobre nós mesmo, que nós fornecemos quando fazemos o cadastro em uma rede social, como o Twitter ou Instagram.
 
