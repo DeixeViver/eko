@@ -19,26 +19,32 @@ O que você precisa fazer para sair de casa pela manhã e chegar até o trabalho
 Um milagre! Não, pera…
 
 **[ilustrar com imagem]**
-Acordar no horário certo
-Me arrumar
-Tomar café
-Ir até o ponto de ônibus
-Esperar o ônibus certo
-Dar o sinal para que ele pare
-Subir no ônibus
-Pagar a passagem
-Sentar (Aí você já quer demais!)
+____________________________________________________________________________________________
+
+- Acordar no horário certo
+- Me arrumar
+- Tomar café
+- Ir até o ponto de ônibus
+- Esperar o ônibus certo
+- Dar o sinal para que ele pare
+- Subir no ônibus
+- Pagar a passagem
+- Sentar (Aí você já quer demais!)
+____________________________________________________________________________________________
 
 São uma série de passos para que você consiga chegar lá, correto? Mas e se pensarmos um pouco mais nos detalhes? O que exatamente você precisa fazer para ir até o ponto de ônibus? 
 
 **[ilustrar com imagem]**
-Saio de casa
-Viro a esquerda
-Ando até o final na rua
-Viro a direita
-Subo a ladeira 
-Paro na esquina da padaria 
-Pronto cheguei! Agora é só esperar…
+____________________________________________________________________________________________
+
+- Saio de casa
+- Viro a esquerda
+- Ando até o final na rua
+- Viro a direita
+- Subo a ladeira 
+- Paro na esquina da padaria 
+- Pronto cheguei! Agora é só esperar…
+____________________________________________________________________________________________
 
 E agora? Experimente descrever mentalmente o que acontece quando você dá o sinal de parada e o ônibus para muito longe do ponto? Ou quando ele está cheio demais? E o dia está só começando hein…
 Acho que você já deve ter entendido a ideia. A verdade é que nós estamos acostumados a seguir algoritmos todos os dias, e muitas das atividades que fazemos, como “Ir até o ponto de ônibus”, já engloba uma série de outros passos menores ainda. Quando uma etapa do algoritmo engloba um outro conjunto de etapas é o que chamamos de encapsulamento. Assim o nosso algoritmo “Pegar o ônibus” tem o algoritmo “Ir até o ponto de ônibus” encapsulado dentro dele.
