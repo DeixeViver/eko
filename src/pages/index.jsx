@@ -407,13 +407,6 @@ const definetranslateY = () => {
             <AdinkraGrid level={1} opacity={0.1} />
             <AdinkraGrid level={2} opacity={0.2} />
             <AdinkraGrid level={3} opacity={0.2} />
-            <AdinkraGrid level={4} opacity={0.3} />
-            <AdinkraGrid level={5} opacity={0.3} />
-            <AdinkraGrid level={6} opacity={0.3} />
-            <AdinkraGrid level={7} opacity={0.3} />
-            <AdinkraGrid level={8} opacity={0.4} />
-            <AdinkraGrid level={9} opacity={0.5} />
-            <AdinkraGrid level={10} opacity={0.6} />     
             
           
       </StyledMultipleBg>
