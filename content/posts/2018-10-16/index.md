@@ -1,11 +1,13 @@
 ---
 path: "/trilha-1"
-cover: "./capa_01.png"
+cover: "./capa.png"
 date: "2018-10-15"
 title: "Trilha 01 - Algoritmos Invisíveis"
 published: true
 tags: ['algoritmos','trilha', 'conhecimento']
-
+video: false
+videosrc: ''
+fronttitle: ''
 ---
 # Trilha 01 — Algoritmos Invisíveis 
 

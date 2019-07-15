@@ -1,11 +1,13 @@
 ---
 path: '/trilha-3'
-cover: './capa_03.png'
+cover: './capa.jpg'
 date: "2019-03-15"
 title: 'Trilha 03 - Segurança nas Redes'
 published: true
 tags: ['segurnaça', 'trilha', 'conhecimento']
-
+video: false
+videosrc: ''
+fronttitle: ''
 ---
 # Trilha 03 - Segurança nas Redes
 

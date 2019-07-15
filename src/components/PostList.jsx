@@ -167,5 +167,7 @@ PostList.propTypes = {
   excerpt: PropTypes.string,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  colorsBg: PropTypes.array.isRequired
+  colorsBg: PropTypes.array.isRequired,
+  video: PropTypes.bool,
+  videoname: PropTypes.string
 };
