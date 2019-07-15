@@ -120,56 +120,6 @@ const chooseFrontMatterColor = (name) => {
     return theme.colors.subsetC;
 }
 
-const populateAdinkraGrid = (rowLevel, opacity) => {
-  let baseCalc = 0
-  if(window.innerWidth <= 768)
-    baseCalc = 12;
-  else if(window.innerWidth >= 1024)
-    baseCalc = 10;
-  else
-    baseCalc = 5;
-
-  let rowCount = Math.floor(100 / baseCalc);
-
-  console.log(rowCount)
-
-  let arrayCount = new Array(rowCount);
-  arrayCount.map((e, i) => i + 1);
-  let arrayReturn = [];
-  for(var i = 0; i < arrayCount.length; i++){
-    console.log(i);
-
-    arrayReturn.push(returnAdinkraItem(rowLevel, baseCalc, i+1, opacity));
-  }
-  return arrayReturn.map(e => e);
-  /*return (
-    <div>
-    {arrayCount.map( (e, i) => 
-    <AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(e + 1) * baseCalc + "%"} adinkra={chooseAdinkra(e)} />)}
-    </div>
-  )*/
-  //return (<AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(arrayCount.length) * baseCalc + "%"} adinkra={chooseAdinkra()} />)
-
-}
-
-const returnAdinkraItem = (level, baseCalc, pos, opacity) => {
-  console.log("top " + level * baseCalc + "%");
-  console.log("left " + pos * baseCalc + "%");
-  return (<AdinkraItemGrid  title={adinkraDataExample.title} text={adinkraDataExample.text} 
-                            key={(pos - 1) * baseCalc + level} 
-                            opacity={opacity} 
-                            top={level * baseCalc + "%"} 
-                            left ={(pos - 1) * baseCalc + 5 + "%"} 
-                            adinkra={chooseAdinkra()} />);
-}
-
-const chooseAdinkra = (e) => {
-  let adinkraArray = [ad1, ad2, ad3, ad4, ad1a, ad2a, ad3a, ad4a];
-  let number = Math.floor(Math.random() * Math.floor(7));
-  console.log(number);
-  return adinkraArray[number];
-}
-
 const fadeInDown = keyframes`
   0% {
     transform: translate3d(0, -10%, 0);
@@ -317,6 +267,58 @@ const TeamWrapper = styled.div`
 `;
 
 const Index = ({ data }) => {
+
+  const populateAdinkraGrid = (rowLevel, opacity) => {
+    let baseCalc = 0
+    if(window.innerWidth <= 768)
+      baseCalc = 12;
+    else if(window.innerWidth >= 1024)
+      baseCalc = 10;
+    else
+      baseCalc = 5;
+  
+    let rowCount = Math.floor(100 / baseCalc);
+  
+    console.log(rowCount)
+  
+    let arrayCount = new Array(rowCount);
+    arrayCount.map((e, i) => i + 1);
+    let arrayReturn = [];
+    for(var i = 0; i < arrayCount.length; i++){
+      console.log(i);
+  
+      arrayReturn.push(returnAdinkraItem(rowLevel, baseCalc, i+1, opacity));
+    }
+    return arrayReturn.map(e => e);
+    /*return (
+      <div>
+      {arrayCount.map( (e, i) => 
+      <AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(e + 1) * baseCalc + "%"} adinkra={chooseAdinkra(e)} />)}
+      </div>
+    )*/
+    //return (<AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(arrayCount.length) * baseCalc + "%"} adinkra={chooseAdinkra()} />)
+  
+  }
+  
+  const returnAdinkraItem = (level, baseCalc, pos, opacity) => {
+    console.log("top " + level * baseCalc + "%");
+    console.log("left " + pos * baseCalc + "%");
+    return (<AdinkraItemGrid  title={adinkraDataExample.title} text={adinkraDataExample.text} 
+                              key={(pos - 1) * baseCalc + level} 
+                              opacity={opacity} 
+                              top={level * baseCalc + "%"} 
+                              left ={(pos - 1) * baseCalc + 5 + "%"} 
+                              adinkra={chooseAdinkra()} />);
+  }
+  
+  const chooseAdinkra = (e) => {
+    let adinkraArray = [ad1, ad2, ad3, ad4, ad1a, ad2a, ad3a, ad4a];
+    let number = Math.floor(Math.random() * Math.floor(7));
+    console.log(number);
+    return adinkraArray[number];
+  }
+  
+
   const { edges } = data.allMarkdownRemark;
   let number = getNumber();
   
