@@ -25,6 +25,7 @@ import lorena from '../../static/time/lorena.png';
 import jamile from '../../static/time/jamile.jpg';
 import TeamMember from '../components/TeamMember';
 import AdinkraItemGrid from '../components/AdinkraItemGrid';
+import AdinkraGrid from '../components/AdinkraGrid';
 
 
 import ad1 from '../../static/adrinkas/1.png';
@@ -267,58 +268,6 @@ const TeamWrapper = styled.div`
 `;
 
 const Index = ({ data }) => {
-
-  const populateAdinkraGrid = (rowLevel, opacity) => {
-    let baseCalc = 0
-    if(window.innerWidth <= 768)
-      baseCalc = 12;
-    else if(window.innerWidth >= 1024)
-      baseCalc = 10;
-    else
-      baseCalc = 5;
-  
-    let rowCount = Math.floor(100 / baseCalc);
-  
-    console.log(rowCount)
-  
-    let arrayCount = new Array(rowCount);
-    arrayCount.map((e, i) => i + 1);
-    let arrayReturn = [];
-    for(var i = 0; i < arrayCount.length; i++){
-      console.log(i);
-  
-      arrayReturn.push(returnAdinkraItem(rowLevel, baseCalc, i+1, opacity));
-    }
-    return arrayReturn.map(e => e);
-    /*return (
-      <div>
-      {arrayCount.map( (e, i) => 
-      <AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(e + 1) * baseCalc + "%"} adinkra={chooseAdinkra(e)} />)}
-      </div>
-    )*/
-    //return (<AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(arrayCount.length) * baseCalc + "%"} adinkra={chooseAdinkra()} />)
-  
-  }
-  
-  const returnAdinkraItem = (level, baseCalc, pos, opacity) => {
-    console.log("top " + level * baseCalc + "%");
-    console.log("left " + pos * baseCalc + "%");
-    return (<AdinkraItemGrid  title={adinkraDataExample.title} text={adinkraDataExample.text} 
-                              key={(pos - 1) * baseCalc + level} 
-                              opacity={opacity} 
-                              top={level * baseCalc + "%"} 
-                              left ={(pos - 1) * baseCalc + 5 + "%"} 
-                              adinkra={chooseAdinkra()} />);
-  }
-  
-  const chooseAdinkra = (e) => {
-    let adinkraArray = [ad1, ad2, ad3, ad4, ad1a, ad2a, ad3a, ad4a];
-    let number = Math.floor(Math.random() * Math.floor(7));
-    console.log(number);
-    return adinkraArray[number];
-  }
-  
-
   const { edges } = data.allMarkdownRemark;
   let number = getNumber();
   
@@ -454,20 +403,17 @@ const definetranslateY = () => {
 */}
    
           <SyledIntro>Mudando o contato entre Pessoas, Tecnologia e o Enfrentamento da Discriminação Online</SyledIntro>
-            <BackgroundAdinkras>
-
-            </BackgroundAdinkras>
-            {populateAdinkraGrid(0, 0.1)}
-            {populateAdinkraGrid(1, 0.1)}
-            {populateAdinkraGrid(2, 0.2)}
-            {populateAdinkraGrid(3, 0.2)}
-            {populateAdinkraGrid(4, 0.3)}
-            {populateAdinkraGrid(5, 0.3)}
-            {populateAdinkraGrid(6, 0.3)}
-            {populateAdinkraGrid(7, 0.3)}
-            {populateAdinkraGrid(8, 0.4)}
-            {populateAdinkraGrid(9, 0.5)}
-            {populateAdinkraGrid(10, 0.6)}            
+            <AdinkraGrid level={0} opacity={0.1} />
+            <AdinkraGrid level={1} opacity={0.1} />
+            <AdinkraGrid level={2} opacity={0.2} />
+            <AdinkraGrid level={3} opacity={0.2} />
+            <AdinkraGrid level={4} opacity={0.3} />
+            <AdinkraGrid level={5} opacity={0.3} />
+            <AdinkraGrid level={6} opacity={0.3} />
+            <AdinkraGrid level={7} opacity={0.3} />
+            <AdinkraGrid level={8} opacity={0.4} />
+            <AdinkraGrid level={9} opacity={0.5} />
+            <AdinkraGrid level={10} opacity={0.6} />     
             
           
       </StyledMultipleBg>
