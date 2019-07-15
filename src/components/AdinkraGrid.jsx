@@ -47,59 +47,7 @@ export default class ScrollBar extends React.Component {
     });
   }
 
-  componentDidMount() {
-    this.widthCalculation();
-  }
-
-  populateAdinkraGrid(rowLevel, opacity) {
-    let baseCalc = 0
-    if(this.state.innerWidth <= 768)
-      baseCalc = 12;
-    else if(this.state.innerWidth >= 1024)
-      baseCalc = 10;
-    else
-      baseCalc = 5;
-  
-    let rowCount = Math.floor(100 / baseCalc);
-  
-    console.log(rowCount)
-  
-    let arrayCount = new Array(rowCount);
-    arrayCount.map((e, i) => i + 1);
-    let arrayReturn = [];
-    for(var i = 0; i < arrayCount.length; i++){
-      console.log(i);
-  
-      arrayReturn.push(this.returnAdinkraItem(rowLevel, baseCalc, i+1, opacity));
-    }
-    return arrayReturn.map(e => e);
-    /*return (
-      <div>
-      {arrayCount.map( (e, i) => 
-      <AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(e + 1) * baseCalc + "%"} adinkra={chooseAdinkra(e)} />)}
-      </div>
-    )*/
-    //return (<AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(arrayCount.length) * baseCalc + "%"} adinkra={chooseAdinkra()} />)
-  
-  }
-  
-  returnAdinkraItem(level, baseCalc, pos, opacity){
-    console.log("top " + level * baseCalc + "%");
-    console.log("left " + pos * baseCalc + "%");
-    return (<AdinkraItemGrid  title={adinkraDataExample.title} text={adinkraDataExample.text} 
-                              key={(pos - 1) * baseCalc + level} 
-                              opacity={opacity} 
-                              top={level * baseCalc + "%"} 
-                              left ={(pos - 1) * baseCalc + 5 + "%"} 
-                              adinkra={this.chooseAdinkra()} />);
-  }
-  
-  chooseAdinkra = (e) => {
-    let adinkraArray = [ad1, ad2, ad3, ad4, ad1a, ad2a, ad3a, ad4a];
-    let number = Math.floor(Math.random() * Math.floor(7));
-    console.log(number);
-    return adinkraArray[number];
-  }
+ 
   
 
 
