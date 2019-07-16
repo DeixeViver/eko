@@ -393,7 +393,7 @@ const BackgroundAdinkras =  styled.div`
   
   }
   
-  returnAdinkraItem = (level, baseCalc, pos, opacity) => {
+  const returnAdinkraItem = (level, baseCalc, pos, opacity) => {
     console.log("top " + level * baseCalc + "%");
     console.log("left " + pos * baseCalc + "%");
     return (<AdinkraItemGrid  title={adinkraDataExample.title} text={adinkraDataExample.text} 
@@ -404,7 +404,7 @@ const BackgroundAdinkras =  styled.div`
                               adinkra={chooseAdinkra()} />);
   }
   
-  chooseAdinkra = (e) => {
+  const chooseAdinkra = (e) => {
     let adinkraArray = [ad1, ad2, ad3, ad4, ad1a, ad2a, ad3a, ad4a];
     let number = Math.floor(Math.random() * Math.floor(7));
     console.log(number);
