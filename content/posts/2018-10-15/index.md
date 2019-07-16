@@ -7,7 +7,9 @@ published: true
 tags: ['dados', 'trilha', 'conhecimento']
 video: true
 videoname: 'Video1'
-fronttitle: 'O ESPAÇO QUE NOS MANTÉM CONECTADOS'
+fronttitlea: 'O ESPAÇO QUE'
+fronttitleb: 'NOS MANTÉM CONECTADOS'
+frontsubtitle: ''
 ---
 # Trilha 02 - Transformando Dados em Ferramentas
 

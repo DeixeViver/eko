@@ -7,7 +7,9 @@ published: true
 tags: ['segurnaça', 'trilha', 'conhecimento']
 video: false
 videosrc: ''
-fronttitle: ''
+fronttitlea: 'PARA TODA AÇÃO'
+fronttitleb: 'EXISTE UMA REAÇÃO'
+frontsubtitle: 'E UMA INFORMAÇÃO RASTREÁVEL'
 ---
 # Trilha 03 - Segurança nas Redes
 

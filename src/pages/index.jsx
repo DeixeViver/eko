@@ -548,6 +548,9 @@ const BackgroundAdinkras =  styled.div`
               date={node.frontmatter.date}
               video={node.frontmatter.video}
               videoname={node.frontmatter.videoname}
+              fronttitlea={node.frontmatter.fronttitlea}
+              fronttitleb={node.frontmatter.fronttitleb}
+              frontsubtitle={node.frontmatter.frontsubtitle}
               excerpt={node.excerpt}
               colorsBg={chooseFrontMatterColor(node.frontmatter.tags[0])}
             />
@@ -598,7 +601,9 @@ Index.propTypes = {
               colors: PropTypes.array,
               video: PropTypes.bool,
               videoname: PropTypes.string,
-              fronttitle: PropTypes.string
+              fronttitlea: PropTypes.string,
+              fronttitleb: PropTypes.string,
+              frontsubtitle: PropTypes.string
             }),
           }),
         }).isRequired
@@ -635,7 +640,9 @@ export const query = graphql`
             }
             video
             videoname
-            fronttitle
+            fronttitlea
+            fronttitleb
+            frontsubtitle
           }
         }
       }
