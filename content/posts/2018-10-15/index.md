@@ -1,11 +1,13 @@
 ---
 path: "/trilha-2"
-cover: "./capa_02.png"
+cover: "./capa.png"
 date: "2018-10-17"
 title: "Trilha 02 - Transformando Dados em Ferramentas"
 published: true
 tags: ['dados', 'trilha', 'conhecimento']
-
+video: true
+videoname: 'Video1'
+fronttitle: 'O ESPAÇO QUE NOS MANTÉM CONECTADOS'
 ---
 # Trilha 02 - Transformando Dados em Ferramentas
 

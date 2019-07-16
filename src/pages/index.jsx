@@ -8,7 +8,9 @@ import { Header, PostList } from 'components';
 import { Layout } from 'layouts';
 import theme from '../../config/theme';
 import brain from '../../static/logo/brain.png';
-import adrinka1 from '../../static/adrinka1.png';
+import adrinka1 from '../../static/adrinka1.png'
+import ekoLogo from '../../static/logo/logo.png';
+import adk1 from '../../static/adrinkas/1.png';
 import {Container} from '../components/Header';
 import {GridMember} from '../components/TeamMember';
 import bg1 from '../../static/bg1.jpg';
@@ -22,6 +24,23 @@ import iris from '../../static/time/iris.jpg';
 import lorena from '../../static/time/lorena.png';
 import jamile from '../../static/time/jamile.jpg';
 import TeamMember from '../components/TeamMember';
+import AdinkraItemGrid from '../components/AdinkraItemGrid';
+
+
+import ad1 from '../../static/adrinkas/1.png';
+import ad1a from '../../static/adrinkas/1a.png';
+import ad2a from '../../static/adrinkas/2a.png';
+import ad2 from '../../static/adrinkas/2.png';
+import ad3 from '../../static/adrinkas/3.png';
+import ad3a from '../../static/adrinkas/3a.png';
+import ad4a from '../../static/adrinkas/4a.png';
+import ad4 from '../../static/adrinkas/4.png';
+
+export const adinkraDataExample = {
+  id: 1,
+  text: "Este adinkra significa isso muito importe, pois o significado esta descrito aqui.",
+  title: "Esperança (okuara)"
+}
 
 export const team = [
   {
@@ -93,7 +112,7 @@ export const chooseColor = (number) => {
 
 const chooseFrontMatterColor = (name) => {
   console.log(name);
-  if(name == "algoritmo")
+  if(name == "algoritmos")
       return theme.colors.subsetA;
   else if(name == "dados")
       return theme.colors.subsetB;
@@ -112,6 +131,21 @@ const fadeInDown = keyframes`
 
   100% {
     transform: translate3d(0, -10%, 0);
+  }
+
+`;
+
+const rotate = keyframes`
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: none;
+  }
+
+  100% {
+    transform: rotate(5deg);
   }
 
 `;
@@ -237,7 +271,7 @@ const Index = ({ data }) => {
   let number = getNumber();
   
 
-  const StyledMultipleBg = styled.div`
+  const StyledMultipleBgOld = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -256,27 +290,126 @@ const Index = ({ data }) => {
     }
   `;
 
+  const StyledMultipleBg = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 5rem 4rem 3rem 4rem;
+  background-color: ${chooseColor(number)};
+  background-size: cover;
+  @media (max-width: 1000px) {
+    padding: 4rem 2rem 1rem 4rem;
+  }
+  @media (max-width: 700px) {
+    padding: 4rem 1rem 1rem 1rem;
+  }
+`;
+
   const SyledIntro = styled.h1`
-    font-size: 45px;
-    margin: 3rem 0.5rem;
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    line-height: 1.6;
-    text-shadow: 2px 3px 8px rgba(170, 170, 170, 1);
-    @media (min-width: 40em) {
-      font-size: 55px;
-      margin: 0 1rem;
-    }
-    @media (min-width: 1024px) {
-      font-size: 70px;
-      margin: 2rem;
-    }
+  font-size: 45px;
+  position: absolute;
+  margin: 3rem 0.5rem;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  line-height: 1.6;
+  text-shadow: 2px 3px 8px rgba(170, 170, 170, 1);
+  @media (min-width: 40em) {
+    margin: 2rem 0.5rem;
+  }
+  @media (min-width: 1024px) {
+  }
+`;
+
+const AdrinkasHolder = styled.div`
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 0;
+  list-style: none;
+  margin: 1em auto 0;
+  border: solid 1px transparent;
+  margin-bottom: 100px;
+
+  @media (min-width: 768px) {
+    width: 800px;
+    height: 550px;
+  }
+  @media (min-width: 1024px) {
+    width: 1200px;
+    height: 550px;
+  }
 `;
 
 const ContinuedDivStyled = styled.div`
   background-image:  linear-gradient(180deg, ${chooseColor(number)} 0%, ${chooseColor(number)} 50%, ${theme.colors.blue.base} 100%);
-  padding: 10rem 0;
+  padding: 8rem 0;
 `;
+
+
+const BackgroundAdinkras =  styled.div`
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation: ${fadeInDown} 1s ease-in-out 0s infinite;
+`;
+
+  const populateAdinkraGrid = (rowLevel, opacity) => {
+    let baseCalc = 0
+    /*if(this.state.innerWidth <= 768)
+      baseCalc = 12;
+    else if(this.state.innerWidth >= 1024)
+      baseCalc = 10;
+    else*/
+      baseCalc = 10;
+  
+    let rowCount = Math.floor(100 / baseCalc);
+  
+    console.log(rowCount)
+  
+    let arrayCount = new Array(rowCount);
+    arrayCount.map((e, i) => i + 1);
+    let arrayReturn = [];
+    for(var i = 0; i < arrayCount.length; i++){
+      console.log(i);
+  
+      arrayReturn.push(returnAdinkraItem(rowLevel, baseCalc, i+1, opacity));
+    }
+    return arrayReturn.map(e => e);
+    /*return (
+      <div>
+      {arrayCount.map( (e, i) => 
+      <AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(e + 1) * baseCalc + "%"} adinkra={chooseAdinkra(e)} />)}
+      </div>
+    )*/
+    //return (<AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(arrayCount.length) * baseCalc + "%"} adinkra={chooseAdinkra()} />)
+  
+  }
+  
+  returnAdinkraItem = (level, baseCalc, pos, opacity) => {
+    console.log("top " + level * baseCalc + "%");
+    console.log("left " + pos * baseCalc + "%");
+    return (<AdinkraItemGrid  title={adinkraDataExample.title} text={adinkraDataExample.text} 
+                              key={(pos - 1) * baseCalc + level} 
+                              opacity={opacity} 
+                              top={level * baseCalc + "%"} 
+                              left ={(pos - 1) * baseCalc + 5 + "%"} 
+                              adinkra={chooseAdinkra()} />);
+  }
+  
+  chooseAdinkra = (e) => {
+    let adinkraArray = [ad1, ad2, ad3, ad4, ad1a, ad2a, ad3a, ad4a];
+    let number = Math.floor(Math.random() * Math.floor(7));
+    console.log(number);
+    return adinkraArray[number];
+  }
 
   return (
     <Layout>
@@ -291,7 +424,39 @@ const ContinuedDivStyled = styled.div`
       />
 
       <StyledMultipleBg>
-        <SyledIntro>Transformando o invisível em ferramenta contra a Discriminação Online</SyledIntro>
+        {/*<SyledIntro>Transformando o invisível em ferramenta contra a Discriminação Online</SyledIntro>
+        <img style={{width: "200px", position: "absolute"}} src={ekoLogo} alt="Gatsby Logo" />
+
+          <AdrinkasHolder>
+            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", left: "30%", backgroundColor: "red", transform: `rotate(27.7714285714deg) translateY(${definetranslateY()}) rotate(-27.7714285714deg)`}}></div>
+            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", left: "30%", backgroundColor: "green", transform: `rotate(55.5428571429deg) translateY(${definetranslateY()}) rotate(-55.5428571429deg)`}}></div>
+            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", left: "30%", backgroundColor: "blue", transform: `rotate(83.3142857143deg) translateY(${definetranslateY()}) rotate(-83.3142857143deg)`}}></div>
+            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", left: "30%", backgroundColor: "yellow", transform: `rotate(111.0857142857deg) translateY(${definetranslateY()}) rotate(-111.0857142857deg)`}}></div>
+            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", left: "30%", backgroundColor: "pink", transform: `rotate(138.8571428571deg) translateY(${definetranslateY()}) rotate(-138.8571428571deg)`}}></div>
+
+            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", right: "30%", backgroundColor: "red", transform: `rotate(-27.7714285714deg) translateY(${definetranslateY()}) rotate(27.7714285714deg)`}}></div>
+            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", right: "30%", backgroundColor: "green", transform: `rotate(-55.5428571429deg) translateY(${definetranslateY()}) rotate(55.5428571429deg)`}}></div>
+            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", right: "30%", backgroundColor: "blue", transform: `rotate(-83.3142857143deg) translateY(${definetranslateY()}) rotate(83.3142857143deg)`}}></div>
+            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", right: "30%", backgroundColor: "yellow", transform: `rotate(-111.0857142857deg) translateY(${definetranslateY()}) rotate(111.0857142857deg)`}}></div>
+            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", right: "30%", backgroundColor: "pink", transform: `rotate(-138.8571428571deg) translateY(${definetranslateY()}) rotate(138.8571428571deg)`}}></div>
+          </AdrinkasHolder>
+*/}
+   
+          <SyledIntro>Mudando o contato entre Pessoas, Tecnologia e o Enfrentamento da Discriminação Online</SyledIntro>
+
+            {populateAdinkraGrid(0, 0.1)}
+            {populateAdinkraGrid(1, 0.1)}
+            {populateAdinkraGrid(2, 0.2)}
+            {populateAdinkraGrid(3, 0.2)}
+            {populateAdinkraGrid(4, 0.3)}
+            {populateAdinkraGrid(5, 0.3)}
+            {populateAdinkraGrid(6, 0.3)}
+            {populateAdinkraGrid(7, 0.3)}
+            {populateAdinkraGrid(8, 0.4)}
+            {populateAdinkraGrid(9, 0.5)}
+            {populateAdinkraGrid(10, 0.6)}            
+            
+          
       </StyledMultipleBg>
       <ContinuedDivStyled>
         <Container>
@@ -355,26 +520,29 @@ const ContinuedDivStyled = styled.div`
 
       
       <PostWrapper>
-        <h2 style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE NAS TRILHAS</h2>
+        <h2 style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI :)</h2>
         
-        <div style={{display: 'flex', flexDirection: "column", alignItems: 'center'}}>
+        <div style={{display: 'flex', flexDirection: "column-reverse", alignItems: 'center'}}>
           {edges.map(({ node }) => (
             <PostList
               key={node.id}
-              cover={node.frontmatter.cover.childImageSharp.fluid}
+              cover={node.frontmatter.cover} 
               path={node.frontmatter.path}
               title={node.frontmatter.title}
               date={node.frontmatter.date}
+              video={node.frontmatter.video}
+              videoname={node.frontmatter.videoname}
               excerpt={node.excerpt}
               colorsBg={chooseFrontMatterColor(node.frontmatter.tags[0])}
             />
           ))}
+          {/*.childImageSharp.fluid */}
         </div>
       </PostWrapper>
 
       <TeamWrapper>
 
-        <h2 style={{fontSize: '35px', textAlign: 'center', color: '#343434', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>O TIME</h2>
+        <h2 style={{fontSize: '35px', textAlign: 'center', color: '#343434', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>O TIME EKO</h2>
 
 
         <GridMember>
@@ -412,6 +580,9 @@ Index.propTypes = {
               date: PropTypes.string.isRequired,
               tags: PropTypes.array,
               colors: PropTypes.array,
+              video: PropTypes.bool,
+              videoname: PropTypes.string,
+              fronttitle: PropTypes.string
             }),
           }),
         }).isRequired
@@ -446,6 +617,9 @@ export const query = graphql`
                 }
               }
             }
+            video
+            videoname
+            fronttitle
           }
         }
       }

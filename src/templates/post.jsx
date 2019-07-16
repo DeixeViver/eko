@@ -5,7 +5,8 @@ import PropTypes from 'prop-types';
 import { Layout, Container, Content } from 'layouts';
 import { TagsBlock, Header, SEO, ProgressBar } from 'components';
 import '../styles/prism';
-//import ScrollProgress from 'scrollprogress';
+import Video1 from '../../content/posts/2018-10-15/video.mp4';
+import theme from '../../config/theme';
 
 /*const progressElement = document.querySelector('.progress-bar');
 var yScroll = 1;
@@ -17,15 +18,6 @@ const progressObserver = new ScrollProgress((x, y) => {
 });*/
 var yScroll = 1;
 
-
-
-const progressBar = {
-backgroundColor: 'rebeccapurple',
-height: '5px',
-position: 'fixed',
-top: 0,
-bottom: 0,
-};
 
 const BarraDisgraca = styled.div`
 background-color: rebeccapurple;
@@ -60,18 +52,42 @@ const postCover = styled.div`
 const Post = ({ data, pageContext }) => {
   const { next, prev } = pageContext;
   const post = data.markdownRemark;
-  const image = post.frontmatter.cover.childImageSharp.fluid;
+  const image = post.frontmatter.cover.childImageSharp.resize;
   const title = post.frontmatter.title;
   const date = post.frontmatter.date;
   const html = post.html;
+  const video = post.frontmatter.video;
+  const videoName = post.frontmatter.videoname;
+  const frontTitle = post.frontmatter.fronttitle;
+  console.log(data)
 
-  console.log(image)
+  const videoStyle = {
+    backGroundRepeat: "no-repeat",
+    backGroundSize: "cover",
+    height: "auto",
+    left: '50%',
+    minWidth: '100%',
+    minHeight: '100%',
+    position: 'fixed',
+    top: '50%',
+    width: 'auto',
+    transform: 'translateX(-50%) translateY(-50%)',
+    zIndex: '-100'
+
+  }
+
+  const getVideoSRC = (video) => {
+    switch(video) {
+      case "Video1":
+        return Video1
+      default:
+        return Video1
+    }
+  }
+  
   return (
     <Layout>
-      <ProgressBar />
-      {/*<div style={progressBar} className="progress-bar"></div>
-      <BarraDisgraca style={progressBar} className="progress-bar" />*/}
-
+       <ProgressBar />
       <SEO
         title={title}
         description={post.frontmatter.description || post.excerpt || ' '}
@@ -79,13 +95,21 @@ const Post = ({ data, pageContext }) => {
         pathname={post.frontmatter.path}
         article
       />
-      
-      <img style={{marginBottom: 0, width: '100%'}} src={image.src} alt="Gatsby Logo" />
+      {video ? 
+        <div style={{height: "100vh"}}>
+          <h1 style={{fontFamily: 'Comfortaa, cursive', lineHeight: 1.6, position: "absolute", top: "70%", textAlign: "center",  fontSize: "50px"}}>{frontTitle}</h1>
+          <video  style={videoStyle} loop autoPlay>
+            <source src={getVideoSRC(videoName)} type="video/mp4" />
+          </video>
+        </div>
+      : <img style={{marginBottom: 0, width: '100%'}} src={image.src} alt="Gatsby Logo" /> }
 
-      <Container>
-        <Content input={html} />
-        <TagsBlock list={post.frontmatter.tags || []} />
-      </Container>
+      <div style={{zIndex: 100, backgroundColor: "#fff"}}>
+        <Container>
+          <Content input={html} />
+          <TagsBlock list={post.frontmatter.tags || []} />
+        </Container>
+      </div>
       <SuggestionBar>
         <PostSuggestion>
           {prev && (
@@ -140,6 +164,9 @@ export const query = graphql`
             }
           }
         }
+        video
+        videoname
+        fronttitle
       }
     }
   }
