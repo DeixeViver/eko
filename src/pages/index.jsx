@@ -25,6 +25,7 @@ import lorena from '../../static/time/lorena.png';
 import jamile from '../../static/time/jamile.jpg';
 import TeamMember from '../components/TeamMember';
 import AdinkraItemGrid from '../components/AdinkraItemGrid';
+import AdinkraGrid from '../components/AdinkraGrid';
 
 
 import ad1 from '../../static/adrinkas/1.png';
@@ -310,7 +311,7 @@ const Index = ({ data }) => {
 `;
 
   const SyledIntro = styled.h1`
-  font-size: 45px;
+  font-size: 30px;
   position: absolute;
   margin: 3rem 0.5rem;
   font-family: 'Comfortaa', cursive;
@@ -318,9 +319,13 @@ const Index = ({ data }) => {
   line-height: 1.6;
   text-shadow: 2px 3px 8px rgba(170, 170, 170, 1);
   @media (min-width: 40em) {
+    font-size: 45px;
     margin: 2rem 0.5rem;
   }
   @media (min-width: 1024px) {
+    max-width: 1000px;
+    margin: inherit auto;
+    font-size: 60px;
   }
 `;
 
@@ -443,8 +448,18 @@ const BackgroundAdinkras =  styled.div`
 */}
    
           <SyledIntro>Mudando o contato entre Pessoas, Tecnologia e o Enfrentamento da Discriminação Online</SyledIntro>
-
-            {populateAdinkraGrid(0, 0.1)}
+            <AdinkraGrid level={0} opacity={0.1} />
+            <AdinkraGrid level={1} opacity={0.1} />
+            <AdinkraGrid level={2} opacity={0.2} />
+            <AdinkraGrid level={3} opacity={0.2} />
+            <AdinkraGrid level={4} opacity={0.3} />
+            <AdinkraGrid level={5} opacity={0.3} />
+            <AdinkraGrid level={6} opacity={0.3} />
+            <AdinkraGrid level={7} opacity={0.3} />
+            <AdinkraGrid level={8} opacity={0.4} />
+            <AdinkraGrid level={9} opacity={0.5} />
+            <AdinkraGrid level={10} opacity={0.6} />
+            {/*populateAdinkraGrid(0, 0.1)}
             {populateAdinkraGrid(1, 0.1)}
             {populateAdinkraGrid(2, 0.2)}
             {populateAdinkraGrid(3, 0.2)}
@@ -454,7 +469,8 @@ const BackgroundAdinkras =  styled.div`
             {populateAdinkraGrid(7, 0.3)}
             {populateAdinkraGrid(8, 0.4)}
             {populateAdinkraGrid(9, 0.5)}
-            {populateAdinkraGrid(10, 0.6)}            
+{populateAdinkraGrid(10, 0.6)*/}
+
             
           
       </StyledMultipleBg>
@@ -532,6 +548,9 @@ const BackgroundAdinkras =  styled.div`
               date={node.frontmatter.date}
               video={node.frontmatter.video}
               videoname={node.frontmatter.videoname}
+              fronttitlea={node.frontmatter.fronttitlea}
+              fronttitleb={node.frontmatter.fronttitleb}
+              frontsubtitle={node.frontmatter.frontsubtitle}
               excerpt={node.excerpt}
               colorsBg={chooseFrontMatterColor(node.frontmatter.tags[0])}
             />
@@ -582,7 +601,9 @@ Index.propTypes = {
               colors: PropTypes.array,
               video: PropTypes.bool,
               videoname: PropTypes.string,
-              fronttitle: PropTypes.string
+              fronttitlea: PropTypes.string,
+              fronttitleb: PropTypes.string,
+              frontsubtitle: PropTypes.string
             }),
           }),
         }).isRequired
@@ -619,7 +640,9 @@ export const query = graphql`
             }
             video
             videoname
-            fronttitle
+            fronttitlea
+            fronttitleb
+            frontsubtitle
           }
         }
       }

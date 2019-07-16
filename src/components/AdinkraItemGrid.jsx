@@ -5,7 +5,6 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Theme from '../../config/theme';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
-import {ToastsContainer, ToastsStore} from 'react-toasts';
 import first from "../../static/adrinkas/1.png";
 import css from '@emotion/css';
 

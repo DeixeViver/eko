@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { graphql, Link } from 'gatsby';
 import styled from '@emotion/styled';
+import { jsx, css, keyframes } from '@emotion/core';
+
 import PropTypes from 'prop-types';
 import { Layout, Container, Content } from 'layouts';
 import { TagsBlock, Header, SEO, ProgressBar } from 'components';
@@ -58,7 +60,9 @@ const Post = ({ data, pageContext }) => {
   const html = post.html;
   const video = post.frontmatter.video;
   const videoName = post.frontmatter.videoname;
-  const frontTitle = post.frontmatter.fronttitle;
+  const frontTitlea = post.frontmatter.fronttitlea;
+  const frontTitleb = post.frontmatter.fronttitleb;
+  const frontSubTitle = post.frontmatter.frontsubtitle;
   console.log(data)
 
   const videoStyle = {
@@ -76,6 +80,20 @@ const Post = ({ data, pageContext }) => {
 
   }
 
+  const imageStyle = {
+    backGroundRepeat: "no-repeat",
+    backGroundSize: "cover",
+    height: "auto",
+    left: '50%',
+    minWidth: '100%',
+    position: 'fixed',
+    top: '45%',
+    width: 'auto',
+    transform: 'translateX(-50%) translateY(-50%)',
+    zIndex: '-100',
+    minHeight: "90vh"
+  }
+
   const getVideoSRC = (video) => {
     switch(video) {
       case "Video1":
@@ -84,10 +102,83 @@ const Post = ({ data, pageContext }) => {
         return Video1
     }
   }
+
+  const chooseFrontMatterColor = (name) => {
+    console.log(name);
+    if(name == "algoritmos")
+        return theme.colors.subsetA[0];
+    else if(name == "dados")
+        return theme.colors.subsetB[0];
+    else
+      return theme.colors.subsetC[0];
+  }
+
+  const chooseColorSubset = (name) => {
+    console.log(name);
+    if(name == "algoritmos")
+        return theme.colors.subsetA;
+    else if(name == "dados")
+        return theme.colors.subsetB;
+    else
+      return theme.colors.subsetC;
+  }
+
+  const FrontMatterTitle = styled.div`
+    margin-bottom: 10px; 
+    font-family: ${theme.fontFamily.body}; 
+    font-weight: 700; 
+    line-height: 1.2; 
+    text-align: left;  
+    font-size: 50px;
+    background-color: ${chooseFrontMatterColor(post.frontmatter.tags[0])};
+    color: #fafafa;
+    padding: 12px;
+    display: inline-block;
+    marginBottom: 14px;
+
+    @media (max-width: ${props => props.theme.breakpoints.s}) {
+      font-size: 25px
+    }
+  `
+
   
+  const fadeInDown = keyframes`
+    0% {
+      transform: translate3d(0, -15%, 0);
+    }
+
+    50% {
+      transform: none;
+    }
+
+    100% {
+      transform: translate3d(0, -15%, 0);
+    }
+
+  `;
+
+  const ArrowDown = styled.div`
+
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation: ${fadeInDown} 2s ease-in-out 0s infinite;
+
+
+    width: 50px; 
+    position: relative;
+    top: 78vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  `
+
   return (
     <Layout>
-       <ProgressBar />
+       <ProgressBar colorSubset={chooseColorSubset(post.frontmatter.tags[0])} />
       <SEO
         title={title}
         description={post.frontmatter.description || post.excerpt || ' '}
@@ -97,12 +188,24 @@ const Post = ({ data, pageContext }) => {
       />
       {video ? 
         <div style={{height: "100vh"}}>
-          <h1 style={{fontFamily: 'Comfortaa, cursive', lineHeight: 1.6, position: "absolute", top: "70%", textAlign: "center",  fontSize: "50px"}}>{frontTitle}</h1>
+          <h1 style={{fontFamily: 'Comfortaa, cursive', lineHeight: 1.6, position: "absolute", top: "70%", textAlign: "center",  fontSize: "50px"}}>{frontTitlea}</h1>
           <video  style={videoStyle} loop autoPlay>
             <source src={getVideoSRC(videoName)} type="video/mp4" />
           </video>
         </div>
-      : <img style={{marginBottom: 0, width: '100%'}} src={image.src} alt="Gatsby Logo" /> }
+      : 
+      <div style={{height: "100vh"}}>
+        <div style={{position: "absolute", top: "50%", left: "5%", maxWidth: "997px"}}>
+          <FrontMatterTitle>{frontTitlea}</FrontMatterTitle>
+          <FrontMatterTitle>{frontTitleb}</FrontMatterTitle>
+          <p style={{color: "#fafafa"}}>{frontSubTitle}</p>
+        </div>
+        <div style={{...imageStyle, backgroundImage: `url(${image.src})`, backgroundRepeat: "no-repeat", backgroundSize: "cover",}}></div>
+        <ArrowDown>
+          <svg color={"#fafafa"} aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+        </ArrowDown>
+        {/*<img style={imageStyle} src={} alt="Gatsby Logo" />*/}
+      </div> }
 
       <div style={{zIndex: 100, backgroundColor: "#fff"}}>
         <Container>
@@ -166,7 +269,9 @@ export const query = graphql`
         }
         video
         videoname
-        fronttitle
+        fronttitlea
+        fronttitleb
+        frontsubtitle
       }
     }
   }

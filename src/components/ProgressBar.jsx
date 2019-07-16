@@ -5,7 +5,6 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Theme from '../../config/theme';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
-import {ToastsContainer, ToastsStore} from 'react-toasts';
 import first from "../../static/adrinkas/1.png";
 
 const customStyles = {
@@ -27,6 +26,7 @@ export default class ScrollBar extends React.Component {
       scrollY: 0,
       scrollBarRate: 0,
       modalContent: {key: 0, point: 0, text: '', adrinka: ''},
+      scrollMax: 0,
       actionPoins: [
         {
           key: 1,
@@ -52,14 +52,11 @@ export default class ScrollBar extends React.Component {
 
     };
     this.ScrollRateCalculation = this.ScrollRateCalculation.bind(this);
-
-    this.openModal = this.openModal.bind(this);
-    this.afterOpenModal = this.afterOpenModal.bind(this);
-    this.closeModal = this.closeModal.bind(this);
+    this.goToTargetPosition = this.goToTargetPosition.bind(this);
   }
 
   ScrollRateCalculation() {
-    let innerHeight = window.innerHeight; //A
+    let innerHeight = window.innerHeight;
     let bodyElement = document.getElementById('___gatsby');//B1
     let rect = bodyElement.getBoundingClientRect();//B2
     let heightIsHtml = rect.height; //B3
@@ -67,14 +64,13 @@ export default class ScrollBar extends React.Component {
     let scrollY = document.documentElement.scrollTop || document.body.scrollTop;//D
     let scrollRate = parseInt( (scrollY / scrollMax) * 100, 10 ); //E = (D / C) *100
 
-    if(scrollRate == 30)
-      ToastsStore.success("Hey, you just clicked!")
 
     if(scrollRate == 99)
       scrollRate = 100;
     this.setState({
       scrollY: scrollY,
-      scrollBarRate: scrollRate
+      scrollBarRate: scrollRate,
+      scrollMax: scrollMax
     });
   }
 
@@ -86,81 +82,68 @@ export default class ScrollBar extends React.Component {
     document.addEventListener('click', this.ScrollRateCalculation);
   }
 
-  openModal(e) {
-    this.setState({modalIsOpen: true, modalContent: e});
-  }
+  goToTargetPosition(e){
 
-  afterOpenModal() {
-    // references are now sync'd and can be accessed.
-    this.subtitle.style.color = '#f00';
+    console.log(this.state)
+    
+    console.log((e.point * this.state.scrollMax) / 100)
+    window.scrollTo(0, (e.point * this.state.scrollMax) / 100);
   }
-
-  closeModal() {
-    this.setState({modalIsOpen: false});
-  }
-
 
     render() {
-      const {width, height} = this.props;
+      const {colorSubset, width, height} = this.props;
+
+    const ScrollBarStyled = styled.div`
+    height: ${this.state.scrollBarRate}%;
+    width: 10px;
+    background: linear-gradient(180deg, 
+        ${colorSubset[0]} 0%,
+        ${colorSubset[1]} 25%,
+        ${colorSubset[2]} 100%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 10px;
+  `
       return (
         <div className="scrollbar"
          style={{
            border: 'solid 1px lightgray', 
-           height: "10px",
-           backgroundColor: "transparent",
+           width: "10px",
+           backgroundColor: "#eaeaea",
            position: "fixed",
-           top: 0,
-           width: "100%",
-           zIndex: 1000000
+           right: "0px",
+           height: "100%",
+           zIndex: 1000000,
+          borderBottomLeftRadius: "10px",
+          opacity: this.state.scrollBarRate >= 10 ? 1 : 0 
          }}
         >
-          <div
-            className="scrollbar" 
-            id="hoge" style={{
-            width: `${this.state.scrollBarRate}%`,
-            height: "10px",
-            backgroundColor: "#40aa94",
-            position: "fixed",
-            top: 0,
-          }} />
+          <ScrollBarStyled/>
 
           {this.state.actionPoins.map(e => (
-            <div onClick={() => this.openModal(e)} style={{
+            <div onClick={() => this.goToTargetPosition(e)} style={{
               width: '20px',
               height: '20px',
               borderRadius: '20px',
               position: "absolute",
-              top: 0,
-              left: e.point + "%",
-              backgroundColor: '#000',
+              left: "-5px",
+              top: e.point + "%",
+              backgroundColor: this.state.scrollBarRate >= e.point ? colorSubset[0] : "#eaeaea",
               zIndex: 100
             }} />
           ))}
-          <h1>{this.state.scrollBarRate}</h1>
-
-        <Modal
-          isOpen={this.state.modalIsOpen}
-          onAfterOpen={this.afterOpenModal}
-          onRequestClose={this.closeModal}
-          style={customStyles}
-          contentLabel="Example Modal"
-        >
-
-          <h2 ref={subtitle => this.subtitle = subtitle}>Frase de boa que conecta adrinka com a trilha</h2>
-          <img src={first} />
-          <div>{this.state.modalContent.text}</div>
-          <button onClick={this.closeModal}>close</button>
-        </Modal>
         </div>
       );
     }
   }
   ScrollBar.propTypes = {
     //width: PropTypes.number.isRequired,
-    height: PropTypes.numberisRequired
+    //height: PropTypes.numberisRequired
   };
   
   ScrollBar.defaultProps = {
     height: 10,
-    width: 0
+    width: 0,
+    colorSubset: ["#fff", "#eee", "#666"]
   };

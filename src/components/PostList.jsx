@@ -169,5 +169,8 @@ PostList.propTypes = {
   title: PropTypes.string.isRequired,
   colorsBg: PropTypes.array.isRequired,
   video: PropTypes.bool,
-  videoname: PropTypes.string
+  videoname: PropTypes.string,
+  fronttitlea: PropTypes.string,
+  fronttitleb: PropTypes.string,
+  frontsubtitle: PropTypes.string
 };

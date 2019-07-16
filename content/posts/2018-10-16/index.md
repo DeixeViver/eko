@@ -7,7 +7,9 @@ published: true
 tags: ['algoritmos','trilha', 'conhecimento']
 video: false
 videosrc: ''
-fronttitle: ''
+fronttitlea: ''
+fronttitleb: ''
+frontsubtitle: ''
 ---
 # Trilha 01 — Algoritmos Invisíveis 
 
