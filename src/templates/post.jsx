@@ -113,6 +113,16 @@ const Post = ({ data, pageContext }) => {
       return theme.colors.subsetC[0];
   }
 
+  const chooseColorSubset = (name) => {
+    console.log(name);
+    if(name == "algoritmos")
+        return theme.colors.subsetA;
+    else if(name == "dados")
+        return theme.colors.subsetB;
+    else
+      return theme.colors.subsetC;
+  }
+
   const FrontMatterTitle = styled.div`
     margin-bottom: 10px; 
     font-family: ${theme.fontFamily.body}; 
@@ -168,7 +178,7 @@ const Post = ({ data, pageContext }) => {
 
   return (
     <Layout>
-       <ProgressBar />
+       <ProgressBar colorSubset={chooseColorSubset(post.frontmatter.tags[0])} />
       <SEO
         title={title}
         description={post.frontmatter.description || post.excerpt || ' '}

@@ -22,7 +22,7 @@ const Wrapper = styled.section`
   & p, h1, h2, h3{
     width: 60%;
     margin: 0 auto 1rem;
-    display: block;
+    display: block !important;
 
 
     @media (max-width: ${props => props.theme.breakpoints.m}) {
@@ -32,8 +32,15 @@ const Wrapper = styled.section`
     }
   
     @media (max-width: ${props => props.theme.breakpoints.s}) {
-      width: 95%;
-      margin: 0 auto 2rem auto;
+      width: 92%;
+      margin: 0 6% 2rem 2%;
+      
+    }
+  }
+
+  & blockquote {
+    @media (max-width: ${props => props.theme.breakpoints.s}) {
+      marginRight: 0.45em;
       
     }
   }
