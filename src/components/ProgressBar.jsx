@@ -5,7 +5,6 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Theme from '../../config/theme';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
-import {ToastsContainer, ToastsStore} from 'react-toasts';
 import first from "../../static/adrinkas/1.png";
 
 const customStyles = {
@@ -59,7 +58,7 @@ export default class ScrollBar extends React.Component {
   }
 
   ScrollRateCalculation() {
-    let innerHeight = window.innerHeight; //A
+    let innerHeight = window.innerHeight;
     let bodyElement = document.getElementById('___gatsby');//B1
     let rect = bodyElement.getBoundingClientRect();//B2
     let heightIsHtml = rect.height; //B3
@@ -67,8 +66,6 @@ export default class ScrollBar extends React.Component {
     let scrollY = document.documentElement.scrollTop || document.body.scrollTop;//D
     let scrollRate = parseInt( (scrollY / scrollMax) * 100, 10 ); //E = (D / C) *100
 
-    if(scrollRate == 30)
-      ToastsStore.success("Hey, you just clicked!")
 
     if(scrollRate == 99)
       scrollRate = 100;
