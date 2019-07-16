@@ -7,9 +7,9 @@ published: true
 tags: ['algoritmos','trilha', 'conhecimento']
 video: false
 videosrc: ''
-fronttitlea: ''
-fronttitleb: ''
-frontsubtitle: ''
+fronttitlea: 'O ESPAÇO QUE NOS MANTÉM'
+fronttitleb: 'CONECTADOS...'
+frontsubtitle: 'CONECTADOS COMO?'
 ---
 # Trilha 01 — Algoritmos Invisíveis 
 

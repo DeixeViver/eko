@@ -1,6 +1,6 @@
 ---
 path: '/trilha-3'
-cover: './capa.jpg'
+cover: './capa.png'
 date: "2019-03-15"
 title: 'Trilha 03 - Segurança nas Redes'
 published: true

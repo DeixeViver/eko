@@ -5,11 +5,11 @@ date: "2018-10-17"
 title: "Trilha 02 - Transformando Dados em Ferramentas"
 published: true
 tags: ['dados', 'trilha', 'conhecimento']
-video: true
+video: false
 videoname: 'Video1'
-fronttitlea: 'O ESPAÇO QUE'
-fronttitleb: 'NOS MANTÉM CONECTADOS'
-frontsubtitle: ''
+fronttitlea: 'DADOS FALAM SOBRE PESSOAS'
+fronttitleb: ''
+frontsubtitle: 'MAS QUEM TEM ACESSO AOS DADOS?'
 ---
 # Trilha 02 - Transformando Dados em Ferramentas
 
