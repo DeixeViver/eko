@@ -311,7 +311,7 @@ const Index = ({ data }) => {
 `;
 
   const SyledIntro = styled.h1`
-  font-size: 45px;
+  font-size: 30px;
   position: absolute;
   margin: 3rem 0.5rem;
   font-family: 'Comfortaa', cursive;
@@ -319,6 +319,7 @@ const Index = ({ data }) => {
   line-height: 1.6;
   text-shadow: 2px 3px 8px rgba(170, 170, 170, 1);
   @media (min-width: 40em) {
+    font-size: 45px;
     margin: 2rem 0.5rem;
   }
   @media (min-width: 1024px) {

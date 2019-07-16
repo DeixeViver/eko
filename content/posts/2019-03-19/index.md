@@ -30,12 +30,14 @@ Um pequeno quiz para detectar os céticos a respeito do assunto, marque como ver
 
 **[ilustrar com imagem]**
 ____________________________________________________________________________________________
+
 - 1 - Eu não tenho nada a esconder
 - 2 - Eu não me importo se as pessoas souberem
 - 3 - Mas eu sou só mais um entre milhões, ninguém vai perder tempo me espionando
 - 4 - Essas coisas só acontecem no oriente médio, não devo me preocupar
 - 5 - É assim mesmo, todo mundo faz
 - 6 - Mas a internet é assim mesmo
+
 ___________________________________________________________________________________________
 
 

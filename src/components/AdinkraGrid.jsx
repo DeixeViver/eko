@@ -55,7 +55,7 @@ export default class ScrollBar extends React.Component {
  
   populateAdinkraGrid = (rowLevel, opacity) => {
     let baseCalc = 0
-    if(this.state.innerWidth <= 768)
+    if(this.state.innerWidth <= 425)
       baseCalc = 12;
     else if(this.state.innerWidth >= 1024)
       baseCalc = 10;

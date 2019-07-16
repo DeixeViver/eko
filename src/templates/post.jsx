@@ -76,6 +76,20 @@ const Post = ({ data, pageContext }) => {
 
   }
 
+  const imageStyle = {
+    backGroundRepeat: "no-repeat",
+    backGroundSize: "cover",
+    height: "auto",
+    left: '50%',
+    minWidth: '100%',
+    position: 'fixed',
+    top: '35%',
+    width: 'auto',
+    transform: 'translateX(-50%) translateY(-50%)',
+    zIndex: '-100',
+    minHeight: "70vh"
+  }
+
   const getVideoSRC = (video) => {
     switch(video) {
       case "Video1":
@@ -102,7 +116,10 @@ const Post = ({ data, pageContext }) => {
             <source src={getVideoSRC(videoName)} type="video/mp4" />
           </video>
         </div>
-      : <img style={{marginBottom: 0, width: '100%'}} src={image.src} alt="Gatsby Logo" /> }
+      : 
+      <div style={{height: "70vh"}}>
+        <img style={imageStyle} src={image.src} alt="Gatsby Logo" />
+      </div> }
 
       <div style={{zIndex: 100, backgroundColor: "#fff"}}>
         <Container>

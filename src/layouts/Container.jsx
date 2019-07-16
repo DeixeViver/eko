@@ -5,19 +5,60 @@ import PropTypes from 'prop-types';
 const Wrapper = styled.section`
   text-align: ${props => (props.center ? 'center' : '')};
   margin: auto;
-  padding: 3rem 1.5rem;
-  width: 60%;
+  padding: 3rem 0rem;
+  width: 100%;
   max-width: ${props => props.theme.layout[props.type]};
   height: 100%;
   flex: 1;
 
   @media (max-width: ${props => props.theme.breakpoints.m}) {
-    width: 90%;
+    width: 100%;
   }
 
   @media (max-width: ${props => props.theme.breakpoints.s}) {
-    width: 95%;
+    width: 100%;
   }
+
+  & p, h1, h2, h3{
+    width: 60%;
+    margin: 0 auto 1rem;
+    display: block;
+
+
+    @media (max-width: ${props => props.theme.breakpoints.m}) {
+      width: 90%;
+      margin: 0 auto 2rem auto;
+
+    }
+  
+    @media (max-width: ${props => props.theme.breakpoints.s}) {
+      width: 95%;
+      margin: 0 auto 2rem auto;
+      
+    }
+  }
+
+  & ul {
+    width: 60%;
+    margin: 0 auto 1rem;
+
+    @media (max-width: ${props => props.theme.breakpoints.m}) {
+      width: 90%;
+      margin: 0 auto 2rem auto;
+
+    }
+  
+    @media (max-width: ${props => props.theme.breakpoints.s}) {
+      width: 95%;
+      margin: 0 auto 2rem auto;
+      
+    }
+  }
+
+  & span {
+    max-width: none !important;
+  }
+
 `;
 
 const Container = ({ children, type, className, center }) => (
