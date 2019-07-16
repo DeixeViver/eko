@@ -63,18 +63,18 @@ export const team = [
   {
       id: 3,
       image: jamile,
-      name: "Jamile Pereira",
+      name: "Jamile Lima",
       shortDescription: "Web Expert Apaixonada pelo que faz",
-      largeDescription: "Jean Rosier é sócio e professor da Perestroika. Palestrante internacional dos eventos TEDx(Madrid), Ouishare (Paris), Worldz(Hollywod) e CLEIN (Medellin). É responsável pela expansão internacional da escola além de influencer da Hyper Island na Suécia. Liderou workshops de criatividade para marcas globais como: Red Bull, LinkedIn, Coca-Cola, Oracle, Walmart e Rede Globo.",
-      instagram: "jamileInsta"
+      largeDescription: "Estudante de Ciência e Tecnologia, Desenvolvedora Web e Mobile, amante de café e em busca de criatividade através de livros, filmes e séries.",
+      instagram: "https://github.com/jamilelima"
   },
   {
       id: 4,    
       image: lorena,
       name: "Lorena Pereira",
       shortDescription: "Cientista de Dados com Conteúdo",
-      largeDescription: "Em formação para sempre :) aprendendo com tudo ao meu redor. Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredtio que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
-      instagram: "lorenaps3"
+      largeDescription: "Aprendendo com tudo ao meu redor :) Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
+      instagram: "https://github.com/lorenaps"
   },
 
 ];
