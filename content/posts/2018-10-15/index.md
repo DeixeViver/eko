@@ -78,17 +78,28 @@ Colab Google — É uma ferramente da Google que permite escrever e executar
 
 Jupyter Notebook — Ferramenta que permite a visualização e execução de código e texto. É o formato que vamos usar para explorar e descrever tudo o que vamos fazendo com os dados passo a passo.
 
-Vamos trabalhar explorando 2 assuntos:
-Educação Básica
-Indicadores da Central Nacional de Denúncias
-
 ## Mudando o ambiente
 
-Agora vamos mudar um pouco o ambiente, você vai acessar o link do Colab e vai importar os nossos Notebooks:
-Notebook sobre Educação Básica: https://github.com/DeixeViver/eko-dados/blob/master/Notebooks/explorando_educacao_basica.ipynb
-Notebook sobre Indicadores da Central Nacional de Denúncias: https://github.com/DeixeViver/eko-dados/blob/master/Notebooks/explorando_indicadores_cnd.ipynb
-[Vídeo importanto e processando os dados — Em desenvolvimento]
-E aí, qual narrativa você vai construir hoje!?
+Vamos trabalhar explorando o assunto Educação Básica no Brasil e para isso vamos mudar um pouco o ambiente, 
+você vai acessar o link do Colab e vai importar o nosso Notebook:
+
+Notebook sobre Educação Básica: https://github.com/DeixeViver/eko-dados/blob/master/notebooks/explorando_educacao_basica.ipynb
+
+Nos vídeos abaixo a gente faz uma introdução de como você pode utilizar o Colab. Segue a trilha que vai dar certo! 
+> E aí, qual narrativa com dados você vai construir hoje!?
+
+<center>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/yEYYBCU3JXs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<center>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/7t_PyXVZFX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<center>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/kqrwcFl4jjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 
 ## Extra
 
@@ -97,6 +108,7 @@ Essa uma playlist incrivel do Énois Agência de Jornalimo que explica conceitos
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/UfvBU7iWmdY?list=PLhkWZx0gxkbjwvnJAn0CpoIWW9GwKtCIL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+
 
 ## Para saber mais:
 [Links]
