@@ -45,32 +45,44 @@ export default class ScrollBar extends React.Component {
   widthCalculation() {
     let bodyElement = document.getElementById('___gatsby');//B1
     let rect = bodyElement.getBoundingClientRect();//B2
-    console.log(rect);
+    //console.log(rect);
     let width = rect.width; //B3   
     this.setState({
-      innerWidth: width
+      innerWidth: window.innerWidth
     });
   }
 
  
   populateAdinkraGrid = (rowLevel, opacity) => {
     let baseCalc = 0
+    //console.log("this.state.innerWidth");
+    //console.log(this.state.innerWidth);
     if(this.state.innerWidth <= 425)
       baseCalc = 12;
     else if(this.state.innerWidth >= 1024)
       baseCalc = 10;
     else
       baseCalc = 10;
+    
+      //console.log("inner width")
+      //console.log(this.state.innerWidth)
 
     let rowCount = Math.floor(100 / baseCalc);
   
-    console.log(rowCount)
-  
+    /*console.log(baseCalc)
+    console.log("rowCount")
+    console.log("rowCount")
+    console.log("rowCount")
+    console.log("rowCount")
+    console.log("rowCount")
+  */
     let arrayCount = new Array(rowCount);
+    //console.log(arrayCount)
+
     arrayCount.map((e, i) => i + 1);
     let arrayReturn = [];
     for(var i = 0; i < arrayCount.length; i++){
-      console.log(i);
+      //console.log(i);
   
       arrayReturn.push(this.returnAdinkraItem(rowLevel, baseCalc, i+1, opacity));
     }
@@ -86,20 +98,20 @@ export default class ScrollBar extends React.Component {
   }
   
   returnAdinkraItem = (level, baseCalc, pos, opacity) => {
-    console.log("top " + level * baseCalc + "%");
-    console.log("left " + pos * baseCalc + "%");
+    //console.log("top " + level * baseCalc + "%");
+    //console.log("left " + pos * baseCalc + "%");
     return (<AdinkraItemGrid  title={adinkraDataExample.title} text={adinkraDataExample.text} 
                               key={(pos - 1) * baseCalc + level} 
                               opacity={opacity} 
                               top={level * baseCalc + "%"} 
-                              left ={(pos - 1) * baseCalc + 5 + "%"} 
+                              left ={(pos - 1) * baseCalc + 0 + "%"} 
                               adinkra={this.chooseAdinkra()} />);
   }
   
   chooseAdinkra = (e) => {
     let adinkraArray = [ad1, ad2, ad3, ad4, ad1a, ad2a, ad3a, ad4a];
     let number = Math.floor(Math.random() * Math.floor(7));
-    console.log(number);
+    //console.log(number);
     return adinkraArray[number];
   }
 

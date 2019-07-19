@@ -169,7 +169,7 @@ const RetangleSloganA =  styled.div`
   animation-fill-mode: both;
   animation-play-state: running;
   animation: ${fadeInDown} 15s ease-in-out 0s infinite;
-
+  opacity: 0.2;
   width: 30px;
   height: 180px;
   background-color: ${theme.colors.yellow.base};
@@ -260,6 +260,7 @@ const retangleSlogan = {
   backgroundColor: theme.colors.yellow.base,
   position: 'absolute',
   left: 30,
+  opacity: 0.2
 }
 
 
@@ -303,17 +304,19 @@ const Index = ({ data }) => {
   background-color: ${chooseColor(number)};
   background-size: cover;
   @media (max-width: 1000px) {
-    padding: 4rem 2rem 1rem 4rem;
   }
   @media (max-width: 700px) {
-    padding: 4rem 1rem 1rem 1rem;
+    left: 0;
+    right: 0;
+
   }
 `;
 
   const SyledIntro = styled.h1`
   font-size: 30px;
   position: absolute;
-  margin: 3rem 0.5rem;
+  width: 90%;
+  margin: 0 auto;
   font-family: 'Comfortaa', cursive;
   text-align: center;
   line-height: 1.6;
@@ -536,7 +539,7 @@ const BackgroundAdinkras =  styled.div`
 
       
       <PostWrapper>
-        <h2 style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI :)</h2>
+        <h2 id="trilhas" style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI :)</h2>
         
         <div style={{display: 'flex', flexDirection: "column-reverse", alignItems: 'center'}}>
           {edges.map(({ node }) => (
