@@ -92,20 +92,20 @@ você vai acessar o link do Colab e vai importar o nosso Notebook:
 Notebook sobre Educação Básica: https://github.com/DeixeViver/eko-dados/blob/master/notebooks/explorando_educacao_basica.ipynb
 
 Nos vídeos abaixo a gente faz uma introdução de como você pode utilizar o Colab. Segue a trilha que vai dar certo! 
-> E aí, qual narrativa com dados você vai construir hoje!?
 
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/yEYYBCU3JXs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 <center>
-<iframe width="600" height="400" src="https://www.youtube.com/embed/7t_PyXVZFX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/mcyj_a0bLoQ"" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/kqrwcFl4jjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
+> E aí, qual narrativa com dados você vai construir hoje!?
 
 ## Extra
 
