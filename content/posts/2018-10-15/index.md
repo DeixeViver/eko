@@ -1,6 +1,6 @@
 ---
 path: "/trilha-2"
-cover: "./capa.png"
+cover: "./capa_menor.png"
 date: "2018-10-17"
 title: "Trilha 02 - Transformando Dados em Ferramentas"
 published: true
