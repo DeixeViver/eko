@@ -1,6 +1,6 @@
 ---
 path: "/trilha-1"
-cover: "./capa.png"
+cover: "./gradiente.png"
 date: "2018-10-15"
 title: "Trilha 01 - Algoritmos Invisíveis"
 published: true
@@ -20,9 +20,6 @@ Não acredita? Pensa aqui comigo…
 O que você precisa fazer para sair de casa pela manhã e chegar até o trabalho/faculdade/compromisso?
 Um milagre! Não, pera…
 
-**[ilustrar com imagem]**
-____________________________________________________________________________________________
-
 - Acordar no horário certo
 - Me arrumar
 - Tomar café
@@ -32,12 +29,8 @@ ________________________________________________________________________________
 - Subir no ônibus
 - Pagar a passagem
 - Sentar (Aí você já quer demais!)
-____________________________________________________________________________________________
 
 São uma série de passos para que você consiga chegar lá, correto? Mas e se pensarmos um pouco mais nos detalhes? O que exatamente você precisa fazer para ir até o ponto de ônibus? 
-
-**[ilustrar com imagem]**
-____________________________________________________________________________________________
 
 - Saio de casa
 - Viro a esquerda
@@ -46,7 +39,6 @@ ________________________________________________________________________________
 - Subo a ladeira 
 - Paro na esquina da padaria 
 - Pronto cheguei! Agora é só esperar…
-____________________________________________________________________________________________
 
 E agora? Experimente descrever mentalmente o que acontece quando está chovendo, você dá o sinal de parada e o ônibus para lá na casa da Po (ops!) Poliana, a vizinha que mora na outra esquina. Haja perna para correr hein!?
 
@@ -155,8 +147,28 @@ Precisamos de mais transparência para que cada vez com mais conhecimentos possa
 
 Ufa! Agora pronto! Vamos para próxima Trilha!?
 
+## Referências
 
-## Para saber mais:
-[Adicionar os Links]
+- [O que é algoritmo?](https://www.tecmundo.com.br/programacao/2082-o-que-e-algoritmo-.htm)
+- [O que são algoritmos de localização?](https://www.youtube.com/watch?v=uGr51yGLU8Y)
+- [Na verdade, o que [...] é exatamente um algoritmo?](https://brasil.elpais.com/brasil/2018/03/30/tecnologia/1522424604_741609.html)
+- [Você está vendo isso porque é uma... - Chupadados](https://chupadados.codingrights.org/gendered-targeted-ads/)
+- [Criação de bolhas no Twitter não é espontânea, diz pesquisador](http://temas.folha.uol.com.br/gps-ideologico/as-bolhas-na-rede-social/criacao-de-bolhas-no-twitter-nao-e-espontanea-diz-pesquisador.shtml)
+- [Facebook: Como usamos essas informações?](https://www.facebook.com/about/privacy#how-we-use-information)
+- [Algoritmos de Opressão: como mecanismos de busca reforçam o racismo](https://tarciziosilva.com.br/blog/algoritmos-de-opressao-como-mecanismos-de-busca-reforcam-o-racismo/)
+- [Intolerâncias nas redes: Um problema crescente](https://www.comunicaquemuda.com.br/dossie/intolerancia-nas-redes/)
 
+## Para Saber Mais
+
+- [O que é viés de algoritmo? - Computação sem Caô](https://www.youtube.com/watch?v=ZiaOzzBWfy0)
+- [Joy Buolamwini - Como estou combatendo o viés algortimo?](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms/transcript?awesm=on.ted.com_9IB1&language=pt-br)
 - [Tenha cuidado com os "filtros-bolha" online - Eli Pariser](https://www.youtube.com/watch?v=B8ofWFx525s)
+- [Pensamento computacional para todos](https://www.computacaosemcao.com.br/)
+- [Por que devemos nos preocupar com a influência das redes sociais nas eleições 2018?](https://brasil.elpais.com/brasil/2018/09/21/opinion/1537557693_143615.html)
+- [Qual a responsabilidade do Facebook na exibição ao vivo do massacre da Nova Zelândia?](https://www.huffpostbrasil.com/entry/facebook-ataque-nova-zelandia_br_5c8c12a2e4b03e83bdc0df2f)
+- [Movimento Contra o Discurso de Ódio](http://www.odionao.com.pt/)
+- [Indicadores SaferNet - 24.201 Atendimentos e 4.059.137 Denúncias](http://indicadores.safernet.org.br/indicadores.html)
+- [How algorithms are controlling your life](https://www.vox.com/technology/2018/10/1/17882340/how-algorithms-control-your-life-hannah-fry)
+- [We’re Asking the Wrong Questions of YouTube and Facebook After New Zealand](https://www.nytimes.com/2019/03/19/opinion/facebook-youtube-new-zealand.html)
+- [Facebook Needs Humans *And* Algorithms To Filter Hate Speech](https://futurism.com/facebook-human-algorithm-hate-speech)
+- [How social media filter bubbles and algorithms influence the election](https://www.theguardian.com/technology/2017/may/22/social-media-election-facebook-filter-bubbles)

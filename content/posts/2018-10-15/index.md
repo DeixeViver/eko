@@ -124,7 +124,7 @@ Essa uma playlist incrivel do Énois Agência de Jornalimo que explica conceitos
 
 ## Para saber mais:
 
-- [Repositório com as análise de Dados do Estadão no github](https://github.com/estadao)
+- [Repositório com as análise de Dados do Estadão no GitHub](https://github.com/estadao)
 - [Escola de Dados](https://escoladedados.org/)
 - [Ferramentas simples e gratuitas de raspagem](https://escoladedados.org/tutoriais/ferramentas-simples-e-gratuitas-de-raspagem/)
 - [6 ferramentas para extrair dados da Internet — avaliadas pelo Volt](https://medium.com/volt-data-lab/6-ferramentas-para-extrair-dados-da-internet-avaliadas-pelo-volt-586b6352fdd2)

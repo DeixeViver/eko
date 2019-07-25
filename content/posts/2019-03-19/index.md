@@ -1,6 +1,6 @@
 ---
 path: '/trilha-3'
-cover: './capa.png'
+cover: './gradiente.png'
 date: "2019-03-15"
 title: 'Trilha 03 - Segurança nas Redes'
 published: true
@@ -167,7 +167,8 @@ Oriente, divulgue e explique aos amigos e parentes a importância de manter a su
 
 
 
-### Referências:
+## Referências:
+
 - [Mais 13 dicas do Canal Tech para navegar com mais segurança na internet](https://canaltech.com.br/seguranca/previna-se-13-dicas-para-navegar-com-mais-seguranca-na-internet-12450/)
 - [Eu e Minha Sombra - Assuma o controle de seus dados](https://myshadow.org/pt)
 - [O que são Rastros Digitais?](https://myshadow.org/pt/digital-traces-content-and-metadata)
@@ -178,11 +179,13 @@ Oriente, divulgue e explique aos amigos e parentes a importância de manter a su
 - [Guia De Facilitação E Aprendizagem  Em Segurança Da Informação](https://escoladeativismo.org.br/wp-content/uploads/2018/08/AGUIA-DIGITAL-_-V7.pdf)
 - [CELULARES & COMUNICAÇÕES: NOSSA BATALHA NO CAMPO VIRTUAL. Enfrentando a violência contra nós, mulheres, no espaço virtual](https://feminismo.org.br/wp-content/uploads/2017/11/MINICARTILHA-CELULARES-FINAL.pdf)
 - [Um manual de segurança digital para tempos sombrios](https://medium.com/revista-subjetiva/um-manual-de-seguran%C3%A7a-digital-para-tempos-sombrios-2d414d0a3f24)
+
+## Para Saber Mais:
 - [Guia Prática de Estratégias e Táticas para a Segurança Digital Feminista](http://www.cfemea.org.br/index.php/colecao-femea-e-publicacoes/publicacoes/4670-guia-pratica-de-estrategias-e-taticas-para-a-seguranca-digital-feminista)
+- [Safermanas: dicas de segurança digital em gifs!](https://www.codingrights.org/safermanas-dicas-de-seguranca-digital-em-gifs/)
 - [Militantes dão dicas de ‘ativismo digital’ e diminuem papel das redes sociais em revoluções](https://uoltecnologia.blogosfera.uol.com.br/2012/02/10/militantes-dao-dicas-sobre-ativismo-digital-e-falam-do-papel-das-redes-sociais-em-movimentos-como-o-ocupe-wall-street/)
 - [Segurança Na Internet: Nossa Batalha No Campo Virtual. Enfrentando A Violência Contra Nós, Mulheres, No Espaço Virtual](https://feminismo.org.br/wp-content/uploads/2017/11/MINICARTILHA-VCM-FINAL.pdf)
 - [Rastros digitais: o que a internet sabe sobre você pode deixar marcas eternas](https://canaltech.com.br/seguranca/rastros-digitais-o-que-a-internet-sabe-sobre-voce-pode-deixar-marcas-eternas-104650/)
-- [Safermanas: dicas de segurança digital em gifs!](https://www.codingrights.org/safermanas-dicas-de-seguranca-digital-em-gifs/)
 - [Entenda e reconheça seus rastros digitais](https://new.safernet.org.br/content/entenda-e-reconhe%C3%A7a-seus-rastros-digitais)
 - [Rastros digitais](https://new.safernet.org.br/content/rastros-digitais)
 - [Rastros Digitais: A sua vida está na Internet](https://www.codigofonte.com.br/artigos/rastros-digitais)
