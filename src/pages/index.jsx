@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import styled from '@emotion/styled';
-import { jsx, css, keyframes } from '@emotion/core';
+import { jsx, css, keyframes, ThemeContext } from '@emotion/core';
 import { Header, PostList } from 'components';
 import { Layout } from 'layouts';
 import theme from '../../config/theme';
@@ -237,7 +237,7 @@ const Grid = styled.div`
 
 const Text = styled.div`
   justify-self: center;
-  @media (max-width: 991px) {
+  @media (max-width: 600) {
     justify-self: start;
   }
 `;
@@ -252,6 +252,20 @@ const sloganTitle = {
 const sloganBody = {
   fontSize: '24px',
   maxWidth: '600px'
+}
+
+const sloganTitleWhite = {
+  fontSize: '50px',
+  fontFamily: theme.fontFamily.body,
+  fontWeight: '600',
+  marginBottom: 15,
+  color: theme.colors.white.base
+}
+
+const sloganBodyWhite = {
+  fontSize: '24px',
+  maxWidth: '600px',
+  color: theme.colors.white.base
 }
 
 const retangleSlogan = {
@@ -507,8 +521,8 @@ const BackgroundAdinkras =  styled.div`
           <Grid>
             <Text>
               <RetangleSloganA></RetangleSloganA>
-              <h2 style={sloganTitle}>Conteúdo sem ranço</h2>
-              <p style={sloganBody}>
+              <h2 style={sloganTitleWhite}>Conteúdo sem ranço</h2>
+              <p style={sloganBodyWhite}>
                 A ideia das Trilhas do Conhecimento é passar o conteúdo 
                 de forma simples e prática. 
                 <br></br>
@@ -517,7 +531,7 @@ const BackgroundAdinkras =  styled.div`
                 experiência dividimos as Trilhas em conceitos fundamentais, 
                 assim a cada conceito que você aprende você ganha 
                 símbolos Adinkras - 
-                <a href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> Um sistema 
+                <a style={{color: theme.colors.green.light, textDecoration: "underline"}} href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> Um sistema 
                 de escrita africano incrível.</a>
                 <br></br>
                 <br></br>
@@ -529,7 +543,7 @@ const BackgroundAdinkras =  styled.div`
             </Text>
             <Text>
               <TranslateYElement>
-                <img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />
+                <img style={{marginBottom: 0, padding: "1rem", backgroundColor: "white", borderRadius: "50%"}} src={ad2} alt="Gatsby Logo" />
               </TranslateYElement>
 
             </Text>

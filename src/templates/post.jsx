@@ -198,7 +198,7 @@ const Post = ({ data, pageContext }) => {
         <div style={{position: "absolute", top: "50%", left: "5%", maxWidth: "997px"}}>
           <FrontMatterTitle>{frontTitlea}</FrontMatterTitle>
           <FrontMatterTitle>{frontTitleb}</FrontMatterTitle>
-          <p style={{color: "#fafafa"}}>{frontSubTitle}</p>
+          <p style={{color: "#fafafa", textShadow: "1px 2px 2px #666", fontWeight: "600"}}>{frontSubTitle}</p>
         </div>
         <div style={{...imageStyle, backgroundImage: `url(${image.src})`, backgroundRepeat: "no-repeat", backgroundSize: "cover",}}></div>
         <ArrowDown>
