@@ -25,7 +25,7 @@ const Wrapper = styled.article`
   }
 
   @media (max-width: 700px) {
-    height: 15rem;
+    height: 20rem;
   }
 `;
 
@@ -44,6 +44,9 @@ const StyledLinkk = styled(Link)`
   height: 100%;
   border-radius: ${props => props.theme.borderRadius.default};
   transition: 2s;
+
+
+
 
   /*&:after {
     content: '';
@@ -71,8 +74,7 @@ const StyledLinkk = styled(Link)`
 
 const Info = styled.div`
   color: ${props => props.theme.colors.white.light};
-  margin: 0 1rem 1.25rem 1.25rem;
-  position: relative;
+    position: relative;
   bottom: 0;
   left: 0;
   z-index: 101
@@ -81,6 +83,9 @@ const Info = styled.div`
 const Title = styled.h2`
   margin-bottom: 0.6rem;
   font-size: 42px;
+  @media (max-width: 40em) {
+    font-size: 30px;
+  }
   font-family: ${props => props.theme.fontFamily.conforta};
 `;
 
@@ -134,7 +139,8 @@ const Wrapper = styled.article`
   }
 
   @media (max-width: 700px) {
-    height: 15rem;
+    min-height: 15rem;
+    width: 90%;
   }
 `;
   
@@ -167,5 +173,10 @@ PostList.propTypes = {
   excerpt: PropTypes.string,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  colorsBg: PropTypes.array.isRequired
+  colorsBg: PropTypes.array.isRequired,
+  video: PropTypes.bool,
+  videoname: PropTypes.string,
+  fronttitlea: PropTypes.string,
+  fronttitleb: PropTypes.string,
+  frontsubtitle: PropTypes.string
 };

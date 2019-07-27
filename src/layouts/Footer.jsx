@@ -27,6 +27,10 @@ const Text = styled.div`
   flex-direction: column;
   justify-content: center;
   color: ${props => props.theme.colors.black.light};
+
+    
+  @media (max-width: ${props => props.theme.breakpoints.s}) {
+  }
 `;
 
 const TextDeixe = styled.div`

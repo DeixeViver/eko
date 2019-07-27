@@ -1,11 +1,15 @@
 ---
 path: "/trilha-1"
-cover: "./capa_01.png"
+cover: "./gradiente.png"
 date: "2018-10-15"
 title: "Trilha 01 - Algoritmos Invisíveis"
 published: true
 tags: ['algoritmos','trilha', 'conhecimento']
-
+video: false
+videosrc: ''
+fronttitlea: 'O ESPAÇO QUE NOS MANTÉM'
+fronttitleb: 'CONECTADOS...'
+frontsubtitle: 'CONECTADOS COMO?'
 ---
 # Trilha 01 — Algoritmos Invisíveis 
 
@@ -16,32 +20,31 @@ Não acredita? Pensa aqui comigo…
 O que você precisa fazer para sair de casa pela manhã e chegar até o trabalho/faculdade/compromisso?
 Um milagre! Não, pera…
 
-**[ilustrar com imagem]**
-Acordar no horário certo
-Me arrumar
-Tomar café
-Ir até o ponto de ônibus
-Esperar o ônibus certo
-Dar o sinal para que ele pare
-Subir no ônibus
-Pagar a passagem
-Sentar (Aí você já quer demais!)
+- Acordar no horário certo
+- Me arrumar
+- Tomar café
+- Ir até o ponto de ônibus
+- Esperar o ônibus certo
+- Dar o sinal para que ele pare
+- Subir no ônibus
+- Pagar a passagem
+- Sentar (Aí você já quer demais!)
 
 São uma série de passos para que você consiga chegar lá, correto? Mas e se pensarmos um pouco mais nos detalhes? O que exatamente você precisa fazer para ir até o ponto de ônibus? 
 
-**[ilustrar com imagem]**
-Saio de casa
-Viro a esquerda
-Ando até o final na rua
-Viro a direita
-Subo a ladeira 
-Paro na esquina da padaria 
-Pronto cheguei! Agora é só esperar…
+- Saio de casa
+- Viro a esquerda
+- Ando até o final na rua
+- Viro a direita
+- Subo a ladeira 
+- Paro na esquina da padaria 
+- Pronto cheguei! Agora é só esperar…
 
-E agora? Experimente descrever mentalmente o que acontece quando você dá o sinal de parada e o ônibus para muito longe do ponto? Ou quando ele está cheio demais? E o dia está só começando hein…
+E agora? Experimente descrever mentalmente o que acontece quando está chovendo, você dá o sinal de parada e o ônibus para lá na casa da Po (ops!) Poliana, a vizinha que mora na outra esquina. Haja perna para correr hein!?
+
 Acho que você já deve ter entendido a ideia. A verdade é que nós estamos acostumados a seguir algoritmos todos os dias, e muitas das atividades que fazemos, como “Ir até o ponto de ônibus”, já engloba uma série de outros passos menores ainda. Quando uma etapa do algoritmo engloba um outro conjunto de etapas é o que chamamos de encapsulamento. Assim o nosso algoritmo “Pegar o ônibus” tem o algoritmo “Ir até o ponto de ônibus” encapsulado dentro dele.
 
-Algoritmos também são chamados de Códigos, Programas, Programas de computador e Scripts. E são formados basicamente de Variáveis e Métodos. Onde Variáveis são dados necessários para seguir os passos especificados para atingir o objetivo do algoritmo, como saber a linha do ônibus de que você espera. E os Métodos são os passos propriamente ditos, como dar o sinal de parada para o ônibus.
+Algoritmos também são chamados de Códigos, Programas, Programas de computador e Scripts. E são formados basicamente de Variáveis e Métodos. Onde Variáveis são dados necessários para seguir os passos especificados para atingir o objetivo do algoritmo, como saber a linha do ônibus de que você espera. E os Métodos são as ações, os passos propriamente ditos, como dar o sinal de parada para o ônibus.
 
 Massa! Agora que já sabermos o que são algoritmos por definição e já conseguimos pensar em exemplos reais na nossa vida, vamos entender como exatamente isso acontece na Internet.
 
@@ -54,27 +57,31 @@ Mas nesse momento vamos focar só na nossa querida Internet e como tudo que vamo
 
 Quais redes sociais você usa? Já fez login nelas hoje? O Feed foi atualizado? Você precisou informar seu email/nome de usuário e senha novamente ou já tinha marcado a opção de “lembrar dados”?
 
-Os algoritmos na Internet, principalmente nas redes sociais, trabalham basicamente para nos fornecer acesso, fazendo nossa autenticação, organizando o que vemos no Feed de notícias, e nos possibilitando a interação com outras pessoas, curtidas, comentários, postagens…
+<img src="destaque_1.png">
 
-Muitas vezes eles precisam de dados de entrada (que serão Variáveis do algoritmo), no caso, para fazer login em redes como Twitter, Instagram e Facebook você precisa informar o seu nome de usuário e a sua senha, para que o algoritmo de autenticação seja capaz de verificar na base de dados da rede social se existe um usuário com aquele nome e se a senha informada corresponde com a verdadeira senha cadastrada pela dona ou dono daquela conta (esse procedimento é o Método de login e acontece quando você clica no botão). A partir do momento que você entra na rede social tudo aquilo que você faz é vinculado a sua conta. As curtidas, os stories, as fotos postadas, os comentários… tudo.
+<br>
+
+<!--- 
+Os algoritmos na Internet, principalmente nas redes sociais, trabalham basicamente para nos fornecer acesso, fazendo nossa autenticação, organizando o que vemos no Feed de notícias, e nos possibilitando a interação com outras pessoas, curtidas, comentários, postagens…
+-->
+
+Muitas vezes eles precisam de dados de entrada (que serão Variáveis do algoritmo), no caso, para fazer login em redes como Twitter, Instagram e Facebook você precisa informar o seu nome de usuário e a sua senha, para que o algoritmo de autenticação seja capaz de verificar na base de dados da rede social se existe um usuário com aquele nome e se a senha informada corresponde com a verdadeira senha cadastrada pela dona ou dono daquela conta (esse procedimento é o Método de login e acontece quando você clica no botão). 
+
+A partir do momento que você entra na rede social tudo aquilo que você faz é vinculado a sua conta. As curtidas, os stories, as fotos postadas, os comentários… tudo.
 
 E é assim, através desses dados de entrada que um outro algoritmo vai aprendendo as suas preferências na rede, com quais pessoas você mais se relaciona, quais os assuntos que você mais se importa, as postagens que você mais curte, e no fim te dá como resultado, uma rede social com conteúdo personalizado. Ele assume pelas suas curtidas quais são as postagens que você quer ver e organiza o seu Feed a partir disso, e é nesse momento que vai sendo construída a sua bolha social.
 
-**Retirar essas parte, deixar no o link como referencia no final**
-Abaixo um ótimo TED Talk do Eli Pariser, feito em março de 2011, que explica o contexto e reflete criticamente a respeito desse conceito de bolhas sociais. Nós não vamos nos aprofundar nessa discussão agora, mas recomendamos fortemente que você assista.
-
-<center><iframe width="600" height="400" src="https://www.youtube.com/embed/B8ofWFx525s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
-
-Mas voltando a nossa reflexão aqui no texto, a questão é que com esse algoritmo capaz de aprender suas preferências a rede social que você utiliza vai ficando personalizada com aquilo que ele acredita que você quer ver. Se você reparar existem muitas pessoas que você segue ou é amigo, mas você vê pelo menos uma publicação de cada pessoa dessa? 
+Com esse algoritmo capaz de aprender suas preferências a rede social que você utiliza vai ficando personalizada com aquilo que o algoritmo acredita que você quer ver. Se você reparar existem muitas pessoas que você segue ou é amigo, mas você vê pelo menos uma publicação de cada pessoa dessa? 
 Eu acredito que não. 
 
-[Frase de efeito]
+<img src="destaque_2.png">
+
+<br>
+<!--- 
 Você costuma ver mais aquilo com o que você mais interage e aquilo que é direcionado, via anúncios, para “perfis” como o seu.
+-->
 
 Tomando o Facebook como exemplo, você pode ver nesse [link](https://www.facebook.com/about/privacy#how-we-use-information) o que a política da plataforma fala sobre como usa os seus dados.
-
-
 
 ## Qual a relação entre algoritmos e o combate ao discurso de ódio online?
 
@@ -116,16 +123,19 @@ Dadas as devidas definições vamos à parte que nos cabe nesse rolê:
 
 Pensando no combate de DO na Internet, quando compartilhamos um vídeo, foto, postagem que tem relação com DO ou alguma intolerância ou respondemos diretamente uma dessas mensagens é preciso pensar em algumas coisas:
 
-- Você pode estar dando atenção ao intolerante ou hater. 
+### 1 - Você pode estar dando atenção ao intolerante ou hater. 
 E nesse caso “alimentar os haters” pode não ser uma boa estratégia visto que o objetivo dessas pessoas muitas vezes é apenas causar o mal estar e chamar atenção.
 
-- Ao compartilhar um relato de intolerância você deve considerar também o alarme que pode gerar na vida da pessoa que sofreu a intolerância, porque dependendo da repercussão a vítima pode ter que reviver aquela situação e isso pode ser doloroso.
+### 2 - Tenham empatia com a Vítima
+Ao compartilhar um relato de intolerância você deve considerar também o alarme que pode gerar na vida da pessoa que sofreu a intolerância, porque dependendo da repercussão a vítima pode ter que reviver aquela situação e isso pode ser doloroso.
 
-- Ao compartilhar o perfil de alguém que foi intolerante de alguma forma é preciso ter cuidado pois naquele momento o perfil da pessoa está sendo exposto e isso pode trazer consequências impensáveis previamente para a vida dessa pessoa. É importante combater o DO e denunciar mas é preciso ter cautela também procurando os meios oficiais de fazer isso, para evitar incitar qualquer tipo de comportamento agressivo e violento.
+### 3 - Procure os meios oficiais de denúncia
+Ao compartilhar o perfil de alguém que foi intolerante de alguma forma é preciso ter cuidado pois naquele momento o perfil da pessoa está sendo exposto e isso pode trazer consequências impensáveis previamente para a vida dessa pessoa. É importante combater o DO e denunciar mas é preciso ter cautela também procurando os meios oficiais de fazer isso, para evitar incitar qualquer tipo de comportamento agressivo e violento.
 
-- Conforme já conversamos aqui, a medida que interagimos com determinados conteúdos mais daquele conteúdo será divulgado para nós, e se isso acontecer via anúncio, por exemplo, é possível que os responsáveis pela divulgação estejam recebendo dinheiro por isso. E cada vez mais $$ por cada pessoa que clicar aquilo.
+### 4 - Cuidado com os algoritmos de recomendação e com o impulsionamento
+Conforme já conversamos aqui, a medida que interagimos com determinados conteúdos mais daquele conteúdo será divulgado para nós, e se isso acontecer via anúncio, por exemplo, é possível que os responsáveis pela divulgação estejam recebendo dinheiro por isso. E cada vez mais $$ por cada pessoa que clicar aquilo.
 
-- Quando os algoritmos tornam possível a ampla divulgação de conteúdos relacionados DO, intolerância e Extremismos acaba-se dando audiência para esse materiais e isso é capaz de fazer com o que eles sejam alcançados por outras pessoas. Tanto pessoas contra quanto pessoas a favor, o que pode vir a naturalizar e fortalecer grupos a favor do DO online
+Quando os algoritmos tornam possível a ampla divulgação de conteúdos relacionados DO e extremismos acabam dando audiência para esses materiais e isso é capaz de fazer com que eles sejam alcançados por outras pessoas. Tanto pessoas contra quanto pessoas a favor do ato, o que pode vir a naturalizar e fortalecer grupos a favoráveis a discriminação online.
 
 ## De quem é a responsabilidade?
 
@@ -137,6 +147,28 @@ Precisamos de mais transparência para que cada vez com mais conhecimentos possa
 
 Ufa! Agora pronto! Vamos para próxima Trilha!?
 
+## Referências
 
-## Para saber mais:
-[Links]
+- [O que é algoritmo?](https://www.tecmundo.com.br/programacao/2082-o-que-e-algoritmo-.htm)
+- [O que são algoritmos de localização?](https://www.youtube.com/watch?v=uGr51yGLU8Y)
+- [Na verdade, o que [...] é exatamente um algoritmo?](https://brasil.elpais.com/brasil/2018/03/30/tecnologia/1522424604_741609.html)
+- [Você está vendo isso porque é uma... - Chupadados](https://chupadados.codingrights.org/gendered-targeted-ads/)
+- [Criação de bolhas no Twitter não é espontânea, diz pesquisador](http://temas.folha.uol.com.br/gps-ideologico/as-bolhas-na-rede-social/criacao-de-bolhas-no-twitter-nao-e-espontanea-diz-pesquisador.shtml)
+- [Facebook: Como usamos essas informações?](https://www.facebook.com/about/privacy#how-we-use-information)
+- [Algoritmos de Opressão: como mecanismos de busca reforçam o racismo](https://tarciziosilva.com.br/blog/algoritmos-de-opressao-como-mecanismos-de-busca-reforcam-o-racismo/)
+- [Intolerâncias nas redes: Um problema crescente](https://www.comunicaquemuda.com.br/dossie/intolerancia-nas-redes/)
+
+## Para Saber Mais
+
+- [O que é viés de algoritmo? - Computação sem Caô](https://www.youtube.com/watch?v=ZiaOzzBWfy0)
+- [Joy Buolamwini - Como estou combatendo o viés algortimo?](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms/transcript?awesm=on.ted.com_9IB1&language=pt-br)
+- [Tenha cuidado com os "filtros-bolha" online - Eli Pariser](https://www.youtube.com/watch?v=B8ofWFx525s)
+- [Pensamento computacional para todos](https://www.computacaosemcao.com.br/)
+- [Por que devemos nos preocupar com a influência das redes sociais nas eleições 2018?](https://brasil.elpais.com/brasil/2018/09/21/opinion/1537557693_143615.html)
+- [Qual a responsabilidade do Facebook na exibição ao vivo do massacre da Nova Zelândia?](https://www.huffpostbrasil.com/entry/facebook-ataque-nova-zelandia_br_5c8c12a2e4b03e83bdc0df2f)
+- [Movimento Contra o Discurso de Ódio](http://www.odionao.com.pt/)
+- [Indicadores SaferNet - 24.201 Atendimentos e 4.059.137 Denúncias](http://indicadores.safernet.org.br/indicadores.html)
+- [How algorithms are controlling your life](https://www.vox.com/technology/2018/10/1/17882340/how-algorithms-control-your-life-hannah-fry)
+- [We’re Asking the Wrong Questions of YouTube and Facebook After New Zealand](https://www.nytimes.com/2019/03/19/opinion/facebook-youtube-new-zealand.html)
+- [Facebook Needs Humans *And* Algorithms To Filter Hate Speech](https://futurism.com/facebook-human-algorithm-hate-speech)
+- [How social media filter bubbles and algorithms influence the election](https://www.theguardian.com/technology/2017/may/22/social-media-election-facebook-filter-bubbles)
