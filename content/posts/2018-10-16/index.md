@@ -1,6 +1,6 @@
 ---
 path: "/trilha-1"
-cover: "./gradiente.png"
+cover: "./gradiente.jpg"
 date: "2018-10-15"
 title: "Trilha 01 - Algoritmos Invisíveis"
 published: true
@@ -10,6 +10,8 @@ videosrc: ''
 fronttitlea: 'O ESPAÇO QUE NOS MANTÉM'
 fronttitleb: 'CONECTADOS...'
 frontsubtitle: 'CONECTADOS COMO?'
+barpercentage: [25, 45, 70]
+baradinkra: ['1','2','3']
 ---
 # Trilha 01 — Algoritmos Invisíveis 
 

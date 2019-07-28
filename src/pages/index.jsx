@@ -316,7 +316,7 @@ const Index = ({ data }) => {
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding: 5rem 4rem 3rem 4rem;
+    padding: 5rem 2rem 3rem 2rem;
     background: url(${choosebg(number)}) center center no-repeat;
     background-size: cover;
     @media (max-width: 1000px) {
@@ -425,7 +425,7 @@ const AdinkraLine = styled.div`
   }
 
   @media screen and (max-width: ${theme.breakpoints.s}){
-    top: 43%;
+    top: 33%;
   }
 
   @media screen and (max-width: 375px){
@@ -549,6 +549,8 @@ const AdinkraLine = styled.div`
               fronttitlea={node.frontmatter.fronttitlea}
               fronttitleb={node.frontmatter.fronttitleb}
               frontsubtitle={node.frontmatter.frontsubtitle}
+              barpercentage={node.frontmatter.barpercentage}
+              baradinkra={node.frontmatter.baradinkra}
               excerpt={node.excerpt}
               colorsBg={chooseFrontMatterColor(node.frontmatter.tags[0])}
             />
@@ -601,7 +603,9 @@ Index.propTypes = {
               videoname: PropTypes.string,
               fronttitlea: PropTypes.string,
               fronttitleb: PropTypes.string,
-              frontsubtitle: PropTypes.string
+              frontsubtitle: PropTypes.string,
+              barpercentage: PropTypes.array,
+              baradinkra: PropTypes.array,
             }),
           }),
         }).isRequired
@@ -641,6 +645,8 @@ export const query = graphql`
             fronttitlea
             fronttitleb
             frontsubtitle
+            barpercentage
+            baradinkra
           }
         }
       }

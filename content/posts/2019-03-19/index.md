@@ -1,6 +1,6 @@
 ---
 path: '/trilha-3'
-cover: './gradiente.png'
+cover: './gradiente.jpg'
 date: "2019-03-15"
 title: 'Trilha 03 - Segurança nas Redes'
 published: true
@@ -10,6 +10,8 @@ videosrc: ''
 fronttitlea: 'PARA TODA AÇÃO'
 fronttitleb: 'EXISTE UMA REAÇÃO'
 frontsubtitle: 'E UMA INFORMAÇÃO RASTREÁVEL'
+barpercentage: [25, 45, 70]
+baradinkra: ['1','2','3']
 ---
 # Trilha 03 - Segurança nas Redes
 

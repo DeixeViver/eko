@@ -1,6 +1,6 @@
 ---
 path: "/trilha-2"
-cover: "./capa_menor.png"
+cover: "./gradiente.jpg"
 date: "2018-10-17"
 title: "Trilha 02 - Transformando Dados em Ferramentas"
 published: true
@@ -10,6 +10,8 @@ videoname: 'Video1'
 fronttitlea: 'DADOS FALAM SOBRE PESSOAS'
 fronttitleb: 'MAS QUEM TEM ACESSO AOS DADOS?'
 frontsubtitle: 'E QUEM CONTA AS HISTÓRIAS?'
+barpercentage: [25, 45, 70]
+baradinkra: ['1','2','3']
 ---
 # Trilha 02 - Transformando Dados em Ferramentas
 
