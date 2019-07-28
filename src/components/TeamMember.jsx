@@ -27,7 +27,7 @@ const chooseColor = (number) => {
 
 
 const TeamMember = ({ image, name, shortDescription, instagram, id, largeDescription }) => (
-  <MemberWrapper>
+  <MemberWrapper id="time">
     {isEven(id) ?     
       <div style={{height: "250px", width: "300px", position: "absolute", left: "0", zIndex: "-100", backgroundColor: chooseColor(id)}}></div>
         :

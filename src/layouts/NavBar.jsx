@@ -106,11 +106,11 @@ export default class NavBar extends React.Component {
         <Headroom style={{position: "absolute", justifyContent: "center", backgroundColor: "transparent"}} calcHeightOnResize disableInlineStyles>
           <Nav>
             <Link to="/">HOME</Link>
-            <Link to="/blog">TRILHAS</Link>
+            <Link to="/#trilhas">TRILHAS</Link>
             <StyledLink to="/">
               <img style={{marginBottom: 0}} src={logo} alt="Gatsby Logo" />
             </StyledLink>
-            <Link to="/blog">CRIAR</Link>
+            <Link to="/#time">TIME</Link>
             <Link to="/about">SOBRE</Link>
           </Nav>
           <NavSM>
@@ -129,7 +129,7 @@ export default class NavBar extends React.Component {
                     <Link to="/#trilhas">TRILHAS</Link>
                   </StyledListItem>
                   <StyledListItem>
-                    <Link to="/blog">CRIAR</Link>
+                    <Link to="/#time">TIME</Link>
                   </StyledListItem>
                   <StyledListItem>
                     <Link to="/about">SOBRE</Link>
