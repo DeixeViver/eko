@@ -56,20 +56,46 @@ const About = center => (
           <AdinkraGrid level={3.2} opacity={0.2} />
           <AdinkraGrid level={4} opacity={0.3} />
         <StyledTitle>
-          SOBRE O EKO
+          Sobre Nós
         </StyledTitle>
       </StyledMultipleBg>
       <Container center={center}>
-        <h1>Texto bonito</h1>
-        <p>Paragrafo de lorem Ipsum</p>
-        <p>Paragrafo de lorem Ipsum</p>
-        <p>Paragrafo de lorem Ipsum</p>
-        <p>Paragrafo de lorem Ipsum</p>
-        <p>Paragrafo de lorem Ipsum</p>
-        <p>Paragrafo de lorem Ipsum</p>
-        <p>Paragrafo de lorem Ipsum</p>
-        <p>Paragrafo de lorem Ipsum</p>
-        <p>Paragrafo de lorem Ipsum</p>
+        <h1>O Projeto</h1>
+
+        <p>Ẹkọ (pronuncia-se Ékó), na língua Iorubá, significa instrução, 
+          que é o nosso principal objetivo nessa iniciativa. Somos uma plataforma 
+          de educação digital feita por engenheiros de software e cientistas de 
+          dados. E isso já explica bastante o que você vai encontrar por aqui: Informação 
+          sobre tecnologia e sobre como usar as ferramentas da Internet para combater o Discriminação Online.</p>
+
+        <h1>Por que estamos fazendo isso?</h1>
+
+        <p>Por vezes o conteúdo por trás do funcionamento Internet, em relação a algoritmos, 
+          dados, privacidade e segurança é um ponto oculto, camuflado que ninguém sabe muito 
+          bem como funciona ou acha complicado demais para entender.</p>
+
+        <p>Nesse contexto a falta de informação pode contribuir com a propagação da discriminação 
+          na Rede. E é esse ponto que nós queremos alcançar. Desmistificar esse cenário deixando 
+          os assuntos mais acessíveis e aplicáveis, de forma que as pessoas consigam utilizar os 
+          conceitos e ferramentas disponíveis fortalecendo suas iniciativas.</p>
+
+        <h1>Como o projeto foi construído?</h1>
+
+        <p>O Ẹkọ é fruto da iniciativa <a href="http://saferlab.org.br/" target="_blank" title="Saferlab">Saferlab</a>. 
+        O objetivo do Saferlab é apoiar o protagonismo de jovens na criação de projetos que ajudam a tornar a Internet 
+        um lugar melhor - com mais diálogo, respeito à diversidade e aos Direitos Humanos. Para isso, desde de abril de 2018, 
+        os grupos inscritos no Saferlab passaram por etapas de formação online, formação presencial, mentoria e acompanhamento 
+        da implementação do projeto. Contando com vários apoiadores ao longo do caminho, os quais somos extremamente gratos!</p>
+
+        <img src="../../static/imersao.jpg" alt="Imersão Nordeste do Saferlab - Realizada em Salvador-BA"/>
+
+        <h1>Os Adinkra</h1>
+
+        <p>Toda a utilização dos<a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" target="_blank" title="símbolos Adinkra"> símbolos Adinkra </a>
+        deve-se ao material construído pela <a href="http://ipeafro.org.br/" target="_blank" title="IPEAFRO"> IPEAFRO </a> que nós permitiu reutilizar. 
+        Agradecemos a toda equipe pelo trabalho incrível na construção do material e pela possibilidade de reutilização.
+        </p>
+
       </Container>
   </Layout>
 );
