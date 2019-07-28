@@ -6,5 +6,6 @@ import TagsBlock from './TagsBlock';
 import ProgressBar from './ProgressBar';
 import TeamMember from './TeamMember';
 import AdinkraItemGrid from './AdinkraItemGrid';
+import AdinkraLineItem from './AdinkraLineItem';
 
-export { BlogList, Header, PostList, SEO, TagsBlock, ProgressBar, TeamMember, AdinkraItemGrid };
+export { BlogList, Header, PostList, SEO, TagsBlock, ProgressBar, TeamMember, AdinkraItemGrid, AdinkraLineItem };

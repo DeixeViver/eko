@@ -31,6 +31,7 @@ const AdinkraLineItem = styled.div`
   border-radius: 50%;
   flex: 1 0 21%; 
   max-width: 80px;
+  cursor: pointer;
 
   @media screen and (max-width: ${Theme.breakpoints.s}){
     margin: 0 2px;

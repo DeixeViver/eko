@@ -245,6 +245,23 @@ const StyledAbout = styled.div`
   }
 `;
 
+const StyledKnownProjects = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10rem 0;
+  background: ${theme.colors.orange.base};
+  @media (max-width: 1000px) {
+    padding: 4rem 2rem 1rem 4rem;
+  }
+  @media (max-width: 700px) {
+    padding: 4rem 1rem 1rem 1rem;
+  }
+`;
+
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 4fr 2fr;
@@ -558,6 +575,30 @@ const AdinkraLine = styled.div`
           {/*.childImageSharp.fluid */}
         </div>
       </PostWrapper>
+
+      <StyledKnownProjects>
+        <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>MOSTRE SUA VOZ</h2>
+          <Text>
+            <p style={sloganBodyWhite}>
+              Conheça aqui projetos que fazem a diferenta na Web, disseminando conteúdos voltados a minorias.. LOrenaaaaaaa TEXTO SEU :)
+            </p>
+          </Text>
+          <div style={{display:"flex"}}>
+            <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
+              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
+            </div>  
+            <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
+              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
+            </div>
+          </div>
+
+          <div style={{backgroundColor: theme.colors.green.base, padding: "10px"}}>
+            <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Quer que seu projeto também seja ecoado por aqui? Nos envie um e-mail para projetoeko@gmail.com</p>
+          </div>
+
+      </StyledKnownProjects>
 
       <TeamWrapper>
 
