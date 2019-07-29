@@ -517,7 +517,7 @@ const AdinkraLine = styled.div`
               <RetangleSloganA></RetangleSloganA>
               <h2 style={sloganTitleWhite}>Trilhas do Conhecimento</h2>
               <p style={sloganBodyWhite}>
-                Separamos o conteúdo em 3 Trilhas de forma simples e com exemplos próximos da nossa realidade. 
+                Separamos o conteúdo em 3 Trilhas de forma simples, com exemplos próximos da nossa realidade. 
                 Passaremos por cada uma delas como se fossem um caminho bem direcionado e sinalizado.
                 <br></br>
                 <br></br>
