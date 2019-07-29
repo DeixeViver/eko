@@ -496,7 +496,7 @@ const AdinkraLine = styled.div`
               <span style={retangleSlogan}></span>
               <h2 style={sloganTitle}>Você sabe o que são algoritmos? </h2>
               <p style={sloganBody}>
-                Sabe o que os dados espalhados pela Internet por todos os usuários - você, por exemplo - tem haver com privacidade e bolha social? 
+                Sabe o que os dados espalhados pela Internet por todos os usuários - você, por exemplo - tem a ver com privacidade e bolha social? 
                 E como a gente pode usar dados abertos para fortalecer uma narrativa? 
                 <br></br>
                 <br></br>
