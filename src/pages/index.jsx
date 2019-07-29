@@ -539,15 +539,14 @@ const PostListCss = styled.div`
               <RetangleSloganA></RetangleSloganA>
               <h2 style={sloganTitleWhite}>Trilhas do Conhecimento</h2>
               <p style={sloganBodyWhite}>
-                A ideia das 3 Trilhas é passar o conteúdo como se fosse um caminho, bem direcionado e sinalizado.
+                Separamos o conteúdo em 3 Trilhas de forma simples, com exemplos próximos da nossa realidade. 
+                Passaremos por cada uma delas como se fossem um caminho bem direcionado e sinalizado.
                 <br></br>
                 <br></br>
-                E para tornar a experiência ainda mais potente, que tal conhecer um sistema 
-                africano de símbolos que tem tudo a ver com essa conversa? 
-                <a style={{color: theme.colors.green.light, textDecoration: "underline"}} href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> São os Adinkra. </a> 
-                 Esses ícones gráficos que você vê aqui e que vão nos guiar ao longo da plataforma. 
-                Cada um deles tem um significado, relacionado ao conteúdo das Trilhas. 
-                Vem com a gente?
+                E para tornar a experiência ainda mais potente, que tal guiar esse caminho com um sistema africano de símbolos que tem tudo a ver com essa conversa?
+                <a style={{color: theme.colors.green.light, textDecoration: "underline"}} href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> É o Adinkra, </a> 
+                esse conjunto de ícones que você vê aqui e que representam ideias expressas em provérbios. 
+                Cada um deles tem um significado, relacionado ao conteúdo da trilha.
               </p>
             </Text>
             <Text>
@@ -592,7 +591,7 @@ const PostListCss = styled.div`
           <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>MOSTRE SUA VOZ</h2>
           <Text>
             <p style={sloganBodyWhiteCenter}>
-              Conheça aqui outros projetos que fazem da Internet um lugar melhor
+              Conheça aqui outros projetos que fazem da Internet um lugar melhor.
             </p>
           </Text>
           <div style={{display:"flex", justifyContent: "center"}}>
@@ -607,7 +606,7 @@ const PostListCss = styled.div`
           </div>
 
           <div style={{backgroundColor: theme.colors.green.base, padding: "10px"}}>
-            <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Quer que seu projeto também seja ecoado por aqui? <br/> Manda pra gente projetoeko@gmail.com</p>
+            <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Nos acompanhe no Instagram e veja mais<br/> <a href="https://www.instagram.com/ekoprojeto/" target="_blank" title="Instagram do Eko">Projeto Ẹkọ</a></p>
           </div>
         </div>
       </StyledKnownProjects>
@@ -615,7 +614,6 @@ const PostListCss = styled.div`
       <TeamWrapper>
 
         <h2 style={{fontSize: '35px', textAlign: 'center', color: '#343434', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>O TIME EKO</h2>
-
 
         <GridMember>
           {team.map(e => (

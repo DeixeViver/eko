@@ -70,7 +70,9 @@ const About = center => (
           de educação digital feita por engenheiros de software e cientistas de 
           dados. E isso já explica bastante o que você vai encontrar por aqui: Informação 
           sobre tecnologia e sobre como usar as ferramentas da Internet para combater a Discriminação Online.</p>
-
+          <br></br>
+          <br></br>
+          
         <h1>Por que estamos fazendo isso?</h1>
 
         <p>Por vezes o conteúdo por trás do funcionamento da Internet, em relação a algoritmos, 
@@ -81,18 +83,20 @@ const About = center => (
           na Rede. E é esse ponto que nós queremos alcançar. Desmistificar esse cenário deixando 
           os assuntos mais acessíveis e aplicáveis, de forma que as pessoas consigam utilizar os 
           conceitos e ferramentas disponíveis para fortalecer suas iniciativas.</p>
+          <br></br>
+          <br></br>
 
         <h1>Como o projeto foi construído?</h1>
 
-        <p>O Ẹkọ é fruto da iniciativa <a href="http://saferlab.org.br/" target="_blank" title="Saferlab">Saferlab</a>. 
+        <p>Ẹkọ é fruto da iniciativa <a href="http://saferlab.org.br/" target="_blank" title="Saferlab">Saferlab</a>. 
         O objetivo do Saferlab é apoiar o protagonismo de jovens na criação de projetos que ajudam a tornar a Internet 
         um lugar melhor - com mais diálogo, respeito à diversidade e aos Direitos Humanos. Para isso, desde de abril de 2018, 
         os grupos inscritos no Saferlab passaram por etapas de formação online, formação presencial, mentoria e acompanhamento 
         da implementação do projeto. Contando com vários apoiadores ao longo do caminho, os quais somos extremamente gratos!</p>
 
         <img src={imersao} alt="Imersão Nordeste do Saferlab - Realizada em Salvador-BA"/>
-
-        <h1>Os Adinkra</h1>
+ 
+        <h1>Adinkra</h1>
 
         <p>Toda a utilização dos<a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" target="_blank" title="símbolos Adinkra"> símbolos Adinkra </a>
         deve-se ao material construído pela <a href="http://ipeafro.org.br/" target="_blank" title="IPEAFRO"> IPEAFRO </a> que nós permitiu reutilizar. 

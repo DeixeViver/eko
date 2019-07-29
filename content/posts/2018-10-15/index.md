@@ -10,8 +10,8 @@ videoname: 'Video1'
 fronttitlea: 'DADOS FALAM SOBRE PESSOAS'
 fronttitleb: 'MAS QUEM TEM ACESSO AOS DADOS?'
 frontsubtitle: 'E QUEM CONTA AS HISTÓRIAS?'
-barpercentage: [25, 45, 70]
-baradinkra: ['1','2','3']
+barpercentage: [40, 55]
+baradinkra: ['6','5']
 ---
 # Trilha 02 - Transformando Dados em Ferramentas
 
@@ -20,7 +20,7 @@ baradinkra: ['1','2','3']
 Dados são pequenas observações sobre um determinado contexto. 
 Podem ser públicos, privados, abertos ou não.
 
-<img src="dados.png">
+![alt text](dados.png "Dados")
 
 <br>
 
@@ -30,7 +30,7 @@ Dependendo da política de privacidade e das configurações que o usuário faç
 
 Existem também aqueles dados que são públicos no contexto de população de um país, como são os dados do IBGE no cenário brasileiro e também de muitos órgãos governamentais que vêm aderindo a publicização de seus dados. Esses são dados de muita valia quando queremos saber mais sobre nós enquanto sociedade. E é aí que entra o que chamamos de dados abertos ou não.
 
-<img src="destaque_1.png">
+![alt text](destaque_1.png "Dado aberto")
 
 <br>
 
@@ -49,7 +49,7 @@ O http://dados.gov.br/ é um grande portal brasileiro de dados públicos e abert
 
 E o que podemos fazer a partir disso? Saber mais sobre a nossa sociedade, sobre pautas que nos interessam, contrapor argumentos infundados ou notícias falsas, fiscalizar o poder público, construir conhecimento cruzando esses dados com as nossas vivências. E é aí que entram as Narrativas e Contranarrativas.
 
-<img src="destaque_2.png">
+![alt text](destaque_2.png "Narrativas")
 
 <br>
 
@@ -68,11 +68,11 @@ O Saferlab construiu um [super guia](http://saferlab.org.br/guia.pdf) abordando 
 > - Contranarrativas com analogias
 > - Contranarrativas invertendo a lógica
 
-Um dos exemplos presente no guia do Saferlab é a subversão feita com a hashtag #Écoisadepreto que converteu uma frase inicialmente falada com intuito racista em uma campanha enaltecendo realizações de pessoas negras. Acesse [Tool Box Crie Sua Contranarritiva!](http://saferlab.org.br/guia.pdf) E veja outros exemplos e dicas.
+Um dos exemplos presente no guia do Saferlab é a subversão feita com a hashtag #Écoisadepreto que converteu uma frase inicialmente falada com intuito racista em uma campanha enaltecendo realizações de pessoas negras. Acesse [Tool Box Crie Sua Contranarrativa!](http://saferlab.org.br/guia.pdf) E veja outros exemplos e dicas.
 
 ## Vamos fazer!?
 
-Já sabemos o que são dados, narrativas, contranarrativas e de onde tirar dados. Agora nós vamos para a parte prática fazendo uma introdução das ferramentas e conceitos que vamos utilizar para constuir uma contranarrativa com dados e informações:
+Já sabemos o que são dados, narrativas, contranarrativas e de onde tirar dados. Agora nós vamos para a parte prática fazendo uma introdução das ferramentas e conceitos que podemos utilizar para acessar dados esses dados e tirar informações deles.
 
 [Github](https://github.com/) — É uma ferramenta que as pessoas utilizam para publicar, compartilhar e versionar arquivos, como textos e códigos. O Github se utiliza do Git para permitir o versionamento de arquivos. É esse versionamento que permite que a gente dê ctrl+z nos projetos, sistemas, textos… Louvado Seja!
 

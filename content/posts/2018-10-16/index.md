@@ -10,39 +10,36 @@ videosrc: ''
 fronttitlea: 'O ESPAÇO QUE NOS MANTÉM'
 fronttitleb: 'CONECTADOS...'
 frontsubtitle: 'CONECTADOS COMO?'
-barpercentage: [25, 45, 70]
-baradinkra: ['1','2','3']
+barpercentage: [23, 45, 67, 80]
+baradinkra: ['1','7','3', '4']
 ---
 # Trilha 01 — Algoritmos Invisíveis 
+### *O espaço inacessível da Internet e sua relação com Discurso de Ódio*
+<br>
 
-## O espaço inacessível da Internet e sua relação com Discurso de Ódio
+## O que são Algoritmos?
+São uma série de instruções para alcançar um objetivo. 
+Simples, fácil e prático assim!
 
 Se pensarmos no que fazemos diariamente, seguimos uma série de passos a fim de completar pequenas atividades ao longo do dia. O que quer dizer que basicamente seguimos vários algoritmos projetados pela nossa linda cabeça o dia todo, com base nas experiência que tivemos. 
 Não acredita? Pensa aqui comigo…
 O que você precisa fazer para sair de casa pela manhã e chegar até o trabalho/faculdade/compromisso?
 Um milagre! Não, pera…
 
-- Acordar no horário certo
-- Me arrumar
-- Tomar café
-- Ir até o ponto de ônibus
-- Esperar o ônibus certo
-- Dar o sinal para que ele pare
-- Subir no ônibus
-- Pagar a passagem
-- Sentar (Aí você já quer demais!)
+[exemplo de fluxograma]
+![alt text](fluxograma.png "Exemplo fluxograma")
+
 
 São uma série de passos para que você consiga chegar lá, correto? Mas e se pensarmos um pouco mais nos detalhes? O que exatamente você precisa fazer para ir até o ponto de ônibus? 
 
-- Saio de casa
-- Viro a esquerda
-- Ando até o final na rua
-- Viro a direita
-- Subo a ladeira 
-- Paro na esquina da padaria 
-- Pronto cheguei! Agora é só esperar…
+[exemplo de fluxograma]
+![alt text](fluxograma.png "Segundo exemplo fluxograma")
 
-E agora? Experimente descrever mentalmente o que acontece quando está chovendo, você dá o sinal de parada e o ônibus para lá na casa da Po (ops!) Poliana, a vizinha que mora na outra esquina. Haja perna para correr hein!?
+E para pegar pegar o ônibus naqueles dias chuvosos e que os pontos estão cheios?
+
+<center>
+<img src="https://66.media.tumblr.com/90e57c76437482c72054b0b8c09886cb/tumblr_nws216Rm8K1rvkq5mo1_400.gif">
+</center>
 
 Acho que você já deve ter entendido a ideia. A verdade é que nós estamos acostumados a seguir algoritmos todos os dias, e muitas das atividades que fazemos, como “Ir até o ponto de ônibus”, já engloba uma série de outros passos menores ainda. Quando uma etapa do algoritmo engloba um outro conjunto de etapas é o que chamamos de encapsulamento. Assim o nosso algoritmo “Pegar o ônibus” tem o algoritmo “Ir até o ponto de ônibus” encapsulado dentro dele.
 
@@ -53,19 +50,20 @@ Massa! Agora que já sabermos o que são algoritmos por definição e já conseg
 ## O que os algoritmos fazem na Internet?
 TUDO! T-U-D-O!
 
+![alt text](ad.png "Algoritmos e Bolhas sociais")
+
 Na verdade eles estão por trás de muitas coisas na nossa vida, todos os nossos aparelhos eletrônicos, aplicativos, sites que usamos, portas automáticas do shopping, leitor de cartão de crédito, tudo isso só é possível através da execução de vários, váaaaaarios algoritmos.
 
 Mas nesse momento vamos focar só na nossa querida Internet e como tudo que vamos discutir no decorrer das Trilhas deixará esse contexto por vezes inacessível mais transparente e útil para nós.
 
 Quais redes sociais você usa? Já fez login nelas hoje? O Feed foi atualizado? Você precisou informar seu email/nome de usuário e senha novamente ou já tinha marcado a opção de “lembrar dados”?
 
-<img src="destaque_1.png">
-
-<br>
-
 <!--- 
-Os algoritmos na Internet, principalmente nas redes sociais, trabalham basicamente para nos fornecer acesso, fazendo nossa autenticação, organizando o que vemos no Feed de notícias, e nos possibilitando a interação com outras pessoas, curtidas, comentários, postagens…
+![alt text](destaque_1.png "Algoritmos nas Redes Sociais")
+<br>
 -->
+
+Os algoritmos na Internet, principalmente nas redes sociais, trabalham basicamente para nos fornecer acesso, fazendo nossa autenticação, organizando o que vemos no Feed de notícias, e nos possibilitando a interação com outras pessoas, curtidas, comentários, postagens…
 
 Muitas vezes eles precisam de dados de entrada (que serão Variáveis do algoritmo), no caso, para fazer login em redes como Twitter, Instagram e Facebook você precisa informar o seu nome de usuário e a sua senha, para que o algoritmo de autenticação seja capaz de verificar na base de dados da rede social se existe um usuário com aquele nome e se a senha informada corresponde com a verdadeira senha cadastrada pela dona ou dono daquela conta (esse procedimento é o Método de login e acontece quando você clica no botão). 
 
@@ -73,31 +71,40 @@ A partir do momento que você entra na rede social tudo aquilo que você faz é 
 
 E é assim, através desses dados de entrada que um outro algoritmo vai aprendendo as suas preferências na rede, com quais pessoas você mais se relaciona, quais os assuntos que você mais se importa, as postagens que você mais curte, e no fim te dá como resultado, uma rede social com conteúdo personalizado. Ele assume pelas suas curtidas quais são as postagens que você quer ver e organiza o seu Feed a partir disso, e é nesse momento que vai sendo construída a sua bolha social.
 
+<center>
+<img src="https://media.giphy.com/media/vLq5FWMjfN47S/giphy.gif">
+</center>
+
 Com esse algoritmo capaz de aprender suas preferências a rede social que você utiliza vai ficando personalizada com aquilo que o algoritmo acredita que você quer ver. Se você reparar existem muitas pessoas que você segue ou é amigo, mas você vê pelo menos uma publicação de cada pessoa dessa? 
 Eu acredito que não. 
 
-<img src="destaque_2.png">
-
-<br>
 <!--- 
-Você costuma ver mais aquilo com o que você mais interage e aquilo que é direcionado, via anúncios, para “perfis” como o seu.
+![alt text](destaque_2.png "Bolhas Sociais")
+<br>
 -->
+
+Você costuma ver mais aquilo com o que você mais interage e aquilo que é direcionado, via anúncios, para “perfis” como o seu.
 
 Tomando o Facebook como exemplo, você pode ver nesse [link](https://www.facebook.com/about/privacy#how-we-use-information) o que a política da plataforma fala sobre como usa os seus dados.
 
-## Qual a relação entre algoritmos e o combate ao discurso de ódio online?
+<br>
 
-Me apressei né? Calma aí, vamos voltar: O que é Discurso de Ódio?
-Um das principais questões quando falamos em Discurso de Ódio — DO na Internet é a relação entre DO e Liberdade de Expressão.
+## Qual a relação entre algoritmos e o combate ao discurso de ódio online?
+![alt text](adinkra1.png "Discurso de ódio e Dignidade da pessoa humana")
+<br>
+
+Me apressei né? Calma aí, vamos voltar: **O que é Discurso de Ódio?**
+
+Uma das principais questões quando falamos em Discurso de Ódio (para facilitar na escrita vamos chamar de DO daqui para a frente) na Internet é a relação entre DO e Liberdade de Expressão.
 
 Geralmente a primeira coisa alegada por quem emite DO é:
 
 > “Mas isso é só a minha opinião”
-> “eu tenho direito a liberdade de expressão”
+> “Eu tenho direito a liberdade de expressão”
 
 Mas o grande ponto aí é: 
 
-> **Até onde vai o direito de exprimir uma opinião sem interferir no direito a dignidade da pessoa humana de uma outra pessoa.**
+> **Até onde vai o direito de exprimir uma ideia sem interferir no direito a dignidade da pessoa humana de uma outra pessoa.**
 
 Discurso de ódio é o discurso que visa desqualificar e inferiorizar uma pessoa ou um grupo de pessoas com base em características que as façam pertencentes de um grupo social como etnia, gênero, condição social, opção sexual, religião… incitando a exclusão, defendendo o ódio, violência ou a discriminação daquela pessoa ou grupo.
 
@@ -107,7 +114,8 @@ Esse é um vídeo que exemplifica bem os problemas e desafios relacionados ao DO
 <iframe width="600" height="400" src="https://www.youtube.com/embed/3PzphtZC0hU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-Mas existe um grande desafio em separar DO de mensagens intolerantes direcionadas a uma pessoas em específico e que nesse caso podem ser classificadas como calúnia e difamação. Existe um infográfico muito didático da SaferNet sobre isso: http://saferlab.org.br/infografico.png
+Mas existe um grande desafio em separar DO de mensagens intolerantes direcionadas a uma pessoas em específico e que nesse caso podem ser classificadas como calúnia e difamação. <a href="http://saferlab.org.br/infografico.png" target="_blank" title="símbolos Adinkra">Existe um infográfico </a> muito didático da SaferNet sobre o assunto.
+
 
 Um outro grande desafio do enfrentamento desse tipo de discurso na rede é que muitas vezes ele não é facilmente identificado diante das relações interpessoais, ironia e sarcasmo.
 
@@ -115,15 +123,14 @@ O Discurso de Ódio Online além de ofender um grupo de pessoas diretamente, age
 
 A SaferNet Brasil que é uma organização com o objetivo da promoção e defesa dos Direitos Humanos na Internet no país faz um trabalho muito bacana nessa área e hoje seu canal de comunicação tem cerca de 3.925.405 denúncias e o seu canal de ajuda já atendeu 15.983 pessoas vítimas de violações na internet.
 
-Você pode ver alguns indicadores aqui:
-SaferNet - Indicadores - http://saferlab.org.br/o-que-e-discurso-de-odio/index.html
-
+Você pode ver alguns indicadores sobre as <a href="http://saferlab.org.br/o-que-e-discurso-de-odio/index.html" target="_blank" title="símbolos Adinkra"> denúncias de ódio recebidas pela SaferNet Brasil nesse link.</a>
 
 Dadas as devidas definições vamos à parte que nos cabe nesse rolê: 
 
 ## Compartilhei! E agora?
+![alt text](adinkra3.png "Compartilhei! E agora?")
 
-Pensando no combate de DO na Internet, quando compartilhamos um vídeo, foto, postagem que tem relação com DO ou alguma intolerância ou respondemos diretamente uma dessas mensagens é preciso pensar em algumas coisas:
+Pensando no combate de DO na Internet, quando compartilhamos um vídeo, foto, postagem que tem relação com DO ou quando respondemos diretamente uma dessas mensagens é preciso ponderar sobre algumas questões:
 
 ### 1 - Você pode estar dando atenção ao intolerante ou hater. 
 E nesse caso “alimentar os haters” pode não ser uma boa estratégia visto que o objetivo dessas pessoas muitas vezes é apenas causar o mal estar e chamar atenção.
@@ -135,23 +142,28 @@ Ao compartilhar um relato de intolerância você deve considerar também o alarm
 Ao compartilhar o perfil de alguém que foi intolerante de alguma forma é preciso ter cuidado pois naquele momento o perfil da pessoa está sendo exposto e isso pode trazer consequências impensáveis previamente para a vida dessa pessoa. É importante combater o DO e denunciar mas é preciso ter cautela também procurando os meios oficiais de fazer isso, para evitar incitar qualquer tipo de comportamento agressivo e violento.
 
 ### 4 - Cuidado com os algoritmos de recomendação e com o impulsionamento
-Conforme já conversamos aqui, a medida que interagimos com determinados conteúdos mais daquele conteúdo será divulgado para nós, e se isso acontecer via anúncio, por exemplo, é possível que os responsáveis pela divulgação estejam recebendo dinheiro por isso. E cada vez mais $$ por cada pessoa que clicar aquilo.
+Conforme já conversamos aqui, a medida que interagimos com determinados conteúdos mais daquele conteúdo será divulgado para nós, e se isso acontecer via anúncio, por exemplo, é possível que os responsáveis pela divulgação estejam lucrando a cada clique no respectivo material.
 
-Quando os algoritmos tornam possível a ampla divulgação de conteúdos relacionados DO e extremismos acabam dando audiência para esses materiais e isso é capaz de fazer com que eles sejam alcançados por outras pessoas. Tanto pessoas contra quanto pessoas a favor do ato, o que pode vir a naturalizar e fortalecer grupos a favoráveis a discriminação online.
+Quando os algoritmos tornam possível a ampla divulgação de conteúdos relacionados DO e extremismos acabam dando audiência para esses materiais e isso é capaz de fazer com que eles sejam alcançados por outras pessoas. Tanto pessoas contra quanto pessoas a favor do ato, o que pode vir a naturalizar e fortalecer grupos favoráveis a discriminação online.
 
 ## De quem é a responsabilidade?
+
+![alt text](adinkra4.png "Responsabilidade da Rede")
+<br>
 
 Algoritmos são construídos por pessoas, essas pessoas trabalham em empresas e essas empresas tem seus próprios objetivos, princípios, metodologias e meta$$.
 
 A questão é que quanto menos transparência nas tecnologias menos poder de ação nós temos sobre esse cenário e sobre como ele interfere na nossa vida. Do outro lado quando temos mais transparência sobre os “algoritmos invisíveis” temos mais autonomia crítica de levantar questões sobre como a operação dos mesmos pode estar corroborando para a perpetuação de práticas discriminatórias, desrespeitosas, irresponsáveis e perversas. 
 
-Precisamos de mais transparência para que cada vez com mais conhecimentos possamos debater de forma profunda os impactos das práticas automatizadas nos códigos da Internet. Endereçando as respectivas falhas, correções e melhorias aos respectivos responsáveis, principalmente no que diz respeito a garantia da diversidade nos ambientes de construção dos algoritmos. 
+Precisamos de mais transparência para que cada vez com mais conhecimentos possamos debater de forma profunda os impactos das práticas automatizadas nos códigos da Internet. Endereçando as respectivas falhas, correções e melhorias aos respectivos responsáveis, desde a não propagação de conteúdo indevido até a garantia da diversidade nos ambientes de construção desses algoritmos. 
 
-Ufa! Agora pronto! Vamos para próxima Trilha!?
+É isso! Vamos para próxima Trilha!
+
+<br>
 
 ## Referências
 
-- [O que é algoritmo?](https://www.tecmundo.com.br/programacao/2082-o-que-e-algoritmo-.htm)
+- <a href="https://www.tecmundo.com.br/programacao/2082-o-que-e-algoritmo-.htm" target="_blank" title="símbolos Adinkra">O que é algoritmo?</a>
 - [O que são algoritmos de localização?](https://www.youtube.com/watch?v=uGr51yGLU8Y)
 - [Na verdade, o que [...] é exatamente um algoritmo?](https://brasil.elpais.com/brasil/2018/03/30/tecnologia/1522424604_741609.html)
 - [Você está vendo isso porque é uma... - Chupadados](https://chupadados.codingrights.org/gendered-targeted-ads/)
