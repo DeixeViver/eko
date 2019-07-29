@@ -252,7 +252,7 @@ const StyledKnownProjects = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 10rem 0;
+  padding: 6rem 0;
   background: ${theme.colors.orange.base};
   @media (max-width: 1000px) {
     padding: 4rem 2rem 1rem 4rem;
@@ -274,8 +274,13 @@ const Grid = styled.div`
 `;
 
 const Text = styled.div`
-  justify-self: center;
-  @media (max-width: 600) {
+  justify-self: start;
+
+  @media (max-width: 1200px) {
+    justify-self: center;
+  }
+
+  @media (max-width: 600px) {
     justify-self: start;
   }
 `;
@@ -303,6 +308,13 @@ const sloganTitleWhite = {
 const sloganBodyWhite = {
   fontSize: '24px',
   maxWidth: '600px',
+  color: theme.colors.white.base
+}
+
+const sloganBodyWhiteCenter = {
+  fontSize: '24px',
+  maxWidth: '600px',
+  textAlign: "center",
   color: theme.colors.white.base
 }
 
@@ -451,6 +463,15 @@ const AdinkraLine = styled.div`
   }
 `;
 
+const PostListCss = styled.div`
+  display: flex;
+  flexDirection: column-reverse; 
+  alignItems: center;
+  @media screen and (min-width: ${theme.breakpoints.l}){
+    flexDirection: row-reverse;   
+  }
+`;
+
   return (
     <Layout>
       
@@ -504,8 +525,9 @@ const AdinkraLine = styled.div`
               </p>
             </Text>
             <Text>
-              <img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />
-
+              <TranslateYElement>
+                <img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />
+              </TranslateYElement>
             </Text>
           </Grid>
         </Container>
@@ -541,7 +563,7 @@ const AdinkraLine = styled.div`
       <PostWrapper>
         <h2 id="trilhas" style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI :)</h2>
         
-        <div style={{display: 'flex', flexDirection: "column-reverse", alignItems: 'center'}}>
+        <PostListCss>
           {edges.map(({ node }) => (
             <PostList
               key={node.id}
@@ -561,17 +583,18 @@ const AdinkraLine = styled.div`
             />
           ))}
           {/*.childImageSharp.fluid */}
-        </div>
+        </PostListCss>
       </PostWrapper>
 
       <StyledKnownProjects>
-        <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>MOSTRE SUA VOZ</h2>
+        <div style={{maxWidth: "1200px", margin: "0 auto", display: "block"}}>
+          <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>MOSTRE SUA VOZ</h2>
           <Text>
-            <p style={sloganBodyWhite}>
+            <p style={sloganBodyWhiteCenter}>
               Conheça aqui outros projetos que fazem da Internet um lugar melhor
             </p>
           </Text>
-          <div style={{display:"flex"}}>
+          <div style={{display:"flex", justifyContent: "center"}}>
             <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
               <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
@@ -583,9 +606,9 @@ const AdinkraLine = styled.div`
           </div>
 
           <div style={{backgroundColor: theme.colors.green.base, padding: "10px"}}>
-            <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Quer que seu projeto também seja ecoado por aqui? Manda pra gente projetoeko@gmail.com</p>
+            <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Quer que seu projeto também seja ecoado por aqui? <br/> Manda pra gente projetoeko@gmail.com</p>
           </div>
-
+        </div>
       </StyledKnownProjects>
 
       <TeamWrapper>

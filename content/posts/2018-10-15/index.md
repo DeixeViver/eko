@@ -10,8 +10,8 @@ videoname: 'Video1'
 fronttitlea: 'DADOS FALAM SOBRE PESSOAS'
 fronttitleb: 'MAS QUEM TEM ACESSO AOS DADOS?'
 frontsubtitle: 'E QUEM CONTA AS HISTÓRIAS?'
-barpercentage: [25, 45, 70]
-baradinkra: ['1','2','3']
+barpercentage: [45, 70]
+baradinkra: ['6','5']
 ---
 # Trilha 02 - Transformando Dados em Ferramentas
 
