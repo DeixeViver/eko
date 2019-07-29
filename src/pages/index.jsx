@@ -517,15 +517,14 @@ const AdinkraLine = styled.div`
               <RetangleSloganA></RetangleSloganA>
               <h2 style={sloganTitleWhite}>Trilhas do Conhecimento</h2>
               <p style={sloganBodyWhite}>
-                A ideia das 3 Trilhas é passar o conteúdo como se fosse um caminho, bem direcionado e sinalizado.
+                Separamos o conteúdo em 3 Trilhas de forma simples e com exemplos próximos da nossa realidade. 
+                Passaremos por cada uma delas como se fossem um caminho bem direcionado e sinalizado.
                 <br></br>
                 <br></br>
-                E para tornar a experiência ainda mais potente, que tal conhecer um sistema 
-                africano de símbolos que tem tudo a ver com essa conversa? 
-                <a style={{color: theme.colors.green.light, textDecoration: "underline"}} href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> São os Adinkra. </a> 
-                 Esses ícones gráficos que você vê aqui e que vão nos guiar ao longo da plataforma. 
-                Cada um deles tem um significado, relacionado ao conteúdo das Trilhas. 
-                Vem com a gente?
+                E para tornar a experiência ainda mais potente, que tal guiar esse caminho com um sistema africano de símbolos que tem tudo a ver com essa conversa?
+                <a style={{color: theme.colors.green.light, textDecoration: "underline"}} href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> É o Adinkra, </a> 
+                esse conjunto de ícones que você vê aqui e que representam ideias expressas em provérbios. 
+                Cada um deles tem um significado, relacionado ao conteúdo da trilha.
               </p>
             </Text>
             <Text>
