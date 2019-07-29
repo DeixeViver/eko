@@ -465,7 +465,7 @@ const AdinkraLine = styled.div`
 
       <StyledMultipleBg>
   
-          <SyledIntro>Mudando o contato entre Pessoas, Tecnologia e o Enfrentamento da Discriminação Online</SyledIntro>
+          <SyledIntro>O que você precisa saber sobre Tecnologia para enfrentar a Discriminação na Internet</SyledIntro>
             {/*<AdinkraGrid level={0} opacity={0.1} />
             <AdinkraGrid level={1} opacity={0.1} />
             <AdinkraGrid level={2} opacity={0.2} />
@@ -494,17 +494,13 @@ const AdinkraLine = styled.div`
           <Grid>
             <Text>
               <span style={retangleSlogan}></span>
-              <h2 style={sloganTitle}>Invisível aos olhos, mas bem ali no botão <i>'Publicar'</i></h2>
+              <h2 style={sloganTitle}>Você sabe o que são algoritmos? </h2>
               <p style={sloganBody}>
-                As pessoas têm sua vida influenciada pela tecnologia, mas o 
-                processo de desenvolvimento dessas tecnologias muitas vezes não 
-                está levando em conta as pessoas que serão atingidas.
+                Sabe o que os dados espalhados pela Internet por todos os usuários - você, por exemplo - tem haver com privacidade e bolha social? 
+                E como a gente pode usar dados abertos para fortalecer uma narrativa? 
                 <br></br>
                 <br></br>
-                <b>
-                Como podemos entender melhor o cenário por trás das Redes 
-                e usar isso para combater a discriminação na Internet? </b><br></br>
-                É o sobre isso o que vamos falar aqui!
+                <b>Somos uma plataforma de educação digital feita por engenheiros de software e cientistas de dados e em três seções vamos explicar tudo isso.</b>
               </p>
             </Text>
             <Text>
@@ -519,24 +515,17 @@ const AdinkraLine = styled.div`
           <Grid>
             <Text>
               <RetangleSloganA></RetangleSloganA>
-              <h2 style={sloganTitleWhite}>Conteúdo sem ranço</h2>
+              <h2 style={sloganTitleWhite}>Trilhas do Conhecimento</h2>
               <p style={sloganBodyWhite}>
-                A ideia das Trilhas do Conhecimento é passar o conteúdo 
-                de forma simples e prática. 
+                A ideia das 3 Trilhas é passar o conteúdo como se fosse um caminho, bem direcionado e sinalizado.
                 <br></br>
                 <br></br>
-                E para dar um <i>tchan</i> nessa 
-                experiência dividimos as Trilhas em conceitos fundamentais, 
-                assim a cada conceito que você aprende você ganha 
-                símbolos Adinkras - 
-                <a style={{color: theme.colors.green.light, textDecoration: "underline"}} href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> Um sistema 
-                de escrita africano incrível.</a>
-                <br></br>
-                <br></br>
-                Você sabia que nos Adinkras existe um símbolo só para expressar  
-                “Advertência contra calúnia, difamação e o falar mal do outro 
-                pelas costas”?<br></br>
-                - Lindo, maravilhoso, Ícone sem defeitos. 
+                E para tornar a experiência ainda mais potente, que tal conhecer um sistema 
+                africano de símbolos que tem tudo a ver com essa conversa? 
+                <a style={{color: theme.colors.green.light, textDecoration: "underline"}} href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> São os Adinkra. </a> 
+                 Esses ícones gráficos que você vê aqui e que vão nos guiar ao longo da plataforma. 
+                Cada um deles tem um significado, relacionado ao conteúdo das Trilhas. 
+                Vem com a gente?
               </p>
             </Text>
             <Text>
@@ -580,7 +569,7 @@ const AdinkraLine = styled.div`
         <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>MOSTRE SUA VOZ</h2>
           <Text>
             <p style={sloganBodyWhite}>
-              Conheça aqui projetos que fazem a diferenta na Web, disseminando conteúdos voltados a minorias.. LOrenaaaaaaa TEXTO SEU :)
+              Conheça aqui outros projetos que fazem da Internet um lugar melhor
             </p>
           </Text>
           <div style={{display:"flex"}}>
@@ -590,12 +579,12 @@ const AdinkraLine = styled.div`
             </div>  
             <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
               <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
+              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Diário da Mari</p>
             </div>
           </div>
 
           <div style={{backgroundColor: theme.colors.green.base, padding: "10px"}}>
-            <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Quer que seu projeto também seja ecoado por aqui? Nos envie um e-mail para projetoeko@gmail.com</p>
+            <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Quer que seu projeto também seja ecoado por aqui? Manda pra gente projetoeko@gmail.com</p>
           </div>
 
       </StyledKnownProjects>
