@@ -10,8 +10,8 @@ videosrc: ''
 fronttitlea: 'PARA TODA AÇÃO'
 fronttitleb: 'EXISTE UMA REAÇÃO'
 frontsubtitle: 'E UMA INFORMAÇÃO RASTREÁVEL'
-barpercentage: [25, 45, 70]
-baradinkra: ['1','2','3']
+barpercentage: [22, 40, 68]
+baradinkra: ['8','9','10']
 ---
 # Trilha 03 - Segurança nas Redes
 
@@ -21,12 +21,8 @@ A gente não vai começar esse papo falando de Internet, mas eu prometo que cheg
 
 O importante aqui é te levar de volta para o ensino médio, mais especificamente para as aulas de física onde aprendemos sobre as 3 leis de newton e já que estamos na terceira trilha desse projeto, é também a terceira lei que nos interessa nesse momento:
 
-<img src="acao_reacao.png">
-
-<br>
-
-
-Atenção para a foto reflexiva que pode - e deve! - ser utilizada como bom dia no grupo da família.
+![alt text](acao_reacao.png "Ação e Reação")
+Atenção para a foto reflexiva que pode - e deve! - ser utilizada como "Bom Dia" no grupo da família.
 
 Mas o que isso tem a ver com segurança afinal de contas? Simples, a terceira lei de newton também pode ser aplicada no mundo virtual.
 É possível rastrear TUDO, absolutamente TUDO o que você faz na Internet. Cada clique, cada site, cada visita ao perfil do ex pode ser usado contra você, pois como já dizia o pensador contemporâneo Isaac Newton: Toda ação, gera um dado sendo armazenado em algum lugar da nuvem. Nossas fontes confirmam que a frase é mesmo dele.

@@ -35,10 +35,10 @@ São uma série de passos para que você consiga chegar lá, correto? Mas e se p
 [exemplo de fluxograma]
 ![alt text](fluxograma.png "Segundo exemplo fluxograma")
 
-E para pegar pegar o ônibus naqueles dias chuvosos e os pontos estão cheios?
+E para pegar pegar o ônibus naqueles dias chuvosos e que os pontos estão cheios?
 
 <center>
-<img src="https://media.giphy.com/media/INJEh89hpnyak/giphy.gif">
+<img src="https://66.media.tumblr.com/90e57c76437482c72054b0b8c09886cb/tumblr_nws216Rm8K1rvkq5mo1_400.gif">
 </center>
 
 Acho que você já deve ter entendido a ideia. A verdade é que nós estamos acostumados a seguir algoritmos todos os dias, e muitas das atividades que fazemos, como “Ir até o ponto de ônibus”, já engloba uma série de outros passos menores ainda. Quando uma etapa do algoritmo engloba um outro conjunto de etapas é o que chamamos de encapsulamento. Assim o nosso algoritmo “Pegar o ônibus” tem o algoritmo “Ir até o ponto de ônibus” encapsulado dentro dele.
