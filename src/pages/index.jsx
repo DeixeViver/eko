@@ -47,7 +47,7 @@ import ad10 from '../../static/adrinkas/10.png';
 
 export const adinkraData = [
   {id: 1, img: ad1, name: "NYANSAPOW", description: "Símbolo da sabedoria, engenhosidade, inteligência e paciência"},
-  {id: 2, img: ad2, name: "OBI NKA BI", description: "Símbolo da advertência contra calúnia, difamação e o falar mal do outro pelas costas"},
+  //{id: 2, img: ad2, name: "OBI NKA BI", description: "Símbolo da advertência contra calúnia, difamação e o falar mal do outro pelas costas"},
   {id: 3, img: ad3, name: "NTESIEMATE MASIE", description: "Eu ouvi e guardei. Símbolo da sabedoria, do conhecimento e da prudência"},
   {id: 4, img: ad4, name: "SANKOFA", description: "Símbolo da sabedoria para aprender com o passado para construir o futuro"},
   {id: 5, img: ad5, name: "ANANSE NTONTAN", description: "Símbolo da sabedoria, esperteza, criatividade e da complexidade da vida"},
@@ -541,7 +541,7 @@ const AdinkraLine = styled.div`
             </Text>
             <Text>
               <TranslateYElement>
-                <img style={{marginBottom: 0, padding: "1rem", backgroundColor: "white", borderRadius: "50%"}} src={ad2} alt="Gatsby Logo" />
+                <img style={{marginBottom: 0, padding: "1rem", backgroundColor: "white", borderRadius: "50%"}} src={ad7} alt="Gatsby Logo" />
               </TranslateYElement>
 
             </Text>
