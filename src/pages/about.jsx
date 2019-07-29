@@ -6,6 +6,8 @@ import { Layout, Container } from 'layouts';
 import {getNumber, chooseColor} from './index';
 import styled from '@emotion/styled';
 import AdinkraGrid from '../components/AdinkraGrid';
+import imersao from "../../static/imersao.jpg";
+import ipeafro from '../../static/ipeafro.png';
 
 const StyledMultipleBg = styled.div`
   display: flex;
@@ -18,7 +20,8 @@ const StyledMultipleBg = styled.div`
   padding: 5rem 4rem 3rem 4rem;
   background-color: ${chooseColor(getNumber())};
   background-size: cover;
-  @media (max-width: 1000px) {
+  @media (min-width: 1000px) {
+    height: 350px;  
   }
   @media (max-width: 700px) {
     left: 0;
@@ -54,7 +57,7 @@ const About = center => (
           <AdinkraGrid level={1.3} opacity={0.1} />
           <AdinkraGrid level={2.3} opacity={0.2} />
           <AdinkraGrid level={3.2} opacity={0.2} />
-          <AdinkraGrid level={4} opacity={0.3} />
+          {/*<AdinkraGrid level={4} opacity={0.3} />*/}
         <StyledTitle>
           Sobre Nós
         </StyledTitle>
@@ -87,7 +90,7 @@ const About = center => (
         os grupos inscritos no Saferlab passaram por etapas de formação online, formação presencial, mentoria e acompanhamento 
         da implementação do projeto. Contando com vários apoiadores ao longo do caminho, os quais somos extremamente gratos!</p>
 
-        <img src="../../static/imersao.jpg" alt="Imersão Nordeste do Saferlab - Realizada em Salvador-BA"/>
+        <img src={imersao} alt="Imersão Nordeste do Saferlab - Realizada em Salvador-BA"/>
 
         <h1>Os Adinkra</h1>
 
@@ -95,6 +98,8 @@ const About = center => (
         deve-se ao material construído pela <a href="http://ipeafro.org.br/" target="_blank" title="IPEAFRO"> IPEAFRO </a> que nós permitiu reutilizar. 
         Agradecemos a toda equipe pelo trabalho incrível na construção do material e pela possibilidade de reutilização.
         </p>
+
+        <img src={ipeafro} alt="Logo IPAFRO"/>
 
       </Container>
   </Layout>

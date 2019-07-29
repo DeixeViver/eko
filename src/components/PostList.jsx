@@ -134,8 +134,8 @@ const Wrapper = styled.article`
     transform: scale(1.04);
   }
 
-  @media (max-width: 1000px) {
-
+  @media screen and (min-width: ${theme.breakpoints.l}){
+    margin: 0 2rem;
   }
 
   @media (max-width: 700px) {
