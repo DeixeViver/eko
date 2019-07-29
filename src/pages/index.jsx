@@ -591,7 +591,7 @@ const PostListCss = styled.div`
           <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>MOSTRE SUA VOZ</h2>
           <Text>
             <p style={sloganBodyWhiteCenter}>
-              Conheça aqui outros projetos que fazem da Internet um lugar melhor
+              Conheça aqui outros projetos que fazem da Internet um lugar melhor.
             </p>
           </Text>
           <div style={{display:"flex", justifyContent: "center"}}>
@@ -606,7 +606,7 @@ const PostListCss = styled.div`
           </div>
 
           <div style={{backgroundColor: theme.colors.green.base, padding: "10px"}}>
-            <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Quer que seu projeto também seja ecoado por aqui? <br/> Manda pra gente projetoeko@gmail.com</p>
+            <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Nos acompanhe no Instagram e veja mais<br/> <a href="https://www.instagram.com/ekoprojeto/" target="_blank" title="Instagram do Eko">Projeto Ẹkọ</a></p>
           </div>
         </div>
       </StyledKnownProjects>
@@ -614,7 +614,6 @@ const PostListCss = styled.div`
       <TeamWrapper>
 
         <h2 style={{fontSize: '35px', textAlign: 'center', color: '#343434', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>O TIME EKO</h2>
-
 
         <GridMember>
           {team.map(e => (
