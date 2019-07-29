@@ -69,18 +69,18 @@ const About = center => (
           que é o nosso principal objetivo nessa iniciativa. Somos uma plataforma 
           de educação digital feita por engenheiros de software e cientistas de 
           dados. E isso já explica bastante o que você vai encontrar por aqui: Informação 
-          sobre tecnologia e sobre como usar as ferramentas da Internet para combater o Discriminação Online.</p>
+          sobre tecnologia e sobre como usar as ferramentas da Internet para combater a Discriminação Online.</p>
 
         <h1>Por que estamos fazendo isso?</h1>
 
-        <p>Por vezes o conteúdo por trás do funcionamento Internet, em relação a algoritmos, 
+        <p>Por vezes o conteúdo por trás do funcionamento da Internet, em relação a algoritmos, 
           dados, privacidade e segurança é um ponto oculto, camuflado que ninguém sabe muito 
           bem como funciona ou acha complicado demais para entender.</p>
 
         <p>Nesse contexto a falta de informação pode contribuir com a propagação da discriminação 
           na Rede. E é esse ponto que nós queremos alcançar. Desmistificar esse cenário deixando 
           os assuntos mais acessíveis e aplicáveis, de forma que as pessoas consigam utilizar os 
-          conceitos e ferramentas disponíveis fortalecendo suas iniciativas.</p>
+          conceitos e ferramentas disponíveis para fortalecer suas iniciativas.</p>
 
         <h1>Como o projeto foi construído?</h1>
 
