@@ -465,10 +465,10 @@ const AdinkraLine = styled.div`
 
 const PostListCss = styled.div`
   display: flex;
-  flexDirection: column-reverse; 
-  alignItems: center;
+  flex-direction: column-reverse; 
+  align-items: center;
   @media screen and (min-width: ${theme.breakpoints.l}){
-    flexDirection: row-reverse;   
+    flex-direction: row-reverse;   
   }
 `;
 
