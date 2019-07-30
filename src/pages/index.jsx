@@ -286,7 +286,7 @@ const Text = styled.div`
 `;
 
 const sloganTitle = {
-  fontSize: '50px',
+  fontSize: '45px',
   fontFamily: theme.fontFamily.body,
   fontWeight: '600',
   marginBottom: 15
@@ -298,7 +298,7 @@ const sloganBody = {
 }
 
 const sloganTitleWhite = {
-  fontSize: '50px',
+  fontSize: '45px',
   fontFamily: theme.fontFamily.body,
   fontWeight: '600',
   marginBottom: 15,
