@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Theme from '../../config/theme';
 import person from '../../static/logo/person.jpeg';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaGithub } from 'react-icons/fa';
 
 const isEven = (n) => {
   n = Number(n);
@@ -26,7 +26,7 @@ const chooseColor = (number) => {
 }
 
 
-const TeamMember = ({ image, name, shortDescription, instagram, id, largeDescription }) => (
+const TeamMember = ({ image, name, shortDescription, instagram, id, largeDescription, github }) => (
   <MemberWrapper id="time">
     {isEven(id) ?     
       <div style={{height: "250px", width: "300px", position: "absolute", left: "0", zIndex: "-100", backgroundColor: chooseColor(id)}}></div>
@@ -44,7 +44,10 @@ const TeamMember = ({ image, name, shortDescription, instagram, id, largeDescrip
           display: "flex",
           justifyContent: "flex-start"}}>
           
-          {name} <a style={{margin: "0 7px"}} href={`https://instagram.com/${instagram}`}><FaInstagram size={"25"} color={Theme.colors.pink.base} /></a></p>
+          {name} 
+          {!!instagram ? <a target="_blank" style={{margin: "0 7px"}} href={`https://instagram.com/${instagram}`}><FaInstagram size={"25"} color={Theme.colors.pink.base} /></a> : null }
+          {!!github ? <a target="_blank" style={{margin: "0 7px"}} href={`${github}`}><FaGithub size={"25"} color={Theme.colors.pink.base} /></a> : null }
+          </p>
         :
           <p style={{ fontFamily: 'Comfortaa, cursive',
             fontSize: '22px',
@@ -53,8 +56,9 @@ const TeamMember = ({ image, name, shortDescription, instagram, id, largeDescrip
             display: "flex",
           justifyContent: "flex-end"}}>
             
-          
-          <a style={{margin: "0 7px"}} href={`https://instagram.com/${instagram}`}><FaInstagram size={"25"} color={Theme.colors.pink.base} /></a> {name}</p>
+            {!!instagram ? <a target="_blank" style={{margin: "0 7px"}} href={`https://instagram.com/${instagram}`}><FaInstagram size={"25"} color={Theme.colors.pink.base} /></a> : null }
+            {!!github ? <a target="_blank" style={{margin: "0 7px"}} href={`${github}`}><FaGithub size={"25"} color={Theme.colors.pink.base} /></a> : null }
+          {name}</p>
       }
       <p style={{textAlign: isEven(id)? "left":"right", fontFamily: 'Comfortaa, cursive', marginBottom: "0.5rem", fontSize: "20px"}}>{shortDescription}</p>
 
@@ -77,6 +81,11 @@ TeamMember.propTypes = {
     PropTypes.object,
     PropTypes.bool,
   ]),
+  github: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object,
+    PropTypes.bool,
+  ]),
   id: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   largeDescription: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
 };
@@ -86,6 +95,7 @@ TeamMember.defaultProps = {
   name: false,
   shortDescription: false,
   instagram: false,
+  github: false,
   id: false,
   largeDescription: false,
 };

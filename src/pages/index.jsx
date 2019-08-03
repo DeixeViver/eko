@@ -87,7 +87,8 @@ export const team = [
       name: "Jamile Lima",
       shortDescription: "Web Expert Apaixonada pelo que faz",
       largeDescription: "Estudante de Ciência e Tecnologia, Desenvolvedora Web e Mobile, amante de café e em busca de criatividade através de livros, filmes e séries.",
-      instagram: "https://github.com/jamilelima"
+      github: "https://github.com/jamilelima",
+      instagram:""
   },
   {
       id: 4,    
@@ -95,7 +96,9 @@ export const team = [
       name: "Lorena Pereira",
       shortDescription: "Cientista de Dados com Conteúdo",
       largeDescription: "Aprendendo com tudo ao meu redor :) Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
-      instagram: "https://github.com/lorenaps"
+      github: "https://github.com/lorenaps",
+      instagram:""
+
   },
 
 ];
@@ -624,6 +627,7 @@ const PostListCss = styled.div`
               shortDescription={e.shortDescription}
               largeDescription={e.largeDescription}
               instagram={e.instagram}
+              github={e.github}
             />
 
             
