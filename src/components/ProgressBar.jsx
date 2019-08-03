@@ -166,15 +166,17 @@ export default class ScrollBar extends React.Component {
 
           {actionPoints.map((e,i) => (
             <div onClick={() => this.goToTargetPosition(e)} style={{
-              width: '30px',
-              height: '30px',
+              width: this.state.widthHtml <= 1200 ? (this.state.scrollBarRate >= e ? '35px' : '30px') : (this.state.scrollBarRate >= e/2 ? '35px' : '30px'),
+              height: this.state.widthHtml <= 1200 ? (this.state.scrollBarRate >= e ? '35px' : '30px') : (this.state.scrollBarRate >= e/2 ? '35px' : '30px'),
               borderRadius: '30px',
               position: "absolute",
-              left: this.state.widthHtml <= 1200 ? "-18px" : "-9px",
+              left: this.state.widthHtml <= 1200 ? (this.state.scrollBarRate >= e ? "-22px" : "-18px") : (this.state.scrollBarRate >= e/2 ? "-12px" : "-9px"),
               top: e + "%",
               backgroundColor: this.state.widthHtml <= 1200 ? (this.state.scrollBarRate >= e ? colorSubset[0] : "#eaeaea") :  (this.state.scrollBarRate >= e/2 ? colorSubset[0] : "#eaeaea"),
               zIndex: 100,
-              cursor:"pointer"
+              cursor:"pointer",
+              transistion: '1s'
+
             }}>
               <img src={this.getAdinkraTobar(actionContent[i])} />
             </div>
