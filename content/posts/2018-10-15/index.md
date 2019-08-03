@@ -32,6 +32,7 @@ Existem também aqueles dados que são públicos no contexto de população de u
 
 ![alt text](destaque_1.png "Dado aberto")
 
+
 <br>
 
 No caso, quando os órgãos dispõem os dados em formato CSV (Comma Separated Values ou Valores Separados por Vígula) - [Veja aqui sobre a diferença entre CSV e Excel](https://www.tudoexcel.com.br/planilhas/diferenca-entre-excel-e-csv-2997.html) - , é um exemplo de dados em formato aberto, visto que é muito fácil manipular dados assim. Porém se esse órgão dispõem apenas de imagens de planilhas ou arquivos pdf, por exemplo, isso dificulta o processo de ler e processar aqueles dados, tornando aquilo um dado não aberto, mas ainda assim um dado público. Acesse a [cartilha sobre dados abertos](http://dados.gov.br/pagina/cartilha-publicacao-dados-abertos) e saiba mais sobre isso.
