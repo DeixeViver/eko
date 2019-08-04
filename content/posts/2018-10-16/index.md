@@ -7,33 +7,23 @@ published: true
 tags: ['algoritmos','trilha', 'conhecimento']
 video: false
 videosrc: ''
-fronttitlea: 'O ESPAÇO QUE NOS MANTÉM'
-fronttitleb: 'CONECTADOS...'
-frontsubtitle: 'CONECTADOS COMO?'
+fronttitlea: 'Trilha 01 — Algoritmos Invisíveis'
+fronttitleb: 'O espaço inacessível da Internet e sua relação com Discurso de Ódio'
+frontsubtitle: ''
 barpercentage: [23, 45, 67, 80]
 baradinkra: ['1','7','3', '4']
 ---
-# Trilha 01 — Algoritmos Invisíveis 
-### *O espaço inacessível da Internet e sua relação com Discurso de Ódio*
-<br>
-
 ## O que são Algoritmos?
+
 São uma série de instruções para alcançar um objetivo. 
 Simples, fácil e prático assim!
 
 Se pensarmos no que fazemos diariamente, seguimos uma série de passos a fim de completar pequenas atividades ao longo do dia. O que quer dizer que basicamente seguimos vários algoritmos projetados pela nossa linda cabeça o dia todo, com base nas experiência que tivemos. 
 Não acredita? Pensa aqui comigo…
-O que você precisa fazer para sair de casa pela manhã e chegar até o trabalho/faculdade/compromisso?
-Um milagre! Não, pera…
 
-[exemplo de fluxograma]
-![alt text](fluxograma.png "Exemplo fluxograma")
+> **Como você faz para chegar ao trabalho/escola/faculdade pela manhã?**
 
-
-São uma série de passos para que você consiga chegar lá, correto? Mas e se pensarmos um pouco mais nos detalhes? O que exatamente você precisa fazer para ir até o ponto de ônibus? 
-
-[exemplo de fluxograma]
-![alt text](fluxograma.png "Segundo exemplo fluxograma")
+![alt text](fluxograma.png "Fluxograma sobre Algoritmos")
 
 E para pegar pegar o ônibus naqueles dias chuvosos e que os pontos estão cheios?
 
@@ -47,21 +37,16 @@ Algoritmos também são chamados de Códigos, Programas, Programas de computador
 
 Massa! Agora que já sabermos o que são algoritmos por definição e já conseguimos pensar em exemplos reais na nossa vida, vamos entender como exatamente isso acontece na Internet.
 
+![alt text](adinkra_1.png "Algoritmos e Bolhas sociais")
 ## O que os algoritmos fazem na Internet?
 TUDO! T-U-D-O!
 
-![alt text](ad.png "Algoritmos e Bolhas sociais")
 
 Na verdade eles estão por trás de muitas coisas na nossa vida, todos os nossos aparelhos eletrônicos, aplicativos, sites que usamos, portas automáticas do shopping, leitor de cartão de crédito, tudo isso só é possível através da execução de vários, váaaaaarios algoritmos.
 
 Mas nesse momento vamos focar só na nossa querida Internet e como tudo que vamos discutir no decorrer das Trilhas deixará esse contexto por vezes inacessível mais transparente e útil para nós.
 
 Quais redes sociais você usa? Já fez login nelas hoje? O Feed foi atualizado? Você precisou informar seu email/nome de usuário e senha novamente ou já tinha marcado a opção de “lembrar dados”?
-
-<!--- 
-![alt text](destaque_1.png "Algoritmos nas Redes Sociais")
-<br>
--->
 
 Os algoritmos na Internet, principalmente nas redes sociais, trabalham basicamente para nos fornecer acesso, fazendo nossa autenticação, organizando o que vemos no Feed de notícias, e nos possibilitando a interação com outras pessoas, curtidas, comentários, postagens…
 
@@ -78,24 +63,14 @@ E é assim, através desses dados de entrada que um outro algoritmo vai aprenden
 Com esse algoritmo capaz de aprender suas preferências a rede social que você utiliza vai ficando personalizada com aquilo que o algoritmo acredita que você quer ver. Se você reparar existem muitas pessoas que você segue ou é amigo, mas você vê pelo menos uma publicação de cada pessoa dessa? 
 Eu acredito que não. 
 
-<!--- 
-![alt text](destaque_2.png "Bolhas Sociais")
-<br>
--->
-
 Você costuma ver mais aquilo com o que você mais interage e aquilo que é direcionado, via anúncios, para “perfis” como o seu.
 
 Tomando o Facebook como exemplo, você pode ver nesse [link](https://www.facebook.com/about/privacy#how-we-use-information) o que a política da plataforma fala sobre como usa os seus dados.
 
-<br>
+![alt text](adinkra_2.png "Discurso de ódio e Dignidade da pessoa humana")
+## Discurso de ódio Online
 
-## Qual a relação entre algoritmos e o combate ao discurso de ódio online?
-![alt text](adinkra1.png "Discurso de ódio e Dignidade da pessoa humana")
-<br>
-
-Me apressei né? Calma aí, vamos voltar: **O que é Discurso de Ódio?**
-
-Uma das principais questões quando falamos em Discurso de Ódio (para facilitar na escrita vamos chamar de DO daqui para a frente) na Internet é a relação entre DO e Liberdade de Expressão.
+Uma das principais questões quando falamos em Discurso de Ódio (DO) na Internet é sua relação com a Liberdade de Expressão.
 
 Geralmente a primeira coisa alegada por quem emite DO é:
 
@@ -114,7 +89,7 @@ Esse é um vídeo que exemplifica bem os problemas e desafios relacionados ao DO
 <iframe width="600" height="400" src="https://www.youtube.com/embed/3PzphtZC0hU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-Mas existe um grande desafio em separar DO de mensagens intolerantes direcionadas a uma pessoas em específico e que nesse caso podem ser classificadas como calúnia e difamação. <a href="http://saferlab.org.br/infografico.png" target="_blank" title="símbolos Adinkra">Existe um infográfico </a> muito didático da SaferNet sobre o assunto.
+Mas existe um grande desafio em separar DO de mensagens intolerantes direcionadas a uma pessoa em específico e que nesse caso podem ser classificadas como calúnia e difamação. <a href="http://saferlab.org.br/infografico.png" target="_blank" title="símbolos Adinkra">Existe um infográfico </a> muito didático da SaferNet sobre o assunto.
 
 
 Um outro grande desafio do enfrentamento desse tipo de discurso na rede é que muitas vezes ele não é facilmente identificado diante das relações interpessoais, ironia e sarcasmo.
@@ -127,8 +102,8 @@ Você pode ver alguns indicadores sobre as <a href="http://saferlab.org.br/o-que
 
 Dadas as devidas definições vamos à parte que nos cabe nesse rolê: 
 
+![alt text](adinkra_3.png "Compartilhei! E agora?")
 ## Compartilhei! E agora?
-![alt text](adinkra3.png "Compartilhei! E agora?")
 
 Pensando no combate de DO na Internet, quando compartilhamos um vídeo, foto, postagem que tem relação com DO ou quando respondemos diretamente uma dessas mensagens é preciso ponderar sobre algumas questões:
 
@@ -146,10 +121,8 @@ Conforme já conversamos aqui, a medida que interagimos com determinados conteú
 
 Quando os algoritmos tornam possível a ampla divulgação de conteúdos relacionados DO e extremismos acabam dando audiência para esses materiais e isso é capaz de fazer com que eles sejam alcançados por outras pessoas. Tanto pessoas contra quanto pessoas a favor do ato, o que pode vir a naturalizar e fortalecer grupos favoráveis a discriminação online.
 
+![alt text](adinkra_4.png "Responsabilidade da Rede")
 ## De quem é a responsabilidade?
-
-![alt text](adinkra4.png "Responsabilidade da Rede")
-<br>
 
 Algoritmos são construídos por pessoas, essas pessoas trabalham em empresas e essas empresas tem seus próprios objetivos, princípios, metodologias e meta$$.
 
