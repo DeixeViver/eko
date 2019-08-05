@@ -534,9 +534,12 @@ const PostListCss = styled.div`
                 <br></br>
                   Separamos o conteúdo em 3 partes que chamamos Trilhas do Conhecimento.
                   Passaremos por cada uma delas como se fossem um caminho bem 
-                  sinalizado e guiado com um sistema africano de símbolos que tem tudo 
-                  a ver com essa conversa? É o Adinkra, esse conjunto de ícones que você vê 
-                  aqui, onde cada um deles tem um significado, relacionado ao conteúdo da trilha.
+                  sinalizado. E para tornar a experiência ainda mais potente, que tal guiar esse 
+                  caminho com um sistema africano de símbolos que tem tudo a ver com essa 
+                  conversa? É o <a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" 
+                  target="_blank" title="Adinkra">Adinkra</a>, esse conjunto de ícones que você vê 
+                  aqui, onde cada um deles tem um significado relacionado ao conteúdo da trilha.
+                  Duvida!? Dá uma olhada nesse match incrível!
               </p>
             </Text>
             <Text>
