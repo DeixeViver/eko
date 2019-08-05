@@ -522,24 +522,34 @@ const PostListCss = styled.div`
               <span style={retangleSlogan}></span>
               <h2 style={sloganTitle}>Você sabe o que são algoritmos? </h2>
               <p style={sloganBody}>
-                Sabe o que os dados espalhados na Internet por todos os usuários - você, 
-                por exemplo - tem a ver com privacidade e bolha social? 
-                E como a gente pode usar dados abertos para fortalecer uma narrativa? 
-                <br></br>
-                <br></br>
-                <b>Somos uma plataforma de educação digital feita por engenheiros de software e 
-                  cientistas de dados e em três seções vamos explicar tudo isso, de forma simples 
-                  e com linguagem acessível.</b>
-                <br></br>
-                <br></br>
-                  Separamos o conteúdo em 3 partes que chamamos Trilhas do Conhecimento.
-                  Passaremos por cada uma delas como se fossem um caminho bem 
-                  sinalizado. E para tornar a experiência ainda mais potente, que tal guiar esse 
-                  caminho com um sistema africano de símbolos que tem tudo a ver com essa 
-                  conversa? É o <a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" 
-                  target="_blank" title="Adinkra">Adinkra</a>, esse conjunto de ícones que você vê 
-                  aqui, onde cada um deles tem um significado relacionado ao conteúdo da trilha.
-                  Duvida!? Dá uma olhada nesse match incrível!
+              Sabe o que os dados espalhados na Internet por todos os usuários - você, 
+              por exemplo - tem a ver com privacidade e bolha social? 
+              E como a gente pode usar dados abertos para fortalecer uma narrativa? 
+              <br></br>
+              <br></br>
+              <b>Somos uma plataforma de educação digital feita por engenheiros de software e 
+              cientistas de dados e em três seções vamos explicar esses temas com exemplos concretos, 
+              de forma simples e rápida. 
+              </b>
+              <br></br>
+              <br></br>
+              Essas três seções são o que chamamos Trilhas do Conhecimento. E são trilhas porque 
+              passaremos por cada uma delas como se fossem um caminho bem 
+              sinalizado e direcionado. 
+              <br></br>
+              <br></br>
+
+              <b>
+              Para tornar a experiência ainda mais potente, que tal guiar esse 
+              caminho com um sistema de escrita africano que tem tudo a ver com essa 
+              conversa? É o <a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" 
+              target="_blank" title="Adinkra">Adinkra</a>
+              </b>
+              <br></br>
+              <br></br>
+
+              Esse conjunto de símbolos que você vê aqui, onde cada um deles tem um significado 
+              relacionado ao conteúdo da trilha. 
               </p>
             </Text>
             <Text>
