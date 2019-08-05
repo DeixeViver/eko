@@ -107,9 +107,12 @@ const About = center => (
         representam ideias através de provérbios. Toda a utilização dos<a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" target="_blank" title="símbolos Adinkra"> símbolos Adinkra </a>
         dentro do site deve-se ao material construído pelo <a href="http://ipeafro.org.br/" target="_blank" title="IPEAFRO"> IPEAFRO </a> que nos permitiu a reutilização. 
         Agradecemos a toda equipe pelo trabalho incrível na construção do material e pela possibilidade de reutilização.
-        </p>
+        <br></br>
+        <br></br>
+
 
         <img src={ipeafro} alt="Logo IPAFRO"/>
+        </p>
 
       </Container>
   </Layout>
