@@ -533,23 +533,12 @@ const PostListCss = styled.div`
               </b>
               <br></br>
               <br></br>
-              Essas três seções são o que chamamos Trilhas do Conhecimento. E são trilhas porque 
-              passaremos por cada uma delas como se fossem um caminho bem 
-              sinalizado e direcionado. 
-              <br></br>
-              <br></br>
+              E para deixar a experiência mais potente vamos caminhar pelo o que chamamos 
+              de <b>Trilhas do Conhecimento</b> através de um sistema de escrita africano que tem tudo a ver 
+              com essa conversa: o <a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" 
+              target="_blank" title="Adinkra">Adinkra</a>, esse conjunto de símbolos que você vê aqui, 
+              onde cada um deles tem um significado relacionado ao conteúdo da trilha.
 
-              <b>
-              Para tornar a experiência ainda mais potente, que tal guiar esse 
-              caminho com um sistema de escrita africano que tem tudo a ver com essa 
-              conversa? É o <a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" 
-              target="_blank" title="Adinkra">Adinkra</a>
-              </b>
-              <br></br>
-              <br></br>
-
-              Esse conjunto de símbolos que você vê aqui, onde cada um deles tem um significado 
-              relacionado ao conteúdo da trilha. 
               </p>
             </Text>
             <Text>
@@ -591,7 +580,7 @@ const PostListCss = styled.div`
 
       
       <PostWrapper>
-        <h2 id="trilhas" style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI :)</h2>
+        <h2 id="trilhas" style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI</h2>
         
         <PostListCss>
           {edges.map(({ node }) => (
