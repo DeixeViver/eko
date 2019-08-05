@@ -14,28 +14,6 @@ const StyledLink = styled(Link)`
   margin: 1rem 2rem !important;
 `;
 
-const Nav = styled.nav`
-  display: flex;
-  justify-content: space-around;
-  font-family: ${props => props.theme.fontFamily.body};
-  font-weight: 500;
-  font-size: 0.9rem;
-  align-items: center;
-  a {
-    color: #333;
-    font-weight: 700;
-    margin: 1rem;
-    transition: all ${props => props.theme.transitions.default.duration};
-    &:hover {
-      color: #999;
-    }
-  }
-  @media (max-width: 700px) {
-    display: none
-    
-  }
-`;
-
 
 const StyledList = styled.ul`
   margin: 25px 0 0;
@@ -56,14 +34,34 @@ export default class NavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      navSMVisible: false
+      navSMVisible: false,
+      scrollY: '0'
     };
     this.setVisible = this.setVisible.bind(this);
+    this.ScrollRateCalculation = this.ScrollRateCalculation.bind(this);
+  }
 
+  ScrollRateCalculation() {
+    let innerHeight = window.innerHeight;
+    let bodyElement = document.getElementById('___gatsby');//B1
+    let rect = bodyElement.getBoundingClientRect();//B2
+    let heightIsHtml = rect.height; //B3
+    let widthHtml = rect.width;
+    let scrollMax = Math.ceil( heightIsHtml - innerHeight ); //C = B3 - A
+    let scrollY = document.documentElement.scrollTop || document.body.scrollTop;//D
+    let scrollRate = parseInt( (scrollY / scrollMax) * 100, 10 ); //E = (D / C) *100
+
+    this.setState({
+      scrollY: scrollY,
+    });
   }
 
   componentDidMount() {
-    console.log(this.state)
+    this.ScrollRateCalculation();
+    
+    document.addEventListener('scroll', this.ScrollRateCalculation);
+    window.addEventListener('hashchange', this.ScrollRateCalculation);
+    document.addEventListener('click', this.ScrollRateCalculation);
   }
 
   setVisible = () => {
@@ -101,16 +99,48 @@ export default class NavBar extends React.Component {
       }
     `;
     
+
+    const Nav = styled.nav`
+    display: flex;
+    justify-content: space-around;
+    font-family: ${props => props.theme.fontFamily.body};
+    font-weight: 500;
+    font-size: 0.9rem;
+    align-items: center;
+    a {
+      color: #333;
+      font-weight: 700;
+      margin: 1rem;
+      transition: all ${props => props.theme.transitions.default.duration};
+      &:hover {
+        color: #999;
+      }
+    }
+    @media (max-width: 700px) {
+      display: none
+      
+    }
+  `;
+
+  const StyledLinkLg = styled(Link)`
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    width: ${this.state.scrollY != 0 ? '100px' : '180px'};
+    margin: 1rem 2rem !important;
+  `;
+
+
     
     return (
-        <Headroom style={{position: "absolute", justifyContent: "center", backgroundColor: "transparent"}} calcHeightOnResize disableInlineStyles>
+        <Headroom style={{position: "absolute", justifyContent: "center", backgroundColor: this.state.scrollY != 0 ? theme.colors.primary.light : "transparent"}} calcHeightOnResize disableInlineStyles>
           <Nav>
             <Link to="/">HOME</Link>
-            <Link to="/blog">TRILHAS</Link>
-            <StyledLink to="/">
+            <Link to="/#trilhas">TRILHAS</Link>
+            <StyledLinkLg to="/">
               <img style={{marginBottom: 0}} src={logo} alt="Gatsby Logo" />
-            </StyledLink>
-            <Link to="/blog">CRIAR</Link>
+            </StyledLinkLg>
+            <Link to="/#time">TIME</Link>
             <Link to="/about">SOBRE</Link>
           </Nav>
           <NavSM>
@@ -129,7 +159,7 @@ export default class NavBar extends React.Component {
                     <Link to="/#trilhas">TRILHAS</Link>
                   </StyledListItem>
                   <StyledListItem>
-                    <Link to="/blog">CRIAR</Link>
+                    <Link to="/#time">TIME</Link>
                   </StyledListItem>
                   <StyledListItem>
                     <Link to="/about">SOBRE</Link>

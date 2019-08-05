@@ -74,7 +74,7 @@ export default class AdinkraItemGrid extends React.Component {
     render() {
       const {left, top, adinkra, opacity, text, title } = this.props;
       return (
-        <div onClick={() => this.openModal(adinkra, text, title)} onMouseEnter={() => this.toggleHover()} onMouseLeave={() => this.toggleHover()}
+        <div onClick={() => /*this.openModal(adinkra, text, title)*/ console.log("cliquei")} onMouseEnter={() => this.toggleHover()} onMouseLeave={() => this.toggleHover()}
            className={hoverly} style={{ width: "40px", 
                                         height: "40px", 
                                         position: "absolute",
