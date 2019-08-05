@@ -159,7 +159,7 @@ const Wrapper = styled.article`
     <StyledLinkk to={path}>
       <Info>
         <Title>{title}</Title>
-        <span style={{fontFamily: 'Comfortaa, cursive'}}>{excerpt}</span>
+        {/*<span style={{fontFamily: 'Comfortaa, cursive'}}>{excerpt}</span>*/}
       </Info>
     </StyledLinkk>
   </Wrapper>
