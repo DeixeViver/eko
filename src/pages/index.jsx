@@ -450,10 +450,12 @@ const AdinkraLine = styled.div`
   top: 40%;
   @media screen and (max-width: ${theme.breakpoints.m}){
     top: 40%;
+    width: 100%;
   }
 
   @media screen and (min-width: ${theme.breakpoints.l}){
     top: 45%;
+    width: 100%;
   }
 
   @media screen and (max-width: ${theme.breakpoints.s}){
@@ -529,13 +531,15 @@ const PostListCss = styled.div`
             </Text>
             <Text>
               <TranslateYElement>
-                <img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />
+                {/*<img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />*/}
+                <img style={{marginBottom: 0, padding: "1rem", backgroundColor: "white", borderRadius: "50%"}} src={ad7} alt="Gatsby Logo" />
+
               </TranslateYElement>
             </Text>
           </Grid>
         </Container>
       </ContinuedDivStyled>
-      <StyledAbout>
+      {/*<StyledAbout>
         <Container>
           <Grid>
             <Text>
@@ -560,7 +564,7 @@ const PostListCss = styled.div`
             </Text>
           </Grid>
         </Container>
-      </StyledAbout>
+      </StyledAbout>*/}
 
       
       <PostWrapper>

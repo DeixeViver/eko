@@ -86,10 +86,14 @@ const Title = styled.h2`
   @media (max-width: 40em) {
     font-size: 30px;
   }
+  @media screen and (min-width: ${theme.breakpoints.l}){
+    height: 11rem;
+  }
+
   font-family: ${props => props.theme.fontFamily.conforta};
 `;
 
-const PostList = ({ cover, path, date, title, excerpt, colorsBg }) => {
+const PostList = ({ cover, path, date, title, excerpt, colorsBg, fronttitleb }) => {
     
 console.log(colorsBg);
 const Image = styled.div`
@@ -159,7 +163,7 @@ const Wrapper = styled.article`
     <StyledLinkk to={path}>
       <Info>
         <Title>{title}</Title>
-        {/*<span style={{fontFamily: 'Comfortaa, cursive'}}>{excerpt}</span>*/}
+        <span style={{fontFamily: 'Comfortaa, cursive'}}>{fronttitleb}</span>
       </Info>
     </StyledLinkk>
   </Wrapper>

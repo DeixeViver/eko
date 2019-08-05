@@ -25,7 +25,7 @@ const customStyles = {
 };
 
 const AdinkraLineItem = styled.div`
-  margin: 5px 10px;
+  margin: 5px 7px;
   padding: 0.1 0.3rem;
   transition: 1s;
   border-radius: 50%;
