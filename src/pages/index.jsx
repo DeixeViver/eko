@@ -78,7 +78,7 @@ export const team = [
       image: iris,
       name: "Iris Ribeiro",
       shortDescription: "Engenheira Backend Multitarefa",
-      largeDescription: "Jean Rosier é sócio e professor da Perestroika. Palestrante internacional dos eventos TEDx(Madrid), Ouishare (Paris), Worldz(Hollywod) e CLEIN (Medellin). É responsável pela expansão internacional da escola além de influencer da Hyper Island na Suécia. Liderou workshops de criatividade para marcas globais como: Red Bull, LinkedIn, Coca-Cola, Oracle, Walmart e Rede Globo.",
+      largeDescription: "Formada em Análise de Sistemas pela UNEB e Mestranda em Sistemas de Informação pelo IFBA. Procuro transformar as pessoas ao meu redor com todo o conhecimento que adquiri durante minha vida.",
       instagram: "irisribeiros1"
   },
   {
