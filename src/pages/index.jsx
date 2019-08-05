@@ -95,7 +95,7 @@ export const team = [
       image: lorena,
       name: "Lorena Pereira",
       shortDescription: "Cientista de Dados com Conteúdo",
-      largeDescription: "Aprendendo com tudo ao meu redor :) Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
+      largeDescription: "Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
       github: "https://github.com/lorenaps",
       instagram:""
 
@@ -522,11 +522,21 @@ const PostListCss = styled.div`
               <span style={retangleSlogan}></span>
               <h2 style={sloganTitle}>Você sabe o que são algoritmos? </h2>
               <p style={sloganBody}>
-                Sabe o que os dados espalhados pela Internet por todos os usuários - você, por exemplo - tem a ver com privacidade e bolha social? 
+                Sabe o que os dados espalhados na Internet por todos os usuários - você, 
+                por exemplo - tem a ver com privacidade e bolha social? 
                 E como a gente pode usar dados abertos para fortalecer uma narrativa? 
                 <br></br>
                 <br></br>
-                <b>Somos uma plataforma de educação digital feita por engenheiros de software e cientistas de dados e em três seções vamos explicar tudo isso.</b>
+                <b>Somos uma plataforma de educação digital feita por engenheiros de software e 
+                  cientistas de dados e em três seções vamos explicar tudo isso, de forma simples 
+                  e com linguagem acessível.</b>
+                <br></br>
+                <br></br>
+                  Separamos o conteúdo em 3 partes que chamamos Trilhas do Conhecimento.
+                  Passaremos por cada uma delas como se fossem um caminho bem 
+                  sinalizado e guiado com um sistema africano de símbolos que tem tudo 
+                  a ver com essa conversa? É o Adinkra, esse conjunto de ícones que você vê 
+                  aqui, onde cada um deles tem um significado, relacionado ao conteúdo da trilha.
               </p>
             </Text>
             <Text>
