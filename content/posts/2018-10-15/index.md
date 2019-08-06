@@ -63,16 +63,13 @@ O Saferlab construiu um [super guia](http://saferlab.org.br/guia.pdf) abordando 
 
 > - Contranarrativas com dados e informações
 > - Contranarrativas de pessoas e projetos inspiradores
-> - Contranarrativas com testemunhos
-> - Contranarrativas abordadas com humor
-> - Contranarrativas com conversas
 > - Contranarrativas de respostas diretas (Nosso famoso textão!)
-> - Contranarrativas com analogias
 > - Contranarrativas invertendo a lógica
 
 Um dos exemplos presente no guia do Saferlab é a subversão feita com a hashtag #Écoisadepreto que converteu uma frase inicialmente falada com intuito racista em uma campanha enaltecendo realizações de pessoas negras. Acesse [Tool Box Crie Sua Contranarrativa!](http://saferlab.org.br/guia.pdf) E veja outros exemplos e dicas.
 
 ![alt text](adinkra_9.png "Mão na massa")
+
 ## Vamos fazer!?
 
 Já sabemos o que são dados, narrativas, contranarrativas e de onde tirar dados. Agora nós vamos para a parte prática fazendo uma introdução das ferramentas e conceitos que podemos utilizar para acessar esses dados e tirar informações deles.
@@ -88,8 +85,6 @@ Biblioteca — É um conjunto de algoritmos que alguem ecapsulou em um únic
 [Colab Google](https://colab.research.google.com) — É uma ferramente da Google que permite escrever e executar códigos daí mesmo do seu navegador. É ele que vamos usar aqui para tornar a nossa prática mais fácil.
 
 [Jupyter Notebook](https://dadosedecisoes.com.br/o-jupyter-notebook-o-que-e/) — Ferramenta que permite a visualização e execução de código e texto. É o formato que vamos usar para explorar e descrever tudo o que vamos fazendo com os dados passo a passo.
-
-## Mudando o ambiente
 
 Vamos trabalhar explorando o assunto Educação Básica no Brasil e para isso vamos mudar um pouco o ambiente, você vai acessar o link do Colab e vai importar o nosso Notebook:
 
@@ -113,7 +108,7 @@ Nos vídeos abaixo a gente faz uma introdução de como você pode utilizar o Co
 
 ## Extra
 
-Essa uma playlist incrivel do Énois Agência de Jornalimo que explica conceitos bacanas sobre como fazer um documentário, mas nós recomendamos para todo mundo que está produzindo conteúdo pensando em narrativas tanto textuais como vídeos. Vale o embasamento :)
+Essa uma playlist incrivel do Énois Agência de Jornalismo que explica conceitos bacanas sobre como fazer um documentário, mas nós recomendamos para todo mundo que está produzindo conteúdo pensando em narrativas tanto textuais como vídeos. Vale o embasamento :)
 
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/UfvBU7iWmdY?list=PLhkWZx0gxkbjwvnJAn0CpoIWW9GwKtCIL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
