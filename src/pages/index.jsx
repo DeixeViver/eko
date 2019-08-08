@@ -27,6 +27,7 @@ import TeamMember from '../components/TeamMember';
 import AdinkraItemGrid from '../components/AdinkraItemGrid';
 import AdinkraLineItem from '../components/AdinkraLineItem';
 import AdinkraGrid from '../components/AdinkraGrid';
+import TextChange from '../components/TextChange';
 
 
 import ad1 from '../../static/adrinkas/1.png';
@@ -102,6 +103,8 @@ export const team = [
   },
 
 ];
+
+export const stringsDescription = ["primeira", "segunda", "terceira"];
 
 export const getNumber = () => {
   let number = Math.floor(Math.random() * Math.floor(3));
@@ -477,6 +480,7 @@ const PostListCss = styled.div`
   }
 `;
 
+
   return (
     <Layout>
       
@@ -491,7 +495,10 @@ const PostListCss = styled.div`
 
       <StyledMultipleBg>
   
-          <SyledIntro>O que você precisa saber sobre Tecnologia para enfrentar a Discriminação na Internet</SyledIntro>
+          <SyledIntro>O que você precisa saber sobre Tecnologia para enfrentar a Discriminação na Internet
+          <TextChange strings={stringsDescription} />
+          </SyledIntro>
+            
             {/*<AdinkraGrid level={0} opacity={0.1} />
             <AdinkraGrid level={1} opacity={0.1} />
             <AdinkraGrid level={2} opacity={0.2} />
@@ -515,7 +522,7 @@ const PostListCss = styled.div`
             
           
       </StyledMultipleBg>
-      <ContinuedDivStyled>
+      {/*<ContinuedDivStyled>
         <Container>
           <Grid>
             <Text>
@@ -531,7 +538,7 @@ const PostListCss = styled.div`
             </Text>
             <Text>
               <TranslateYElement>
-                {/*<img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />*/}
+                <img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />
                 <img style={{marginBottom: 0, padding: "1rem", backgroundColor: "white", borderRadius: "50%"}} src={ad7} alt="Gatsby Logo" />
 
               </TranslateYElement>
@@ -539,7 +546,7 @@ const PostListCss = styled.div`
           </Grid>
         </Container>
       </ContinuedDivStyled>
-      {/*<StyledAbout>
+      <StyledAbout>
         <Container>
           <Grid>
             <Text>

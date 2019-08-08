@@ -66,6 +66,24 @@ const Wrapper = styled.section`
     max-width: none !important;
   }
 
+  & blockquote {
+    margin: 2rem;
+    padding: 0.5rem;
+    background-color: ${props => props.theme.colors.white.base};
+ 
+    & p {
+      border: 3px solid ${props => props.theme.colors.pink.base};
+      margin: 1.5rem;
+      padding: 1rem;
+      line-height: 1.6;
+      width: 100%;
+      margin: 0;
+      font-size: 26px;
+      font-weight: 300;
+      font-style: italic;
+    }
+   }
+
 `;
 
 const Container = ({ children, type, className, center }) => (

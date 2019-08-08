@@ -56,7 +56,8 @@ const Wrapper = styled.div`
         opacity: 0.8;
       }
     }
-  }
+  },
+
 `;
 
 const Content = ({ input }) => (
