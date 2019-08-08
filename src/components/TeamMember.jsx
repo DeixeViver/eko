@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Theme from '../../config/theme';
 import person from '../../static/logo/person.jpeg';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaGithub } from 'react-icons/fa';
+import css from '@emotion/css';
 
 const isEven = (n) => {
   n = Number(n);
@@ -25,46 +26,97 @@ const chooseColor = (number) => {
   }
 }
 
+const TeamMember = ({ image, name, shortDescription, instagram, id, largeDescription, github }) => {
 
-const TeamMember = ({ image, name, shortDescription, instagram, id, largeDescription }) => (
-  <MemberWrapper>
-    {isEven(id) ?     
-      <div style={{height: "250px", width: "300px", position: "absolute", left: "0", zIndex: "-100", backgroundColor: chooseColor(id)}}></div>
-        :
-      <div style={{height: "250px", width: "300px", position: "absolute", right: "0", zIndex: "-100", backgroundColor: chooseColor(id)}}></div>
+  const LeftMember = styled.div`
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    background-color: ${chooseColor(id)};
+    left: 0;
+    z-index: -100;
+
+    @media screen and (max-width: 768px){
+      margin-top: 24px
     }
-    {isEven(id) ? <img style={imgMember} src={image} alt={name} /> : null }
 
-    <div style={{flex: 3, margin: "0 1rem "}}>
-      {isEven(id) ?
-          <p style={{ fontFamily: 'Comfortaa, cursive',
-          fontSize: '22px',
-          fontWeight: "700",
-          marginBottom: '0.2rem',
-          display: "flex",
-          justifyContent: "flex-start"}}>
-          
-          {name} <a style={{margin: "0 7px"}} href={`https://instagram.com/${instagram}`}><FaInstagram size={"25"} color={Theme.colors.pink.base} /></a></p>
+    
+    @media screen and (min-width: 1024px){
+      margin-top: 35px
+    }
+  `;
+
+  const RightMember = styled.div`
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    background-color: ${chooseColor(id)};
+    right: 0;
+    z-index: -100;
+
+    @media screen and (max-width: 768px){
+      margin-top: 24px
+    }
+
+    @media screen and (min-width: 1024px){
+      margin-top: 35px
+    }
+  `;
+
+    return(
+    <MemberWrapper id="time">
+      {/*isEven(id) ?     
+        <div style={{height: "250px", width: "300px", position: "absolute", left: "0", zIndex: "-100", backgroundColor: chooseColor(id)}}></div>
         :
-          <p style={{ fontFamily: 'Comfortaa, cursive',
+        <div style={{height: "250px", width: "300px", position: "absolute", right: "0", zIndex: "-100", backgroundColor: chooseColor(id)}}></div>
+      */}
+
+      {isEven(id) ? 
+        <div>
+          <LeftMember /> 
+          <img style={imgMember} src={image} alt={name} />
+        </div>
+      : null }
+
+      <div style={{flex: 3, margin: "0 1rem "}}>
+        {isEven(id) ?
+            <p style={{ fontFamily: 'Comfortaa, cursive',
             fontSize: '22px',
             fontWeight: "700",
             marginBottom: '0.2rem',
             display: "flex",
-          justifyContent: "flex-end"}}>
+            justifyContent: "flex-start"}}>
             
-          
-          <a style={{margin: "0 7px"}} href={`https://instagram.com/${instagram}`}><FaInstagram size={"25"} color={Theme.colors.pink.base} /></a> {name}</p>
-      }
-      <p style={{textAlign: isEven(id)? "left":"right", fontFamily: 'Comfortaa, cursive', marginBottom: "0.5rem", fontSize: "20px"}}>{shortDescription}</p>
+            {name} 
+            {!!instagram ? <a target="_blank" style={{margin: "0 7px"}} href={`https://instagram.com/${instagram}`}><FaInstagram size={"25"} color={Theme.colors.pink.base} /></a> : null }
+            {!!github ? <a target="_blank" style={{margin: "0 7px"}} href={`${github}`}><FaGithub size={"25"} color={Theme.colors.pink.base} /></a> : null }
+            </p>
+          :
+            <p style={{ fontFamily: 'Comfortaa, cursive',
+              fontSize: '22px',
+              fontWeight: "700",
+              marginBottom: '0.2rem',
+              display: "flex",
+            justifyContent: "flex-end"}}>
+              
+              {!!instagram ? <a target="_blank" style={{margin: "0 7px"}} href={`https://instagram.com/${instagram}`}><FaInstagram size={"25"} color={Theme.colors.pink.base} /></a> : null }
+              {!!github ? <a target="_blank" style={{margin: "0 7px"}} href={`${github}`}><FaGithub size={"25"} color={Theme.colors.pink.base} /></a> : null }
+            {name}</p>
+        }
+        <p style={{textAlign: isEven(id)? "left":"right", fontFamily: 'Comfortaa, cursive', marginBottom: "0.5rem", fontSize: "20px"}}>{shortDescription}</p>
 
-      <p style={{textAlign: isEven(id)? "left":"right", fontFamily: 'Comfortaa, cursive', marginBottom: 0, fontSize: "16px"}}>{largeDescription}</p>
-    </div>
+        <p style={{textAlign: isEven(id)? "left":"right", fontFamily: 'Comfortaa, cursive', marginBottom: 0, fontSize: "16px"}}>{largeDescription}</p>
+      </div>
 
 
-    {!isEven(id) ? <img style={imgMember} src={image} alt={name} /> : null }     
-  </MemberWrapper>
-);
+        {!isEven(id) ? 
+          <div>
+            <RightMember /> 
+            <img style={imgMember} src={image} alt={name} />
+          </div>
+        : null }
+    </MemberWrapper>
+  )};
 
 export default TeamMember;
 
@@ -73,6 +125,11 @@ TeamMember.propTypes = {
   name: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   shortDescription: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   instagram: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object,
+    PropTypes.bool,
+  ]),
+  github: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object,
     PropTypes.bool,
@@ -86,6 +143,7 @@ TeamMember.defaultProps = {
   name: false,
   shortDescription: false,
   instagram: false,
+  github: false,
   id: false,
   largeDescription: false,
 };
@@ -108,7 +166,7 @@ const pStyled = {
 }
 
 const MemberWrapper = styled.header`
-  margin: 0 0 5rem 0;
+  margin: 0 0 2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;

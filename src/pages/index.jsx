@@ -25,6 +25,7 @@ import lorena from '../../static/time/lorena.png';
 import jamile from '../../static/time/jamile.jpg';
 import TeamMember from '../components/TeamMember';
 import AdinkraItemGrid from '../components/AdinkraItemGrid';
+import AdinkraLineItem from '../components/AdinkraLineItem';
 import AdinkraGrid from '../components/AdinkraGrid';
 
 
@@ -36,6 +37,26 @@ import ad3 from '../../static/adrinkas/3.png';
 import ad3a from '../../static/adrinkas/3a.png';
 import ad4a from '../../static/adrinkas/4a.png';
 import ad4 from '../../static/adrinkas/4.png';
+import ad5 from '../../static/adrinkas/5.png';
+import ad6 from '../../static/adrinkas/6.png';
+import ad7 from '../../static/adrinkas/7.png';
+import ad8 from '../../static/adrinkas/8.png';
+import ad9 from '../../static/adrinkas/9.png';
+import ad10 from '../../static/adrinkas/10.png';
+
+
+export const adinkraData = [
+  {id: 1, img: ad1, name: "NYANSAPOW", description: "Símbolo da sabedoria, engenhosidade, inteligência e paciência"},
+  //{id: 2, img: ad2, name: "OBI NKA BI", description: "Símbolo da advertência contra calúnia, difamação e o falar mal do outro pelas costas"},
+  {id: 3, img: ad3, name: "NTESIEMATE MASIE", description: "Eu ouvi e guardei. Símbolo da sabedoria, do conhecimento e da prudência"},
+  {id: 4, img: ad4, name: "SANKOFA", description: "Símbolo da sabedoria para aprender com o passado para construir o futuro"},
+  {id: 5, img: ad5, name: "ANANSE NTONTAN", description: "Símbolo da sabedoria, esperteza, criatividade e da complexidade da vida"},
+  {id: 6, img: ad6, name: "MFRAMMA-DAN", description: "Símbolo de preparo, fortaleza, amparo social, excelência e elegância"},
+  {id: 7, img: ad7, name: "NKONSONKONSON", description: "Símbolo das relações humanas. Símbolo da unidade, interdependência, fraternidade e cooperação"},
+  {id: 8, img: ad8, name: "OHENE ANIWA", description: "Símbolo da Vigilância, proteção e segurança"},
+  {id: 9, img: ad9, name: "FI-HANKRA", description: "Símbolo da proteção, segurança, fraternidade e solidariedade"},
+  {id: 10, img: ad10, name: "DAMEDAME", description: "Quadrados múltiplos do jogo de xadrez. Simbolo da esperteza, inteligência e estratégia"},
+]
 
 export const adinkraDataExample = {
   id: 1,
@@ -57,7 +78,7 @@ export const team = [
       image: iris,
       name: "Iris Ribeiro",
       shortDescription: "Engenheira Backend Multitarefa",
-      largeDescription: "Jean Rosier é sócio e professor da Perestroika. Palestrante internacional dos eventos TEDx(Madrid), Ouishare (Paris), Worldz(Hollywod) e CLEIN (Medellin). É responsável pela expansão internacional da escola além de influencer da Hyper Island na Suécia. Liderou workshops de criatividade para marcas globais como: Red Bull, LinkedIn, Coca-Cola, Oracle, Walmart e Rede Globo.",
+      largeDescription: "Formada em Análise de Sistemas pela UNEB e Mestranda em Sistemas de Informação pelo IFBA. Procuro transformar as pessoas ao meu redor com todo o conhecimento que adquiri durante minha vida.",
       instagram: "irisribeiros1"
   },
   {
@@ -66,7 +87,8 @@ export const team = [
       name: "Jamile Lima",
       shortDescription: "Web Expert Apaixonada pelo que faz",
       largeDescription: "Estudante de Ciência e Tecnologia, Desenvolvedora Web e Mobile, amante de café e em busca de criatividade através de livros, filmes e séries.",
-      instagram: "https://github.com/jamilelima"
+      github: "https://github.com/jamilelima",
+      instagram:""
   },
   {
       id: 4,    
@@ -74,7 +96,9 @@ export const team = [
       name: "Lorena Pereira",
       shortDescription: "Cientista de Dados com Conteúdo",
       largeDescription: "Aprendendo com tudo ao meu redor :) Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
-      instagram: "https://github.com/lorenaps"
+      github: "https://github.com/lorenaps",
+      instagram:""
+
   },
 
 ];
@@ -224,6 +248,23 @@ const StyledAbout = styled.div`
   }
 `;
 
+const StyledKnownProjects = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 6rem 0;
+  background: ${theme.colors.orange.base};
+  @media (max-width: 1000px) {
+    padding: 4rem 2rem 1rem 4rem;
+  }
+  @media (max-width: 700px) {
+    padding: 4rem 1rem 1rem 1rem;
+  }
+`;
+
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 4fr 2fr;
@@ -236,14 +277,19 @@ const Grid = styled.div`
 `;
 
 const Text = styled.div`
-  justify-self: center;
-  @media (max-width: 600) {
+  justify-self: start;
+
+  @media (max-width: 1200px) {
+    justify-self: center;
+  }
+
+  @media (max-width: 600px) {
     justify-self: start;
   }
 `;
 
 const sloganTitle = {
-  fontSize: '50px',
+  fontSize: '45px',
   fontFamily: theme.fontFamily.body,
   fontWeight: '600',
   marginBottom: 15
@@ -255,7 +301,7 @@ const sloganBody = {
 }
 
 const sloganTitleWhite = {
-  fontSize: '50px',
+  fontSize: '45px',
   fontFamily: theme.fontFamily.body,
   fontWeight: '600',
   marginBottom: 15,
@@ -265,6 +311,13 @@ const sloganTitleWhite = {
 const sloganBodyWhite = {
   fontSize: '24px',
   maxWidth: '600px',
+  color: theme.colors.white.base
+}
+
+const sloganBodyWhiteCenter = {
+  fontSize: '24px',
+  maxWidth: '600px',
+  textAlign: "center",
   color: theme.colors.white.base
 }
 
@@ -295,7 +348,7 @@ const Index = ({ data }) => {
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding: 5rem 4rem 3rem 4rem;
+    padding: 5rem 2rem 3rem 2rem;
     background: url(${choosebg(number)}) center center no-repeat;
     background-size: cover;
     @media (max-width: 1000px) {
@@ -335,13 +388,18 @@ const Index = ({ data }) => {
   text-align: center;
   line-height: 1.6;
   text-shadow: 2px 3px 8px rgba(170, 170, 170, 1);
+  top: 25%;
+  
   @media (min-width: 40em) {
-    font-size: 45px;
-    margin: 2rem 0.5rem;
+    font-size: 40px;
+    margin: 0rem 0.5rem;
   }
   @media (min-width: 1024px) {
     max-width: 1000px;
     margin: inherit auto;
+    font-size: 50px;
+  }
+  @media (min-width: ${theme.breakpoints.l}) {
     font-size: 60px;
   }
 `;
@@ -383,55 +441,41 @@ const BackgroundAdinkras =  styled.div`
   animation: ${fadeInDown} 1s ease-in-out 0s infinite;
 `;
 
-  const populateAdinkraGrid = (rowLevel, opacity) => {
-    let baseCalc = 0
-    /*if(this.state.innerWidth <= 768)
-      baseCalc = 12;
-    else if(this.state.innerWidth >= 1024)
-      baseCalc = 10;
-    else*/
-      baseCalc = 10;
-  
-    let rowCount = Math.floor(100 / baseCalc);
-  
-    console.log(rowCount)
-  
-    let arrayCount = new Array(rowCount);
-    arrayCount.map((e, i) => i + 1);
-    let arrayReturn = [];
-    for(var i = 0; i < arrayCount.length; i++){
-      console.log(i);
-  
-      arrayReturn.push(returnAdinkraItem(rowLevel, baseCalc, i+1, opacity));
-    }
-    return arrayReturn.map(e => e);
-    /*return (
-      <div>
-      {arrayCount.map( (e, i) => 
-      <AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(e + 1) * baseCalc + "%"} adinkra={chooseAdinkra(e)} />)}
-      </div>
-    )*/
-    //return (<AdinkraItemGrid top={rowLevel * baseCalc + "%"} left ={(arrayCount.length) * baseCalc + "%"} adinkra={chooseAdinkra()} />)
-  
+const AdinkraLine = styled.div`
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 40%;
+  @media screen and (max-width: ${theme.breakpoints.m}){
+    top: 40%;
+    width: 100%;
   }
-  
-  const returnAdinkraItem = (level, baseCalc, pos, opacity) => {
-    console.log("top " + level * baseCalc + "%");
-    console.log("left " + pos * baseCalc + "%");
-    return (<AdinkraItemGrid  title={adinkraDataExample.title} text={adinkraDataExample.text} 
-                              key={(pos - 1) * baseCalc + level} 
-                              opacity={opacity} 
-                              top={level * baseCalc + "%"} 
-                              left ={(pos - 1) * baseCalc + 5 + "%"} 
-                              adinkra={chooseAdinkra()} />);
+
+  @media screen and (min-width: ${theme.breakpoints.l}){
+    top: 45%;
+    width: 100%;
   }
-  
-  const chooseAdinkra = (e) => {
-    let adinkraArray = [ad1, ad2, ad3, ad4, ad1a, ad2a, ad3a, ad4a];
-    let number = Math.floor(Math.random() * Math.floor(7));
-    console.log(number);
-    return adinkraArray[number];
+
+  @media screen and (max-width: ${theme.breakpoints.s}){
+    top: 33%;
   }
+
+  @media screen and (max-width: 375px){
+    position: absolute;
+    top: 85%;
+  }
+`;
+
+const PostListCss = styled.div`
+  display: flex;
+  flex-direction: column-reverse; 
+  align-items: center;
+  @media screen and (min-width: ${theme.breakpoints.l}){
+    flex-direction: row-reverse;   
+  }
+`;
 
   return (
     <Layout>
@@ -446,26 +490,9 @@ const BackgroundAdinkras =  styled.div`
       />
 
       <StyledMultipleBg>
-        {/*<SyledIntro>Transformando o invisível em ferramenta contra a Discriminação Online</SyledIntro>
-        <img style={{width: "200px", position: "absolute"}} src={ekoLogo} alt="Gatsby Logo" />
-
-          <AdrinkasHolder>
-            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", left: "30%", backgroundColor: "red", transform: `rotate(27.7714285714deg) translateY(${definetranslateY()}) rotate(-27.7714285714deg)`}}></div>
-            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", left: "30%", backgroundColor: "green", transform: `rotate(55.5428571429deg) translateY(${definetranslateY()}) rotate(-55.5428571429deg)`}}></div>
-            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", left: "30%", backgroundColor: "blue", transform: `rotate(83.3142857143deg) translateY(${definetranslateY()}) rotate(-83.3142857143deg)`}}></div>
-            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", left: "30%", backgroundColor: "yellow", transform: `rotate(111.0857142857deg) translateY(${definetranslateY()}) rotate(-111.0857142857deg)`}}></div>
-            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", left: "30%", backgroundColor: "pink", transform: `rotate(138.8571428571deg) translateY(${definetranslateY()}) rotate(-138.8571428571deg)`}}></div>
-
-            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", right: "30%", backgroundColor: "red", transform: `rotate(-27.7714285714deg) translateY(${definetranslateY()}) rotate(27.7714285714deg)`}}></div>
-            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", right: "30%", backgroundColor: "green", transform: `rotate(-55.5428571429deg) translateY(${definetranslateY()}) rotate(55.5428571429deg)`}}></div>
-            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", right: "30%", backgroundColor: "blue", transform: `rotate(-83.3142857143deg) translateY(${definetranslateY()}) rotate(83.3142857143deg)`}}></div>
-            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", right: "30%", backgroundColor: "yellow", transform: `rotate(-111.0857142857deg) translateY(${definetranslateY()}) rotate(111.0857142857deg)`}}></div>
-            <div style={{width: "40px", height: "40px", position: "absolute", top: "50%", right: "30%", backgroundColor: "pink", transform: `rotate(-138.8571428571deg) translateY(${definetranslateY()}) rotate(138.8571428571deg)`}}></div>
-          </AdrinkasHolder>
-*/}
-   
-          <SyledIntro>Mudando o contato entre Pessoas, Tecnologia e o Enfrentamento da Discriminação Online</SyledIntro>
-            <AdinkraGrid level={0} opacity={0.1} />
+  
+          <SyledIntro>O que você precisa saber sobre Tecnologia para enfrentar a Discriminação na Internet</SyledIntro>
+            {/*<AdinkraGrid level={0} opacity={0.1} />
             <AdinkraGrid level={1} opacity={0.1} />
             <AdinkraGrid level={2} opacity={0.2} />
             <AdinkraGrid level={3} opacity={0.2} />
@@ -476,18 +503,15 @@ const BackgroundAdinkras =  styled.div`
             <AdinkraGrid level={8} opacity={0.4} />
             <AdinkraGrid level={9} opacity={0.5} />
             <AdinkraGrid level={10} opacity={0.6} />
-            {/*populateAdinkraGrid(0, 0.1)}
-            {populateAdinkraGrid(1, 0.1)}
-            {populateAdinkraGrid(2, 0.2)}
-            {populateAdinkraGrid(3, 0.2)}
-            {populateAdinkraGrid(4, 0.3)}
-            {populateAdinkraGrid(5, 0.3)}
-            {populateAdinkraGrid(6, 0.3)}
-            {populateAdinkraGrid(7, 0.3)}
-            {populateAdinkraGrid(8, 0.4)}
-            {populateAdinkraGrid(9, 0.5)}
-{populateAdinkraGrid(10, 0.6)*/}
+           */}
 
+
+           <AdinkraLine>
+            {adinkraData.map(e => (
+              <AdinkraLineItem adinkra={e.img} title={e.name} text={e.description} />
+            )) }
+             
+           </AdinkraLine>
             
           
       </StyledMultipleBg>
@@ -496,66 +520,57 @@ const BackgroundAdinkras =  styled.div`
           <Grid>
             <Text>
               <span style={retangleSlogan}></span>
-              <h2 style={sloganTitle}>Invisível aos olhos, mas bem ali no botão <i>'Publicar'</i></h2>
+              <h2 style={sloganTitle}>Você sabe o que são algoritmos? </h2>
               <p style={sloganBody}>
-                As pessoas têm sua vida influenciada pela tecnologia, mas o 
-                processo de desenvolvimento dessas tecnologias muitas vezes não 
-                está levando em conta as pessoas que serão atingidas.
+                Sabe o que os dados espalhados pela Internet por todos os usuários - você, por exemplo - tem a ver com privacidade e bolha social? 
+                E como a gente pode usar dados abertos para fortalecer uma narrativa? 
                 <br></br>
                 <br></br>
-                <b>
-                Como podemos entender melhor o cenário por trás das Redes 
-                e usar isso para combater a discriminação na Internet? </b><br></br>
-                É o sobre isso o que vamos falar aqui!
-              </p>
-            </Text>
-            <Text>
-              <img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />
-
-            </Text>
-          </Grid>
-        </Container>
-      </ContinuedDivStyled>
-      <StyledAbout>
-        <Container>
-          <Grid>
-            <Text>
-              <RetangleSloganA></RetangleSloganA>
-              <h2 style={sloganTitleWhite}>Conteúdo sem ranço</h2>
-              <p style={sloganBodyWhite}>
-                A ideia das Trilhas do Conhecimento é passar o conteúdo 
-                de forma simples e prática. 
-                <br></br>
-                <br></br>
-                E para dar um <i>tchan</i> nessa 
-                experiência dividimos as Trilhas em conceitos fundamentais, 
-                assim a cada conceito que você aprende você ganha 
-                símbolos Adinkras - 
-                <a style={{color: theme.colors.green.light, textDecoration: "underline"}} href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> Um sistema 
-                de escrita africano incrível.</a>
-                <br></br>
-                <br></br>
-                Você sabia que nos Adinkras existe um símbolo só para expressar  
-                “Advertência contra calúnia, difamação e o falar mal do outro 
-                pelas costas”?<br></br>
-                - Lindo, maravilhoso, Ícone sem defeitos. 
+                <b>Somos uma plataforma de educação digital feita por engenheiros de software e cientistas de dados e em três seções vamos explicar tudo isso.</b>
               </p>
             </Text>
             <Text>
               <TranslateYElement>
-                <img style={{marginBottom: 0, padding: "1rem", backgroundColor: "white", borderRadius: "50%"}} src={ad2} alt="Gatsby Logo" />
+                {/*<img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />*/}
+                <img style={{marginBottom: 0, padding: "1rem", backgroundColor: "white", borderRadius: "50%"}} src={ad7} alt="Gatsby Logo" />
+
+              </TranslateYElement>
+            </Text>
+          </Grid>
+        </Container>
+      </ContinuedDivStyled>
+      {/*<StyledAbout>
+        <Container>
+          <Grid>
+            <Text>
+              <RetangleSloganA></RetangleSloganA>
+              <h2 style={sloganTitleWhite}>Trilhas do Conhecimento</h2>
+              <p style={sloganBodyWhite}>
+                Separamos o conteúdo em 3 Trilhas de forma simples, com exemplos próximos da nossa realidade. 
+                Passaremos por cada uma delas como se fossem um caminho bem direcionado e sinalizado.
+                <br></br>
+                <br></br>
+                E para tornar a experiência ainda mais potente, que tal guiar esse caminho com um sistema africano de símbolos que tem tudo a ver com essa conversa?
+                <a style={{color: theme.colors.green.light, textDecoration: "underline"}} href='http://ipeafro.org.br/acoes/pesquisa/adinkra/'> É o Adinkra, </a> 
+                esse conjunto de ícones que você vê aqui e que representam ideias expressas em provérbios. 
+                Cada um deles tem um significado, relacionado ao conteúdo da trilha.
+              </p>
+            </Text>
+            <Text>
+              <TranslateYElement>
+                <img style={{marginBottom: 0, padding: "1rem", backgroundColor: "white", borderRadius: "50%"}} src={ad7} alt="Gatsby Logo" />
               </TranslateYElement>
 
             </Text>
           </Grid>
         </Container>
-      </StyledAbout>
+      </StyledAbout>*/}
 
       
       <PostWrapper>
         <h2 id="trilhas" style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI :)</h2>
         
-        <div style={{display: 'flex', flexDirection: "column-reverse", alignItems: 'center'}}>
+        <PostListCss>
           {edges.map(({ node }) => (
             <PostList
               key={node.id}
@@ -568,18 +583,44 @@ const BackgroundAdinkras =  styled.div`
               fronttitlea={node.frontmatter.fronttitlea}
               fronttitleb={node.frontmatter.fronttitleb}
               frontsubtitle={node.frontmatter.frontsubtitle}
+              barpercentage={node.frontmatter.barpercentage}
+              baradinkra={node.frontmatter.baradinkra}
               excerpt={node.excerpt}
               colorsBg={chooseFrontMatterColor(node.frontmatter.tags[0])}
             />
           ))}
           {/*.childImageSharp.fluid */}
-        </div>
+        </PostListCss>
       </PostWrapper>
+
+      <StyledKnownProjects>
+        <div style={{maxWidth: "1200px", margin: "0 auto", display: "block"}}>
+          <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>MOSTRE SUA VOZ</h2>
+          <Text>
+            <p style={sloganBodyWhiteCenter}>
+              Conheça aqui outros projetos que fazem da Internet um lugar melhor.
+            </p>
+          </Text>
+          <div style={{display:"flex", justifyContent: "center"}}>
+            <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
+              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
+            </div>  
+            <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
+              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Diário da Mari</p>
+            </div>
+          </div>
+
+          <div style={{backgroundColor: theme.colors.green.base, padding: "10px"}}>
+            <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Nos acompanhe no Instagram e veja mais<br/> <a href="https://www.instagram.com/ekoprojeto/" target="_blank" title="Instagram do Eko">Projeto Ẹkọ</a></p>
+          </div>
+        </div>
+      </StyledKnownProjects>
 
       <TeamWrapper>
 
         <h2 style={{fontSize: '35px', textAlign: 'center', color: '#343434', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>O TIME EKO</h2>
-
 
         <GridMember>
           {team.map(e => (
@@ -590,6 +631,7 @@ const BackgroundAdinkras =  styled.div`
               shortDescription={e.shortDescription}
               largeDescription={e.largeDescription}
               instagram={e.instagram}
+              github={e.github}
             />
 
             
@@ -620,7 +662,9 @@ Index.propTypes = {
               videoname: PropTypes.string,
               fronttitlea: PropTypes.string,
               fronttitleb: PropTypes.string,
-              frontsubtitle: PropTypes.string
+              frontsubtitle: PropTypes.string,
+              barpercentage: PropTypes.array,
+              baradinkra: PropTypes.array,
             }),
           }),
         }).isRequired
@@ -660,6 +704,8 @@ export const query = graphql`
             fronttitlea
             fronttitleb
             frontsubtitle
+            barpercentage
+            baradinkra
           }
         }
       }

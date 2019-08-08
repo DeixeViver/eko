@@ -1,30 +1,27 @@
 ---
 path: '/trilha-3'
-cover: './gradiente.png'
+cover: './gradiente.jpg'
 date: "2019-03-15"
 title: 'Trilha 03 - Segurança nas Redes'
 published: true
 tags: ['segurnaça', 'trilha', 'conhecimento']
 video: false
 videosrc: ''
-fronttitlea: 'PARA TODA AÇÃO'
-fronttitleb: 'EXISTE UMA REAÇÃO'
-frontsubtitle: 'E UMA INFORMAÇÃO RASTREÁVEL'
+fronttitlea: 'Trilha 03 - Segurança nas Redes'
+fronttitleb: 'Segurança digital: Sorria, você está sendo vigiado!'
+frontsubtitle: ''
+barpercentage: [22, 40, 68]
+baradinkra: ['8','9','10']
 ---
-# Trilha 03 - Segurança nas Redes
 
-## Segurança digital: Sorria, você está sendo vigiado!
+## Qual o valor da minha privacidade? 
 
 A gente não vai começar esse papo falando de Internet, mas eu prometo que chego lá!
 
 O importante aqui é te levar de volta para o ensino médio, mais especificamente para as aulas de física onde aprendemos sobre as 3 leis de newton e já que estamos na terceira trilha desse projeto, é também a terceira lei que nos interessa nesse momento:
 
-<img src="acao_reacao.png">
-
-<br>
-
-
-Atenção para a foto reflexiva que pode - e deve! - ser utilizada como bom dia no grupo da família.
+![alt text](acao_reacao.png "Ação e Reação")
+Atenção para a foto reflexiva que pode - e deve! - ser utilizada como "Bom Dia" no grupo da família.
 
 Mas o que isso tem a ver com segurança afinal de contas? Simples, a terceira lei de newton também pode ser aplicada no mundo virtual.
 É possível rastrear TUDO, absolutamente TUDO o que você faz na Internet. Cada clique, cada site, cada visita ao perfil do ex pode ser usado contra você, pois como já dizia o pensador contemporâneo Isaac Newton: Toda ação, gera um dado sendo armazenado em algum lugar da nuvem. Nossas fontes confirmam que a frase é mesmo dele.
@@ -46,6 +43,7 @@ As redes sociais tornaram-se um grande campo de batalha e escolher bem as suas a
 
 Mas não vamos entrar em pânico, segue abaixo um passo a passo do iniciante ao avançado de como manter (ao menos um pouco) a sua privacidade na Rede.
 
+![alt text](adinkra_5.png "Privacidade nas redes e dicas iniciais")
 ## Sou iniciante no assunto, por onde começo?
 
 *Algumas dicas simples - um pouco óbvias até - mas que não prestamos atenção porque navegar na Internet já é um processo automático. A listagem não reflete nível de importância.*
@@ -69,17 +67,19 @@ Os termos e políticas de privacidade dizem tudo o que você precisa saber sobre
 ### 5 - Cuidado onde você clica.
 Um clique a mais ou um clique a menos pode fazer toda diferença. Existe um termo conhecido como “fishing”, cuja tradução literal do inglês seria pescaria, nos termos da Internet é quando sites maliciosos se passam por sites conhecidos e verdadeiros para “pescar” seus dados. Uma falsificação perfeita, com todos os detalhes que você puder imaginar, uma cópia exata do site original, você clica e pronto! Era tudo de que precisavam para invadir o seu celular ou computador. 
 
+A maneira mais segura de se defender é evitar clicar em links que parecem suspeitos, mensagens de banco, boletos, cobranças, alteração de senha não solicitada, fotos de desconhecidos e etc.
+
+
+<!--- 
 <img src="destaque_1.png">
 
 <br>
-
-<!--- 
-A maneira mais segura de se defender é evitar clicar em links que parecem suspeitos, mensagens de banco, boletos, cobranças, alteração de senha não solicitada, fotos de desconhecidos e etc.
 -->
 
 ### 6 - Seu celular é um ótimo dedo duro. 
 Desabilite funções de comandos de voz, todo som emitido ao seu aparelho quando a função é ativada é automaticamente enviada para os servidores e armazenadas na nuvem. Nem preciso mencionar o GPS, que sabe cada passo, de cada localização em que você já esteve.
 
+![alt text](adinkra_6.png "Dicas nível intermediário")
 ## Já passei dessa fase, acho que sei me virar
 *Vou fingir que você já fez tudo que foi descrito acima e te ensinar algumas outras dicas valiosas*
 
@@ -93,11 +93,12 @@ Te entendo colega, sair de casa hoje em dia é realmente um sacrifício. Seja se
 
 > **Criptografia fim a fim:** primeiramente, o que é criptografia? 
 
+> De maneira bem rasa, a criptografia é um conjunto de técnicas para mascarar uma mensagem de modo que apenas quem enviou ou em quem recebeu conseguem decifra-lá.) 
+
+<!--- 
 <img src="destaque_2.png">
 
 <br>
-<!--- 
-> De maneira bem rasa, a criptografia é um conjunto de técnicas para mascarar uma mensagem de modo que apenas quem enviou ou em quem recebeu conseguem decifra-lá.) 
 -->
 
 > Um exemplo bem simplório, sabe quando você está numa roda de amigos, mas precisa urgente contar um babado pra amiga ou amigo sem que ninguém saiba? A frase é mais ou menos assim: “Sabe fulano? Aquele do cabelo roxo? Lembra dele? Me ligou ontem, ficamos a noite toda falando sobre aquele projeto na praia, sabe né”. Você provavelmente não entendeu a mensagem, mas os amigos em questão sim. Esta frase está criptografada de forma que apenas os dois participantes da conversa conseguiram entender. 
@@ -106,12 +107,13 @@ Te entendo colega, sair de casa hoje em dia é realmente um sacrifício. Seja se
 
 > **Código aberto:** é um termo utilizado para aplicações que tornam públicas todo o seu código fonte e os algoritmos sob o qual foram construídos. Mas porque isso é tão relevante no quesito segurança? 
 
+> Quando não sabemos como os algoritmos funcionam internamente, fica fácil desconfiar que existe algo ali coletando suas informações, armazenando suas mensagens ou redirecionando para outros lugares.)
+
+
+<!--- 
 <img src="destaque_3.png">
 
 <br>
-
-<!--- 
-> Quando não sabemos como os algoritmos funcionam internamente, fica fácil desconfiar que existe algo ali coletando suas informações, armazenando suas mensagens ou redirecionando para outros lugares.)
 -->
 
 > Quando o código aberto é impossível que algo desse tipo seja feito, mais uma brilhante analogia: Imagine que o WhatsApp é uma grande cozinha, sentamos, pedimos os pratos e confiamos que o que pedimos será entregue, mas não temos como ter certeza pois não temos acesso a cozinha. 
@@ -129,6 +131,7 @@ Navegadores de Internet são a ponte de comunicação com o mundo virtual, atrav
 ### 11 - Nem o Windows escapou do nosso pente fino de segurança. 
 Isso mesmo, a Microsoft após todos esses anos de mercado, ainda não conseguiu garantir um software que seja seguro de ataque de hackers ou programas maliciosos. Volta e meia a empresa disponibiliza uma atualização nova para corrigir falhas na segurança. Um grande concorrente neste caso é o Linux que além de gratuito possui código aberto, cujas vantagens já foram listadas.
 
+![alt text](adinkra_7.png "Dicas nível avançado")
 ## Segurança levada a um outro nível
 *Se você chegou até aqui então eu posso confiar em te contar mais alguns segredos sobre privacidade, e você promete que vai espalhar pra cada um dos seus melhores amigos*
 
@@ -137,9 +140,8 @@ Você já pensou quantas vezes acessou um site pela primeira vez e abre aquela j
 
 Esses queridinhos dos sites são na verdade arquivos que armazenam informações temporárias sobre você. Não há limite para quais informações os cookies podem armazenar. Eles são capazes de registrar um endereço de e-mail, as preferências de pesquisa no Google, a cidade de onde você está conectado e muito mais. Essa habilidade multiuso que pode tornar o cookie um vilão no quesito privacidade. 
 
-<img src="destaque_4.png">
+![alt text](destaque_4.png "Destaque cookies")
 
-<br>
 
 <!--- 
 Os sites devem ser explícitos quanto ao conteúdo utilizado nos cookies, mas o problema nesse caso é nosso, que clicamos no li e aceito e nem prestamos atenção ao assunto.

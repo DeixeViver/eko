@@ -63,6 +63,8 @@ const Post = ({ data, pageContext }) => {
   const frontTitlea = post.frontmatter.fronttitlea;
   const frontTitleb = post.frontmatter.fronttitleb;
   const frontSubTitle = post.frontmatter.frontsubtitle;
+  const actionPoints = post.frontmatter.barpercentage;
+  const actionContent = post.frontmatter.baradinkra;
   console.log(data)
 
   const videoStyle = {
@@ -176,9 +178,11 @@ const Post = ({ data, pageContext }) => {
     margin: 0 auto;
   `
 
+    console.log(actionContent)
+
   return (
     <Layout>
-       <ProgressBar colorSubset={chooseColorSubset(post.frontmatter.tags[0])} />
+       <ProgressBar colorSubset={chooseColorSubset(post.frontmatter.tags[0])} actionPoints={actionPoints} actionContent={actionContent} />
       <SEO
         title={title}
         description={post.frontmatter.description || post.excerpt || ' '}
@@ -202,7 +206,7 @@ const Post = ({ data, pageContext }) => {
         </div>
         <div style={{...imageStyle, backgroundImage: `url(${image.src})`, backgroundRepeat: "no-repeat", backgroundSize: "cover",}}></div>
         <ArrowDown>
-          <svg color={"#fafafa"} aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+          <svg color={"#fafafa"} aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" className="svg-inline--fa fa-angle-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
         </ArrowDown>
         {/*<img style={imageStyle} src={} alt="Gatsby Logo" />*/}
       </div> }
@@ -272,6 +276,8 @@ export const query = graphql`
         fronttitlea
         fronttitleb
         frontsubtitle
+        barpercentage
+        baradinkra
       }
     }
   }

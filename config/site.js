@@ -3,7 +3,7 @@ module.exports = {
   title: 'Eko', // Navigation and Site Title
   titleAlt: 'Projeto Eko', // Title for JSONLD
   description:
-    'Apoio Técnico Para Ativistas Online, Transformando a caixa preta da Internet em uma caixa de ferramentas.',
+    'O que você precisa saber sobre tecnologia para enfrentar a discriminação na Internet',
   url: 'https://projetoeko.com.br', // Domain of your site. No trailing slash!
   siteUrl: 'https://projetoeko.com.br', // url + pathPrefix
   siteLanguage: 'pt-BR', // Language Tag on <html> element

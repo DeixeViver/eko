@@ -1,24 +1,25 @@
 ---
 path: "/trilha-2"
-cover: "./capa_menor.png"
+cover: "./gradiente.jpg"
 date: "2018-10-17"
 title: "Trilha 02 - Transformando Dados em Ferramentas"
 published: true
 tags: ['dados', 'trilha', 'conhecimento']
 video: false
 videoname: 'Video1'
-fronttitlea: 'DADOS FALAM SOBRE PESSOAS'
-fronttitleb: 'MAS QUEM TEM ACESSO AOS DADOS?'
-frontsubtitle: 'E QUEM CONTA AS HISTÓRIAS?'
+fronttitlea: 'Trilha 02 - Transformando Dados em Ferramentas'
+fronttitleb: 'Dados, Narrativas e Contranarrativas'
+frontsubtitle: ''
+barpercentage: [40, 55]
+baradinkra: ['6','5']
 ---
-# Trilha 02 - Transformando Dados em Ferramentas
 
-## Dados, Narrativas e Contranarrativas e um liquidificador
+## Como os dados podem ajudar a fortalecer a minha narrativa?
 
 Dados são pequenas observações sobre um determinado contexto. 
 Podem ser públicos, privados, abertos ou não.
 
-<img src="dados.png">
+![alt text](dados.png "Dados")
 
 <br>
 
@@ -28,12 +29,15 @@ Dependendo da política de privacidade e das configurações que o usuário faç
 
 Existem também aqueles dados que são públicos no contexto de população de um país, como são os dados do IBGE no cenário brasileiro e também de muitos órgãos governamentais que vêm aderindo a publicização de seus dados. Esses são dados de muita valia quando queremos saber mais sobre nós enquanto sociedade. E é aí que entra o que chamamos de dados abertos ou não.
 
-<img src="destaque_1.png">
+![alt text](destaque_1.png "Dado aberto")
+
 
 <br>
 
 No caso, quando os órgãos dispõem os dados em formato CSV (Comma Separated Values ou Valores Separados por Vígula) - [Veja aqui sobre a diferença entre CSV e Excel](https://www.tudoexcel.com.br/planilhas/diferenca-entre-excel-e-csv-2997.html) - , é um exemplo de dados em formato aberto, visto que é muito fácil manipular dados assim. Porém se esse órgão dispõem apenas de imagens de planilhas ou arquivos pdf, por exemplo, isso dificulta o processo de ler e processar aqueles dados, tornando aquilo um dado não aberto, mas ainda assim um dado público. Acesse a [cartilha sobre dados abertos](http://dados.gov.br/pagina/cartilha-publicacao-dados-abertos) e saiba mais sobre isso.
 
+![alt text](adinkra_8.png "Dados abertos, narrativas e contranarrativas")
+## Onde encontrar dados abertos
 O http://dados.gov.br/ é um grande portal brasileiro de dados públicos e abertos. Outras fontes interessantes são:
 
 > - [SIDRA - IBGE](https://sidra.ibge.gov.br/home/pimpfrg/nordeste)
@@ -47,7 +51,7 @@ O http://dados.gov.br/ é um grande portal brasileiro de dados públicos e abert
 
 E o que podemos fazer a partir disso? Saber mais sobre a nossa sociedade, sobre pautas que nos interessam, contrapor argumentos infundados ou notícias falsas, fiscalizar o poder público, construir conhecimento cruzando esses dados com as nossas vivências. E é aí que entram as Narrativas e Contranarrativas.
 
-<img src="destaque_2.png">
+![alt text](destaque_2.png "Narrativas")
 
 <br>
 
@@ -66,11 +70,12 @@ O Saferlab construiu um [super guia](http://saferlab.org.br/guia.pdf) abordando 
 > - Contranarrativas com analogias
 > - Contranarrativas invertendo a lógica
 
-Um dos exemplos presente no guia do Saferlab é a subversão feita com a hashtag #Écoisadepreto que converteu uma frase inicialmente falada com intuito racista em uma campanha enaltecendo realizações de pessoas negras. Acesse [Tool Box Crie Sua Contranarritiva!](http://saferlab.org.br/guia.pdf) E veja outros exemplos e dicas.
+Um dos exemplos presente no guia do Saferlab é a subversão feita com a hashtag #Écoisadepreto que converteu uma frase inicialmente falada com intuito racista em uma campanha enaltecendo realizações de pessoas negras. Acesse [Tool Box Crie Sua Contranarrativa!](http://saferlab.org.br/guia.pdf) E veja outros exemplos e dicas.
 
+![alt text](adinkra_9.png "Mão na massa")
 ## Vamos fazer!?
 
-Já sabemos o que são dados, narrativas, contranarrativas e de onde tirar dados. Agora nós vamos para a parte prática fazendo uma introdução das ferramentas e conceitos que vamos utilizar para constuir uma contranarrativa com dados e informações:
+Já sabemos o que são dados, narrativas, contranarrativas e de onde tirar dados. Agora nós vamos para a parte prática fazendo uma introdução das ferramentas e conceitos que podemos utilizar para acessar esses dados e tirar informações deles.
 
 [Github](https://github.com/) — É uma ferramenta que as pessoas utilizam para publicar, compartilhar e versionar arquivos, como textos e códigos. O Github se utiliza do Git para permitir o versionamento de arquivos. É esse versionamento que permite que a gente dê ctrl+z nos projetos, sistemas, textos… Louvado Seja!
 
@@ -86,8 +91,7 @@ Biblioteca — É um conjunto de algoritmos que alguem ecapsulou em um únic
 
 ## Mudando o ambiente
 
-Vamos trabalhar explorando o assunto Educação Básica no Brasil e para isso vamos mudar um pouco o ambiente, 
-você vai acessar o link do Colab e vai importar o nosso Notebook:
+Vamos trabalhar explorando o assunto Educação Básica no Brasil e para isso vamos mudar um pouco o ambiente, você vai acessar o link do Colab e vai importar o nosso Notebook:
 
 Notebook sobre Educação Básica: https://github.com/DeixeViver/eko-dados/blob/master/notebooks/explorando_educacao_basica.ipynb
 
