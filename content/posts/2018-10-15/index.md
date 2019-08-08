@@ -10,7 +10,7 @@ videoname: 'Video1'
 fronttitlea: 'Trilha 02 - Transformando Dados em Ferramentas'
 fronttitleb: 'Dados, Narrativas e Contranarrativas'
 frontsubtitle: ''
-barpercentage: [40, 55]
+barpercentage: [21, 50]
 baradinkra: ['6','5']
 ---
 
@@ -121,18 +121,18 @@ Essa uma playlist incrivel do Énois Agência de Jornalimo que explica conceitos
 
 ## Referências:
 
-- [O que são Dados Abertos](http://dados.gov.br/pagina/dados-abertos)
-- [Sobre o dados.gov.br](http://dados.gov.br/pagina/sobre)
-- [Entrevista: Mulheres e o mercado de trabalho](https://www.fiesp.com.br/indices-pesquisas-e-publicacoes/entrevista-ana-paula-morgado/)
-- [Mulher ainda enfrenta discriminação no mercado de trabalho](https://trt-3.jusbrasil.com.br/noticias/2608054/mulher-ainda-enfrenta-discriminacao-no-mercado-de-trabalho)
+- <a href="http://dados.gov.br/pagina/dados-abertos" target="_blank">O que são Dados Abertos</a>
+- <a href="http://dados.gov.br/pagina/sobre" target="_blank">Sobre o dados.gov.br</a>
+- <a href="https://www.fiesp.com.br/indices-pesquisas-e-publicacoes/entrevista-ana-paula-morgado/" target="_blank">Entrevista: Mulheres e o mercado de trabalho</a>
+- <a href="https://trt-3.jusbrasil.com.br/noticias/2608054/mulher-ainda-enfrenta-discriminacao-no-mercado-de-trabalho" target="_blank">Mulher ainda enfrenta discriminação no mercado de trabalho</a>
 
 ## Para saber mais:
 
-- [Repositório com as análise de Dados do Estadão no GitHub](https://github.com/estadao)
-- [Escola de Dados](https://escoladedados.org/)
-- [Ferramentas simples e gratuitas de raspagem](https://escoladedados.org/tutoriais/ferramentas-simples-e-gratuitas-de-raspagem/)
-- [6 ferramentas para extrair dados da Internet — avaliadas pelo Volt](https://medium.com/volt-data-lab/6-ferramentas-para-extrair-dados-da-internet-avaliadas-pelo-volt-586b6352fdd2)
-- [Python para Zumbis com Fernando Masanori](https://www.pycursos.com/python-para-zumbis/)
-- [Solicitando dados via Lei de Acesso à Informação](https://escoladedados.org/tutoriais/solicitando-dados-via-lei-de-acesso-a-informacao/)
-- [Tudo que você queria saber sobre Git e GitHub, mas tinha vergonha de perguntar](https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/)
-- [Compartilhe tabelas no Google Sheets](https://escoladedados.org/tutoriais/compartilhe-tabelas-no-google-sheets/)
+- <a href="https://github.com/estadao" target="_blank">Repositório com as análise de Dados do Estadão no GitHub</a>
+- <a href="https://escoladedados.org/" target="_blank">Escola de Dados</a>
+- <a href="https://escoladedados.org/tutoriais/ferramentas-simples-e-gratuitas-de-raspagem/" target="_blank">Ferramentas simples e gratuitas de raspagem</a>
+- <a href="https://medium.com/volt-data-lab/6-ferramentas-para-extrair-dados-da-internet-avaliadas-pelo-volt-586b6352fdd2" target="_blank">6 ferramentas para extrair dados da Internet — avaliadas pelo Volt</a>
+- <a href="https://www.pycursos.com/python-para-zumbis/" target="_blank">Python para Zumbis com Fernando Masanori</a>
+- <a href="https://escoladedados.org/tutoriais/solicitando-dados-via-lei-de-acesso-a-informacao/" target="_blank">Solicitando dados via Lei de Acesso à Informação</a>
+- <a href="https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/" target="_blank">Tudo que você queria saber sobre Git e GitHub, mas tinha vergonha de perguntar</a>
+- <a href="https://escoladedados.org/tutoriais/compartilhe-tabelas-no-google-sheets/" target="_blank">Compartilhe tabelas no Google Sheets</a>

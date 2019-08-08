@@ -65,7 +65,7 @@ Eu acredito que não.
 
 Você costuma ver mais aquilo com o que você mais interage e aquilo que é direcionado, via anúncios, para “perfis” como o seu.
 
-Tomando o Facebook como exemplo, você pode ver nesse [link](https://www.facebook.com/about/privacy#how-we-use-information) o que a política da plataforma fala sobre como usa os seus dados.
+Tomando o Facebook como exemplo, você pode ver nesse <a href="https://www.facebook.com/about/privacy#how-we-use-information" target="_blank">link</a> o que a política da plataforma fala sobre como usa os seus dados.
 
 ![alt text](adinkra_2.png "Discurso de ódio e Dignidade da pessoa humana")
 ## Discurso de ódio Online
@@ -89,7 +89,7 @@ Esse é um vídeo que exemplifica bem os problemas e desafios relacionados ao DO
 <iframe width="600" height="400" src="https://www.youtube.com/embed/3PzphtZC0hU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-Mas existe um grande desafio em separar DO de mensagens intolerantes direcionadas a uma pessoa em específico e que nesse caso podem ser classificadas como calúnia e difamação. <a href="http://saferlab.org.br/infografico.png" target="_blank" title="símbolos Adinkra">Existe um infográfico </a> muito didático da SaferNet sobre o assunto.
+Mas existe um grande desafio em separar DO de mensagens intolerantes direcionadas a uma pessoa em específico e que nesse caso podem ser classificadas como calúnia e difamação. <a href="http://saferlab.org.br/infografico.png" target="_blank">Existe um infográfico </a> muito didático da SaferNet sobre o assunto.
 
 
 Um outro grande desafio do enfrentamento desse tipo de discurso na rede é que muitas vezes ele não é facilmente identificado diante das relações interpessoais, ironia e sarcasmo.
@@ -98,7 +98,7 @@ O Discurso de Ódio Online além de ofender um grupo de pessoas diretamente, age
 
 A SaferNet Brasil que é uma organização com o objetivo da promoção e defesa dos Direitos Humanos na Internet no país faz um trabalho muito bacana nessa área e hoje seu canal de comunicação tem cerca de 3.925.405 denúncias e o seu canal de ajuda já atendeu 15.983 pessoas vítimas de violações na internet.
 
-Você pode ver alguns indicadores sobre as <a href="http://saferlab.org.br/o-que-e-discurso-de-odio/index.html" target="_blank" title="símbolos Adinkra"> denúncias de ódio recebidas pela SaferNet Brasil nesse link.</a>
+Você pode ver alguns indicadores sobre as <a href="http://saferlab.org.br/o-que-e-discurso-de-odio/index.html" target="_blank"> denúncias de ódio recebidas pela SaferNet Brasil nesse link.</a>
 
 Dadas as devidas definições vamos à parte que nos cabe nesse rolê: 
 
@@ -137,25 +137,26 @@ Precisamos de mais transparência para que cada vez com mais conhecimentos possa
 ## Referências
 
 - <a href="https://www.tecmundo.com.br/programacao/2082-o-que-e-algoritmo-.htm" target="_blank" title="símbolos Adinkra">O que é algoritmo?</a>
-- [O que são algoritmos de localização?](https://www.youtube.com/watch?v=uGr51yGLU8Y)
-- [Na verdade, o que [...] é exatamente um algoritmo?](https://brasil.elpais.com/brasil/2018/03/30/tecnologia/1522424604_741609.html)
-- [Você está vendo isso porque é uma... - Chupadados](https://chupadados.codingrights.org/gendered-targeted-ads/)
-- [Criação de bolhas no Twitter não é espontânea, diz pesquisador](http://temas.folha.uol.com.br/gps-ideologico/as-bolhas-na-rede-social/criacao-de-bolhas-no-twitter-nao-e-espontanea-diz-pesquisador.shtml)
-- [Facebook: Como usamos essas informações?](https://www.facebook.com/about/privacy#how-we-use-information)
-- [Algoritmos de Opressão: como mecanismos de busca reforçam o racismo](https://tarciziosilva.com.br/blog/algoritmos-de-opressao-como-mecanismos-de-busca-reforcam-o-racismo/)
-- [Intolerâncias nas redes: Um problema crescente](https://www.comunicaquemuda.com.br/dossie/intolerancia-nas-redes/)
+- <a href="https://brasil.elpais.com/brasil/2018/03/30/tecnologia/1522424604_741609.html" target="_blank">Na verdade, o que [...] é exatamente um algoritmo?</a>
+- <a href="https://chupadados.codingrights.org/gendered-targeted-ads/" target="_blank">Você está vendo isso porque é uma... - Chupadados</a>
+- <a href="http://temas.folha.uol.com.br/gps-ideologico/as-bolhas-na-rede-social/criacao-de-bolhas-no-twitter-nao-e-espontanea-diz-pesquisador.shtml" target="_blank">Criação de bolhas no Twitter não é espontânea, diz pesquisador</a>
+- <a href="https://www.facebook.com/about/privacy#how-we-use-information" target="_blank">Facebook: Como usamos essas informações?</a>
+- <a href="https://tarciziosilva.com.br/blog/algoritmos-de-opressao-como-mecanismos-de-busca-reforcam-o-racismo/" target="_blank">Algoritmos de Opressão: como mecanismos de busca reforçam o racismo</a>
+- <a href="https://www.comunicaquemuda.com.br/dossie/intolerancia-nas-redes/" target="_blank">Intolerâncias nas redes: Um problema crescente</a>
+
 
 ## Para Saber Mais
 
-- [O que é viés de algoritmo? - Computação sem Caô](https://www.youtube.com/watch?v=ZiaOzzBWfy0)
-- [Joy Buolamwini - Como estou combatendo o viés algortimo?](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms/transcript?awesm=on.ted.com_9IB1&language=pt-br)
-- [Tenha cuidado com os "filtros-bolha" online - Eli Pariser](https://www.youtube.com/watch?v=B8ofWFx525s)
-- [Pensamento computacional para todos](https://www.computacaosemcao.com.br/)
-- [Por que devemos nos preocupar com a influência das redes sociais nas eleições 2018?](https://brasil.elpais.com/brasil/2018/09/21/opinion/1537557693_143615.html)
-- [Qual a responsabilidade do Facebook na exibição ao vivo do massacre da Nova Zelândia?](https://www.huffpostbrasil.com/entry/facebook-ataque-nova-zelandia_br_5c8c12a2e4b03e83bdc0df2f)
-- [Movimento Contra o Discurso de Ódio](http://www.odionao.com.pt/)
-- [Indicadores SaferNet - 24.201 Atendimentos e 4.059.137 Denúncias](http://indicadores.safernet.org.br/indicadores.html)
-- [How algorithms are controlling your life](https://www.vox.com/technology/2018/10/1/17882340/how-algorithms-control-your-life-hannah-fry)
-- [We’re Asking the Wrong Questions of YouTube and Facebook After New Zealand](https://www.nytimes.com/2019/03/19/opinion/facebook-youtube-new-zealand.html)
-- [Facebook Needs Humans *And* Algorithms To Filter Hate Speech](https://futurism.com/facebook-human-algorithm-hate-speech)
-- [How social media filter bubbles and algorithms influence the election](https://www.theguardian.com/technology/2017/may/22/social-media-election-facebook-filter-bubbles)
+- <a href="https://www.youtube.com/watch?v=ZiaOzzBWfy0" target="_blank">O que é viés de algoritmo? - Computação sem Caô</a>
+- <a href="https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms/transcript?awesm=on.ted.com_9IB1&language=pt-br" target="_blank">Joy Buolamwini - Como estou combatendo o viés algortimo?</a>
+- <a href="https://www.youtube.com/watch?v=B8ofWFx525s" target="_blank">Tenha cuidado com os "filtros-bolha" online - Eli Pariser</a>
+- <a href="https://www.computacaosemcao.com.br/" target="_blank">Pensamento computacional para todos</a>
+- <a href="https://www.youtube.com/watch?v=uGr51yGLU8Y" target="_blank">O que são algoritmos de localização?</a>
+- <a href="https://brasil.elpais.com/brasil/2018/09/21/opinion/1537557693_143615.html" target="_blank">Por que devemos nos preocupar com a influência das redes sociais nas eleições 2018?</a>
+- <a href="https://www.huffpostbrasil.com/entry/facebook-ataque-nova-zelandia_br_5c8c12a2e4b03e83bdc0df2f" target="_blank">Qual a responsabilidade do Facebook na exibição ao vivo do massacre da Nova Zelândia?</a>
+- <a href="http://www.odionao.com.pt/" target="_blank">Movimento Contra o Discurso de Ódio</a>
+- <a href="http://indicadores.safernet.org.br/indicadores.html" target="_blank">Indicadores SaferNet - 24.201 Atendimentos e 4.059.137 Denúncias</a>
+- <a href="https://www.vox.com/technology/2018/10/1/17882340/how-algorithms-control-your-life-hannah-fry" target="_blank">How algorithms are controlling your life</a>
+- <a href="https://www.nytimes.com/2019/03/19/opinion/facebook-youtube-new-zealand.html" target="_blank">We’re Asking the Wrong Questions of YouTube and Facebook After New Zealand</a>
+- <a href="https://futurism.com/facebook-human-algorithm-hate-speech" target="_blank">Facebook Needs Humans *And* Algorithms To Filter Hate Speech</a>
+- <a href="https://www.theguardian.com/technology/2017/may/22/social-media-election-facebook-filter-bubbles" target="_blank">How social media filter bubbles and algorithms influence the election</a>
