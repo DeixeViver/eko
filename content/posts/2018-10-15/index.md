@@ -10,7 +10,7 @@ videoname: 'Video1'
 fronttitlea: 'Trilha 02 - Transformando Dados em Ferramentas'
 fronttitleb: 'Dados, Narrativas e Contranarrativas'
 frontsubtitle: ''
-barpercentage: [40, 55]
+barpercentage: [21, 50]
 baradinkra: ['6','5']
 ---
 
@@ -63,16 +63,13 @@ O Saferlab construiu um [super guia](http://saferlab.org.br/guia.pdf) abordando 
 
 > - Contranarrativas com dados e informações
 > - Contranarrativas de pessoas e projetos inspiradores
-> - Contranarrativas com testemunhos
-> - Contranarrativas abordadas com humor
-> - Contranarrativas com conversas
 > - Contranarrativas de respostas diretas (Nosso famoso textão!)
-> - Contranarrativas com analogias
 > - Contranarrativas invertendo a lógica
 
 Um dos exemplos presente no guia do Saferlab é a subversão feita com a hashtag #Écoisadepreto que converteu uma frase inicialmente falada com intuito racista em uma campanha enaltecendo realizações de pessoas negras. Acesse [Tool Box Crie Sua Contranarrativa!](http://saferlab.org.br/guia.pdf) E veja outros exemplos e dicas.
 
 ![alt text](adinkra_9.png "Mão na massa")
+
 ## Vamos fazer!?
 
 Já sabemos o que são dados, narrativas, contranarrativas e de onde tirar dados. Agora nós vamos para a parte prática fazendo uma introdução das ferramentas e conceitos que podemos utilizar para acessar esses dados e tirar informações deles.
@@ -88,8 +85,6 @@ Biblioteca — É um conjunto de algoritmos que alguem ecapsulou em um únic
 [Colab Google](https://colab.research.google.com) — É uma ferramente da Google que permite escrever e executar códigos daí mesmo do seu navegador. É ele que vamos usar aqui para tornar a nossa prática mais fácil.
 
 [Jupyter Notebook](https://dadosedecisoes.com.br/o-jupyter-notebook-o-que-e/) — Ferramenta que permite a visualização e execução de código e texto. É o formato que vamos usar para explorar e descrever tudo o que vamos fazendo com os dados passo a passo.
-
-## Mudando o ambiente
 
 Vamos trabalhar explorando o assunto Educação Básica no Brasil e para isso vamos mudar um pouco o ambiente, você vai acessar o link do Colab e vai importar o nosso Notebook:
 
@@ -113,7 +108,7 @@ Nos vídeos abaixo a gente faz uma introdução de como você pode utilizar o Co
 
 ## Extra
 
-Essa uma playlist incrivel do Énois Agência de Jornalimo que explica conceitos bacanas sobre como fazer um documentário, mas nós recomendamos para todo mundo que está produzindo conteúdo pensando em narrativas tanto textuais como vídeos. Vale o embasamento :)
+Essa uma playlist incrivel do Énois Agência de Jornalismo que explica conceitos bacanas sobre como fazer um documentário, mas nós recomendamos para todo mundo que está produzindo conteúdo pensando em narrativas tanto textuais como vídeos. Vale o embasamento :)
 
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/UfvBU7iWmdY?list=PLhkWZx0gxkbjwvnJAn0CpoIWW9GwKtCIL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -121,18 +116,18 @@ Essa uma playlist incrivel do Énois Agência de Jornalimo que explica conceitos
 
 ## Referências:
 
-- [O que são Dados Abertos](http://dados.gov.br/pagina/dados-abertos)
-- [Sobre o dados.gov.br](http://dados.gov.br/pagina/sobre)
-- [Entrevista: Mulheres e o mercado de trabalho](https://www.fiesp.com.br/indices-pesquisas-e-publicacoes/entrevista-ana-paula-morgado/)
-- [Mulher ainda enfrenta discriminação no mercado de trabalho](https://trt-3.jusbrasil.com.br/noticias/2608054/mulher-ainda-enfrenta-discriminacao-no-mercado-de-trabalho)
+- <a href="http://dados.gov.br/pagina/dados-abertos" target="_blank">O que são Dados Abertos</a>
+- <a href="http://dados.gov.br/pagina/sobre" target="_blank">Sobre o dados.gov.br</a>
+- <a href="https://www.fiesp.com.br/indices-pesquisas-e-publicacoes/entrevista-ana-paula-morgado/" target="_blank">Entrevista: Mulheres e o mercado de trabalho</a>
+- <a href="https://trt-3.jusbrasil.com.br/noticias/2608054/mulher-ainda-enfrenta-discriminacao-no-mercado-de-trabalho" target="_blank">Mulher ainda enfrenta discriminação no mercado de trabalho</a>
 
 ## Para saber mais:
 
-- [Repositório com as análise de Dados do Estadão no GitHub](https://github.com/estadao)
-- [Escola de Dados](https://escoladedados.org/)
-- [Ferramentas simples e gratuitas de raspagem](https://escoladedados.org/tutoriais/ferramentas-simples-e-gratuitas-de-raspagem/)
-- [6 ferramentas para extrair dados da Internet — avaliadas pelo Volt](https://medium.com/volt-data-lab/6-ferramentas-para-extrair-dados-da-internet-avaliadas-pelo-volt-586b6352fdd2)
-- [Python para Zumbis com Fernando Masanori](https://www.pycursos.com/python-para-zumbis/)
-- [Solicitando dados via Lei de Acesso à Informação](https://escoladedados.org/tutoriais/solicitando-dados-via-lei-de-acesso-a-informacao/)
-- [Tudo que você queria saber sobre Git e GitHub, mas tinha vergonha de perguntar](https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/)
-- [Compartilhe tabelas no Google Sheets](https://escoladedados.org/tutoriais/compartilhe-tabelas-no-google-sheets/)
+- <a href="https://github.com/estadao" target="_blank">Repositório com as análise de Dados do Estadão no GitHub</a>
+- <a href="https://escoladedados.org/" target="_blank">Escola de Dados</a>
+- <a href="https://escoladedados.org/tutoriais/ferramentas-simples-e-gratuitas-de-raspagem/" target="_blank">Ferramentas simples e gratuitas de raspagem</a>
+- <a href="https://medium.com/volt-data-lab/6-ferramentas-para-extrair-dados-da-internet-avaliadas-pelo-volt-586b6352fdd2" target="_blank">6 ferramentas para extrair dados da Internet — avaliadas pelo Volt</a>
+- <a href="https://www.pycursos.com/python-para-zumbis/" target="_blank">Python para Zumbis com Fernando Masanori</a>
+- <a href="https://escoladedados.org/tutoriais/solicitando-dados-via-lei-de-acesso-a-informacao/" target="_blank">Solicitando dados via Lei de Acesso à Informação</a>
+- <a href="https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/" target="_blank">Tudo que você queria saber sobre Git e GitHub, mas tinha vergonha de perguntar</a>
+- <a href="https://escoladedados.org/tutoriais/compartilhe-tabelas-no-google-sheets/" target="_blank">Compartilhe tabelas no Google Sheets</a>

@@ -96,7 +96,7 @@ export const team = [
       image: lorena,
       name: "Lorena Pereira",
       shortDescription: "Cientista de Dados com Conteúdo",
-      largeDescription: "Aprendendo com tudo ao meu redor :) Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
+      largeDescription: "Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
       github: "https://github.com/lorenaps",
       instagram:""
 
@@ -529,11 +529,23 @@ const PostListCss = styled.div`
               <span style={retangleSlogan}></span>
               <h2 style={sloganTitle}>Você sabe o que são algoritmos? </h2>
               <p style={sloganBody}>
-                Sabe o que os dados espalhados pela Internet por todos os usuários - você, por exemplo - tem a ver com privacidade e bolha social? 
-                E como a gente pode usar dados abertos para fortalecer uma narrativa? 
-                <br></br>
-                <br></br>
-                <b>Somos uma plataforma de educação digital feita por engenheiros de software e cientistas de dados e em três seções vamos explicar tudo isso.</b>
+              Sabe o que os dados espalhados na Internet por todos os usuários - você, 
+              por exemplo - tem a ver com privacidade e bolha social? 
+              E como a gente pode usar dados abertos para fortalecer uma narrativa? 
+              <br></br>
+              <br></br>
+              <b>Somos uma plataforma de educação digital feita por engenheiros de software e 
+              cientistas de dados e em três seções vamos explicar esses temas com exemplos concretos, 
+              de forma simples e rápida. 
+              </b>
+              <br></br>
+              <br></br>
+              E para deixar a experiência mais potente vamos caminhar pelo o que chamamos 
+              de <b>Trilhas do Conhecimento</b> através de um sistema de escrita africano que tem tudo a ver 
+              com essa conversa: o <a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" 
+              target="_blank" title="Adinkra">Adinkra</a>, esse conjunto de símbolos que você vê aqui, 
+              onde cada um deles tem um significado relacionado ao conteúdo da trilha.
+
               </p>
             </Text>
             <Text>
@@ -575,7 +587,7 @@ const PostListCss = styled.div`
 
       
       <PostWrapper>
-        <h2 id="trilhas" style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI :)</h2>
+        <h2 id="trilhas" style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI</h2>
         
         <PostListCss>
           {edges.map(({ node }) => (
