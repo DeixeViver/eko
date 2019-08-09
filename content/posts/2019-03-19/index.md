@@ -87,7 +87,7 @@ Desabilite funções de comandos de voz, todo som emitido ao seu aparelho quando
 Para além do clichê do contato humano, se a informação for realmente relevante a maior dica de segurança é a conversa ao vivo longe dos celulares, nenhuma informação é armazenada e  nenhum rastro digital é criado.
 
 ### 8 - "Não consigo me encontrar pessoalmente, prefiro um aplicativo de troca de mensagens". 
-Te entendo colega, sair de casa hoje em dia é realmente um sacrifício. Seja seletivo nas suas conversas, não faz sentido utilizar um aplicativo hiper mega seguro para perguntar se a sua avó assistiu a novela hoje. Os aplicativos mais difundidos como WhatsApp, Telegram e Inbox apesar de já terem apresentado falhas de segurança [olha esse artigo aqui](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4143/4096), não precisam ser substituídos completamente, já que oferecem algumas facilidades que outros aplicativos não possuem. Mas, caso precise de um meio mais seguro, procure utilizar o Signal ou o Wire, ambos utilizam criptografia fim a fim e possuem código aberto.
+Te entendo colega, sair de casa hoje em dia é realmente um sacrifício. Seja seletivo nas suas conversas, não faz sentido utilizar um aplicativo hiper mega seguro para perguntar se a sua avó assistiu a novela hoje. Os aplicativos mais difundidos como WhatsApp, Telegram e Inbox apesar de já terem apresentado falhas de segurança <a href="https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4143/4096" target="_blank">olha esse artigo aqui</a>, não precisam ser substituídos completamente, já que oferecem algumas facilidades que outros aplicativos não possuem. Mas, caso precise de um meio mais seguro, procure utilizar o Signal ou o Wire, ambos utilizam criptografia fim a fim e possuem código aberto.
 
 > **Pausa para o dicionário:** Uma pausa nas dicas para um dicionário dos termos acima que precisam ser explicados:
 
@@ -126,7 +126,8 @@ Na verdade o email virou quase um CPF na Internet. É comumente utilizado como i
 Mas o mais grave motivo pelo qual entrou na nossa lista de banimento é justamente a falta de criptografia, nenhuma parte deste sistema possui nem mínimo de privacidade dos dados. Algumas alternativas são Protonmail ou Tutanota.
 
 ### 10 - Escolha bem seu Navegador.
-Navegadores de Internet são a ponte de comunicação com o mundo virtual, através deles que muitas falhas de segurança são encontradas deixando todo o seu notebook exposto para qualquer um na Rede. Falaremos em mais detalhes sobre isso na próxima seção, mas o Firefox apesar de não ser tão seguro - [olha esse link do comparativo](https://nordvpn.com/pt-br/blog/melhores-navegadores-seguranca/) - consegue suprir necessidades básicas. 
+Navegadores de Internet são a ponte de comunicação com o mundo virtual, através deles que muitas falhas de segurança são encontradas deixando todo o seu notebook exposto para qualquer um na Rede. Falaremos em mais detalhes sobre isso na próxima seção, mas o Firefox apesar de não ser tão seguro - <a href="https://nordvpn.com/pt-br/blog/melhores-navegadores-seguranca/" target="_blank">olha esse link do comparativo</a>
+ - consegue suprir necessidades básicas. 
 
 ### 11 - Nem o Windows escapou do nosso pente fino de segurança. 
 Isso mesmo, a Microsoft após todos esses anos de mercado, ainda não conseguiu garantir um software que seja seguro de ataque de hackers ou programas maliciosos. Volta e meia a empresa disponibiliza uma atualização nova para corrigir falhas na segurança. Um grande concorrente neste caso é o Linux que além de gratuito possui código aberto, cujas vantagens já foram listadas.
@@ -162,34 +163,31 @@ Deep web, é uma parte da Internet que não existe nas buscas. Quando você est�
 
 Para acessar esta rede é necessário um navegador especial, pois os que usamos comumente não conseguem acessar esta rede paralela. Por ser um ambiente altamente secreto, é também muito propício a propagação de material ilícito, como venda de drogas, pornografia infantil e contratação de assassinos de aluguel. 
 
-Mas, como contraponto, é possível divulgar informações, discutir temas e difundir ideias sem ser rastreado ou censurado. Segundo relatos a primavera árabe, revolução que explodiu no oriente médio contra o regime ditatorial - [aqui tem referências](http://cdjornalismo.blogspot.com/2013/11/ciberativismo-na-primavera-arabe.html) - , surgiu de fóruns na Deep Web, assim como o caso Snowden.
+Mas, como contraponto, é possível divulgar informações, discutir temas e difundir ideias sem ser rastreado ou censurado. Segundo relatos a primavera árabe, revolução que explodiu no oriente médio contra o regime ditatorial - <a href="http://cdjornalismo.blogspot.com/2013/11/ciberativismo-na-primavera-arabe.html" target="_blank">aqui tem referências</a> - , surgiu de fóruns na Deep Web, assim como o caso Snowden.
 
 ## E por fim...
 Oriente, divulgue e explique aos amigos e parentes a importância de manter a sua privacidade online, atingir o maior número de pessoas é essencial para que empresas ou organizações consigam rever suas prioridades.
 
-
-
 ## Referências:
 
-- [Mais 13 dicas do Canal Tech para navegar com mais segurança na internet](https://canaltech.com.br/seguranca/previna-se-13-dicas-para-navegar-com-mais-seguranca-na-internet-12450/)
-- [Eu e Minha Sombra - Assuma o controle de seus dados](https://myshadow.org/pt)
-- [O que são Rastros Digitais?](https://myshadow.org/pt/digital-traces-content-and-metadata)
-- [Rastreamento… E daí? 7 coisas que já sabemos que você vai dizer](https://myshadow.org/pt/tracking-so-what)
-- [Rastreamento de Navegação](https://myshadow.org/pt/browser-tracking)
-- [Segurança da Informação para ativistas e comunicadores](https://pt.wikiversity.org/wiki/Seguran%C3%A7a_da_Informa%C3%A7%C3%A3o_para_ativistas_e_comunicadores)
-- [Tecnologias de Vigilância e Antivigilância](https://antivigilancia.org/pt/tecnologias/)
-- [Guia De Facilitação E Aprendizagem  Em Segurança Da Informação](https://escoladeativismo.org.br/wp-content/uploads/2018/08/AGUIA-DIGITAL-_-V7.pdf)
-- [CELULARES & COMUNICAÇÕES: NOSSA BATALHA NO CAMPO VIRTUAL. Enfrentando a violência contra nós, mulheres, no espaço virtual](https://feminismo.org.br/wp-content/uploads/2017/11/MINICARTILHA-CELULARES-FINAL.pdf)
-- [Um manual de segurança digital para tempos sombrios](https://medium.com/revista-subjetiva/um-manual-de-seguran%C3%A7a-digital-para-tempos-sombrios-2d414d0a3f24)
+- <a href="https://canaltech.com.br/seguranca/previna-se-13-dicas-para-navegar-com-mais-seguranca-na-internet-12450/" target="_blank">Mais 13 dicas do Canal Tech para navegar com mais segurança na internet</a>
+- <a href="https://myshadow.org/pt" target="_blank">Eu e Minha Sombra - Assuma o controle de seus dados</a>
+- <a href="https://myshadow.org/pt/digital-traces-content-and-metadata" target="_blank">O que são Rastros Digitais?</a>
+- <a href="https://myshadow.org/pt/tracking-so-what" target="_blank">Rastreamento… E daí? 7 coisas que já sabemos que você vai dizer</a>
+- <a href="https://myshadow.org/pt/browser-tracking" target="_blank">Rastreamento de Navegação</a>
+- <a href="https://pt.wikiversity.org/wiki/Seguran%C3%A7a_da_Informa%C3%A7%C3%A3o_para_ativistas_e_comunicadores" target="_blank">Segurança da Informação para ativistas e comunicadores</a>
+- <a href="https://antivigilancia.org/pt/tecnologias/" target="_blank">Tecnologias de Vigilância e Antivigilância</a>
+- <a href="https://escoladeativismo.org.br/wp-content/uploads/2018/08/AGUIA-DIGITAL-_-V7.pdf" target="_blank">Guia De Facilitação E Aprendizagem  Em Segurança Da Informação</a>
+- <a href="https://feminismo.org.br/wp-content/uploads/2017/11/MINICARTILHA-CELULARES-FINAL.pdf" target="_blank">CELULARES & COMUNICAÇÕES: NOSSA BATALHA NO CAMPO VIRTUAL. Enfrentando a violência contra nós, mulheres, no espaço virtual</a>
+- <a href="https://medium.com/revista-subjetiva/um-manual-de-seguran%C3%A7a-digital-para-tempos-sombrios-2d414d0a3f24" target="_blank">Um manual de segurança digital para tempos sombrios</a>
 
 ## Para Saber Mais:
-- [Guia Prática de Estratégias e Táticas para a Segurança Digital Feminista](http://www.cfemea.org.br/index.php/colecao-femea-e-publicacoes/publicacoes/4670-guia-pratica-de-estrategias-e-taticas-para-a-seguranca-digital-feminista)
-- [Safermanas: dicas de segurança digital em gifs!](https://www.codingrights.org/safermanas-dicas-de-seguranca-digital-em-gifs/)
-- [Militantes dão dicas de ‘ativismo digital’ e diminuem papel das redes sociais em revoluções](https://uoltecnologia.blogosfera.uol.com.br/2012/02/10/militantes-dao-dicas-sobre-ativismo-digital-e-falam-do-papel-das-redes-sociais-em-movimentos-como-o-ocupe-wall-street/)
-- [Segurança Na Internet: Nossa Batalha No Campo Virtual. Enfrentando A Violência Contra Nós, Mulheres, No Espaço Virtual](https://feminismo.org.br/wp-content/uploads/2017/11/MINICARTILHA-VCM-FINAL.pdf)
-- [Rastros digitais: o que a internet sabe sobre você pode deixar marcas eternas](https://canaltech.com.br/seguranca/rastros-digitais-o-que-a-internet-sabe-sobre-voce-pode-deixar-marcas-eternas-104650/)
-- [Entenda e reconheça seus rastros digitais](https://new.safernet.org.br/content/entenda-e-reconhe%C3%A7a-seus-rastros-digitais)
-- [Rastros digitais](https://new.safernet.org.br/content/rastros-digitais)
-- [Rastros Digitais: A sua vida está na Internet](https://www.codigofonte.com.br/artigos/rastros-digitais)
-- [Is your browser safe against tracking? ](https://panopticlick.eff.org/)
-- [Immersion - a people-centric view of your email life](https://immersion.media.mit.edu/)
+
+- <a href="http://www.cfemea.org.br/index.php/colecao-femea-e-publicacoes/publicacoes/4670-guia-pratica-de-estrategias-e-taticas-para-a-seguranca-digital-feminista" target="_blank">Guia Prática de Estratégias e Táticas para a Segurança Digital Feminista</a>
+- <a href="https://www.codingrights.org/safermanas-dicas-de-seguranca-digital-em-gifs/" target="_blank">Safermanas: dicas de segurança digital em gifs!</a>
+- <a href="https://uoltecnologia.blogosfera.uol.com.br/2012/02/10/militantes-dao-dicas-sobre-ativismo-digital-e-falam-do-papel-das-redes-sociais-em-movimentos-como-o-ocupe-wall-street/" target="_blank">Militantes dão dicas de ‘ativismo digital’ e diminuem papel das redes sociais em revoluções</a>
+- <a href="https://feminismo.org.br/wp-content/uploads/2017/11/MINICARTILHA-VCM-FINAL.pdf" target="_blank">Segurança Na Internet: Nossa Batalha No Campo Virtual. Enfrentando A Violência Contra Nós, Mulheres, No Espaço Virtual</a>
+- <a href="https://canaltech.com.br/seguranca/rastros-digitais-o-que-a-internet-sabe-sobre-voce-pode-deixar-marcas-eternas-104650/" target="_blank">Rastros digitais: o que a internet sabe sobre você pode deixar marcas eternas</a>
+- <a href="https://new.safernet.org.br/content/entenda-e-reconhe%C3%A7a-seus-rastros-digitais" target="_blank">Entenda e reconheça seus rastros digitais</a>
+- <a href="https://new.safernet.org.br/content/rastros-digitais" target="_blank">Rastros digitais</a>
+- <a href="https://www.codigofonte.com.br/artigos/rastros-digitais" target="_blank">Rastros Digitais: A sua vida está na Internet</a>
