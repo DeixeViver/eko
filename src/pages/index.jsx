@@ -104,7 +104,9 @@ export const team = [
 
 ];
 
-export const stringsDescription = ["primeira", "segunda", "terceira"];
+export const stringsDescription = ["Trabalhamos com Tecnologia e queremos construir um repertório sobre conceitos e ferramentas para lidar com discriminação, desinformação e discurso de ódio na Internet.", 
+                                  "A partir de três assuntos fundamentais construímos as Trilhas do Conhecimento, três seções onde vamos explicar os assuntos de forma simples e rápida.                                  ", 
+                                  "E para nos guiar nesse caminho utilizamos o Adinkra, um conjunto de símbolos africano que tem tudo a ver com essa conversa!"];
 
 export const getNumber = () => {
   let number = Math.floor(Math.random() * Math.floor(3));
