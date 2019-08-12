@@ -10,7 +10,7 @@ videosrc: ''
 fronttitlea: 'Trilha 01 — Algoritmos Invisíveis'
 fronttitleb: 'O espaço inacessível da Internet e sua relação com Discurso de Ódio'
 frontsubtitle: ''
-barpercentage: [23, 45, 67, 80]
+barpercentage: [25, 48, 67, 81]
 baradinkra: ['1','7','3', '4']
 ---
 
