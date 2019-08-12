@@ -10,23 +10,25 @@ videoname: 'Video1'
 fronttitlea: 'Trilha 02 - Transformando Dados em Ferramentas'
 fronttitleb: 'Dados, Narrativas e Contranarrativas'
 frontsubtitle: ''
-barpercentage: [21, 50]
+barpercentage: [24, 48]
 baradinkra: ['6','5']
 ---
+## Como os dados podem ajudar a fortalecer a minha narrativa?
+
+<br>
+
 <center>
 <img src="https://media.giphy.com/media/KlH7RiEYFXZ7y/giphy.gif" width=520 height=300>
 </center>
 
-## Como os dados podem ajudar a fortalecer a minha narrativa?
-
 Dados são pequenas observações sobre um determinado contexto.
 Podem ser públicos, privados, abertos ou não.
+
+Nome, Nome de usuário, Site, Biografia, Email, Telefone, Quantas geladeiras você tem em casa. Tudo isso são dados, pequenas observações sobre nós mesmos, que nós fornecemos quando fazemos o cadastro em uma rede social, como o Twitter ou Instagram, ou quando respondemos ao Censo Demográfico do IBGE.
 
 ![alt text](dados.png "Dados")
 
 <br>
-
-Nome, Nome de usuário, Site, Biografia, Email, Telefone, Quantas geladeiras você tem em casa. Tudo isso são dados, pequenas observações sobre nós mesmos, que nós fornecemos quando fazemos o cadastro em uma rede social, como o Twitter ou Instagram, ou quando respondemos ao Censo Demográfico do IBGE.
 
 Dependendo da política de privacidade e das configurações que o usuário faça, alguns desses dados serão privados e só estarão disponíveis para o próprio usuário e a empresa responsável pela rede social (ou pelo menos deveria ser assim né!?), e outros estarão visíveis para todas as outras pessoas que usam a rede ou não, como o seu nome de usuário ou foto de perfil.
 
@@ -50,7 +52,7 @@ O <a href="http://dados.gov.br/" target="_blank">http://dados.gov.br/</a> é um 
 
 > - <a href="https://sidra.ibge.gov.br/home/pimpfrg/nordeste" target="_blank">SIDRA - IBGE</a>
 > - <a href="https://brasil.io/home" target="_blank">Brasil IO</a>
-> - <a href="http://inep.gov.br/dados" target="_blank">Microdados do INEP - Dados sobre o Enem, Censo escolar, Enade e muitos outros <3</a>
+> - <a href="http://inep.gov.br/web/guest/dados" target="_blank">Microdados do INEP - Dados sobre o Enem, Censo escolar, Enade e muitos outros</a>
 > - <a href="https://dadosabertos.camara.leg.br/swagger/api.html" target="_blank">API Dados Abertos da Câmara dos Deputados</a>
 > - <a href="http://www.ipeadata.gov.br/Default.aspx" target="_blank">IPEA - Instituto de Pesquisa Econômica Aplicada</a>
 > - <a href="http://www.ipea.gov.br/atlasviolencia/dados-series/74" target="_blank">IPEA - Atlas da Violência - Homicídios Faixa Etária de 15 - 29 anos - Mulheres</a>
@@ -63,6 +65,10 @@ E é aí que entram as Narrativas e Contranarrativas.
 Narrativas são histórias. É aquilo que a gente conta, de forma fictícia objetivando o entretenimento de forma fantasiosa. Ou contamos de forma verídica, factual, objetivando retratar uma realidade, fatos e observações verídicas.
 
 O que não dá pra fazer é distorcer informações e querer apresentar isso a outras pessoas como sendo real. Isso é construir uma narrativa de forma ilusória, de forma falsa o que resulta nas nossas tão atuais Fake News.
+
+<center>
+<img src="https://media.giphy.com/media/3o85xyklT2t8VVjxxC/giphy.gif" width=520 height=310>
+</center>
 
 Já as contranarrativas são histórias também mas com um objetivo específico de contrapor um narrativa já conhecida, de adicionar um novo ponto de vista sobre um assunto de forma a desconstruir um conceito ou preconceito anterior. Um exemplo disso são as crescentes contranarrativas sobre como mulheres podem desenvolver suas carreiras profissionais e ocupar postos de trabalhos diversos, assunto que infelizmente ainda hoje é abordado com discriminação coibindo mulheres a terem obrigações exclusiva ou prioritáriamente com a casa e a família.
 
@@ -89,7 +95,7 @@ Já sabemos o que são dados, narrativas, contranarrativas e de onde tirar dados
 - <a href="https://dadosedecisoes.com.br/o-jupyter-notebook-o-que-e/" target="_blank">Jupyter Notebook</a>
  — Ferramenta que permite a visualização e execução de código e texto. É o formato que vamos usar para explorar e descrever tudo o que vamos fazendo com os dados passo a passo.
 
-Biblioteca — É um conjunto de algoritmos que alguém encapsulou em um único lugar. De forma que outras pessoas possam reutilizar o código.
+- Biblioteca — É um conjunto de algoritmos que alguém encapsulou em um único lugar. De forma que outras pessoas possam reutilizar o código.
 
 - <a href="https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1" target="_blank">Pandas</a> — É uma biblioteca desenvolvida para Python que permite importar e manipular dados de forma muito simples.
 
@@ -113,7 +119,23 @@ Nos vídeos abaixo a gente faz uma introdução de como você pode utilizar o Co
 <iframe width="600" height="400" src="https://www.youtube.com/embed/kqrwcFl4jjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-> E aí, qual narrativa com dados você vai construir hoje!?
+Se você executou parte a parte do nosso algoritmo para analisar dados da educação básica de 2012, deve ter se espantando, assim como eu, quando viu que existiam escolas que não tinham sanitário dentro do prédio, ou a quantidade de laboratórios de informática e ciências.
+
+<center>
+<img src="https://media.giphy.com/media/3ohhwzeceMRpHj56uY/giphy.gif">
+</center>
+
+Ter conhecimento sobre essas dados é importante se queremos falar da educação brasileira, propor projetos nesse área ou construir políticas públicas a fim de melhorar a infraestrutura educacional do nosso país. Existe uma <a href="https://www.nexojornal.com.br/grafico/2019/05/23/A-diferen%C3%A7a-entre-a-infraestrutura-de-escolas-p%C3%BAblicas-e-privadas" target="_blank">matéria do Nexo Jornal</a> que fala sobre a infraestrutura das escolas, comparando rede pública e privada, inclusive por estado. Foi feita com dados do Censo escolar de 2018 (que estão disponíveis naquele link maravilhoso do INEP que colocamos na nossa lista lá no início da trilha) e por ter dados mais atualizados do que aqueles que utilizamos na parte prática nos dá uma oportunidade de comparar como os dados mudaram de  2012 pra cá. Será que mudaram?
+
+O que fizemos aqui foi um exercício básico, para mostrar como é possível ter acesso a dados abertos. Todas essas dúvidas que você tem agora sobre a infraestrutura das escolas, se falta dinheiro para os banheiros e laboratórios, por exemplo, faz parte do trabalho com dados. 
+Nem sempre conseguimos ter todas as respostas mas sempre temos novas perguntas e podemos utilizar de outros dados e materiais para tentar cruzar informações de forma a saber mais sobre aquele contexto, como com dados sobre os recursos públicos destinados à educação... Sim, eles existe! 
+Ta vendo aí a importância da abertura dos dados?
+
+<a href="http://inep.gov.br/web/guest/investimentos-publicos-em-educacao" target="_blank">Investimentos Públicos em Educação</a>
+
+Mãos à obra!
+
+> Qual narrativa com dados você vai construir hoje!?
 
 ## Extra
 

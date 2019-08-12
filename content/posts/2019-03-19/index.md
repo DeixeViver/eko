@@ -35,7 +35,7 @@ Se você concordou com pelo menos uma dessas afirmações, temos muito o que con
 
 Privacidade nos dias de hoje é sinônimo de autonomia, poder e controle. Privacidade não é esconder-se, é ter controle sobre as informações que podem impactar diretamente o seu modo de viver. 
 
-Sabe quando você vai a farmácia e a pessoa no caixa te pergunta se você já possui cadastro no sistema? É rapidinho, é de graça e você ainda ganha desconto no medicamento. Só vantagens! Pegadinha do malandro iê iê. O preço pago é bem alto nesse caso. Suas informações de compra são armazenadas no banco de dados da rede de farmácias que podem compartilhar a informação, por exemplo, com planos de saúde, e você pode ser rejeitado nos critérios da seguradora de saúde já que eles têm o seu histórico de compras. Viu só como nem tudo é tão simples?
+Sabe quando você vai a farmácia e a pessoa no caixa te pergunta se você já possui cadastro no sistema? É rapidinho, é de graça e você ainda ganha desconto no medicamento. Só vantagens! Pegadinha do malandro iê iê. O preço pago pode ser bem alto nesse caso. Suas informações de compra são armazenadas no banco de dados da rede de farmácias e caso haja o compartilhamento dessa informação, por exemplo, com planos de saúde, você pode ser rejeitado nos critérios da seguradora. Tendo em mãos o seu histórico de compras, mesmo que você só tenha comprado remédios para sua tia ou avó, a seguradora pode considerar que você tem uma doença grave e não está informando isso ao fazer o plano. Viu só como nem tudo é tão simples?
 
 No contexto do ativismo online a situação é ainda mais alarmante. As redes sociais tornaram-se um grande campo de batalha e escolher bem as suas armas inclui, por exemplo, um bom aplicativo de troca de mensagens, uma ótima ferramenta de busca, e criptografia de ponta.
 
@@ -137,6 +137,7 @@ Oriente, divulgue e explique aos amigos e parentes a importância de manter a su
 - <a href="https://myshadow.org/pt" target="_blank">Eu e Minha Sombra - Assuma o controle de seus dados</a>
 - <a href="https://myshadow.org/pt/digital-traces-content-and-metadata" target="_blank">O que são Rastros Digitais?</a>
 - <a href="https://myshadow.org/pt/tracking-so-what" target="_blank">Rastreamento… E daí? 7 coisas que já sabemos que você vai dizer</a>
+- <a href="https://canaltech.com.br/seguranca/privacidade-onde-como-e-para-que-e-usado-seu-cpf-cadastrado-em-lojas-fisicas-112546/" target="_blank">Onde, como e para que é usado seu CPF cadastrado em lojas físicas</a>
 - <a href="https://myshadow.org/pt/browser-tracking" target="_blank">Rastreamento de Navegação</a>
 - <a href="https://pt.wikiversity.org/wiki/Seguran%C3%A7a_da_Informa%C3%A7%C3%A3o_para_ativistas_e_comunicadores" target="_blank">Segurança da Informação para ativistas e comunicadores</a>
 - <a href="https://antivigilancia.org/pt/tecnologias/" target="_blank">Tecnologias de Vigilância e Antivigilância</a>
@@ -147,6 +148,7 @@ Oriente, divulgue e explique aos amigos e parentes a importância de manter a su
 ## Para Saber Mais:
 
 - <a href="http://www.cfemea.org.br/index.php/colecao-femea-e-publicacoes/publicacoes/4670-guia-pratica-de-estrategias-e-taticas-para-a-seguranca-digital-feminista" target="_blank">Guia Prática de Estratégias e Táticas para a Segurança Digital Feminista</a>
+- <a href="https://direitosnarede.org.br/c/seus-dados-sao-vc/" target="_blank">Campanha: Seus Dados São Você</a>
 - <a href="https://www.codingrights.org/safermanas-dicas-de-seguranca-digital-em-gifs/" target="_blank">Safermanas: dicas de segurança digital em gifs!</a>
 - <a href="https://uoltecnologia.blogosfera.uol.com.br/2012/02/10/militantes-dao-dicas-sobre-ativismo-digital-e-falam-do-papel-das-redes-sociais-em-movimentos-como-o-ocupe-wall-street/" target="_blank">Militantes dão dicas de ‘ativismo digital’ e diminuem papel das redes sociais em revoluções</a>
 - <a href="https://feminismo.org.br/wp-content/uploads/2017/11/MINICARTILHA-VCM-FINAL.pdf" target="_blank">Segurança Na Internet: Nossa Batalha No Campo Virtual. Enfrentando A Violência Contra Nós, Mulheres, No Espaço Virtual</a>
