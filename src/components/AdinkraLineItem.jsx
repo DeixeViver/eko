@@ -40,7 +40,7 @@ const AdinkraLineItem = styled.div`
 
   @media screen and (max-width: 375px){
     flex: 1 0 10%; 
-
+    max-width: 50px;
   }
 
   &:hover {

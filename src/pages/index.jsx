@@ -385,19 +385,21 @@ const Index = ({ data }) => {
 `;
 
   const SyledIntro = styled.h1`
-  font-size: 30px;
+  font-size: 28px;
   position: absolute;
   width: 90%;
   margin: 0 auto;
   font-family: 'Comfortaa', cursive;
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.4;
   text-shadow: 2px 3px 8px rgba(170, 170, 170, 1);
   top: 25%;
   
   @media (min-width: 40em) {
     font-size: 40px;
     margin: 0rem 0.5rem;
+  line-height: 1.6;
+
   }
   @media (min-width: 1024px) {
     max-width: 1000px;
@@ -464,12 +466,12 @@ const AdinkraLine = styled.div`
   }
 
   @media screen and (max-width: ${theme.breakpoints.s}){
-    top: 33%;
+    top: 44%;
   }
 
   @media screen and (max-width: 375px){
     position: absolute;
-    top: 85%;
+    top: 80%;
   }
 `;
 

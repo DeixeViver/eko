@@ -67,7 +67,8 @@ const Wrapper = styled.section`
   }
 
   & blockquote {
-    margin: 2rem;
+    margin: 2rem auto;
+    width: 60%;
     padding: 0.5rem;
     background-color: ${props => props.theme.colors.white.base};
  
