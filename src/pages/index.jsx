@@ -618,21 +618,21 @@ const PostListCss = styled.div`
 
       <StyledKnownProjects>
         <div style={{maxWidth: "1200px", margin: "0 auto", display: "block"}}>
-          <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>MOSTRE SUA VOZ</h2>
+          <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>ẸKỌANDO</h2>
           <Text>
             <p style={sloganBodyWhiteCenter}>
-              Conheça aqui outros projetos que fazem da Internet um lugar melhor.
+              Conheça aqui outros projetos que fazem da Internet um lugar melhor, entenda como eles funcionam e projete-se você também!
             </p>
           </Text>
           <div style={{display:"flex", justifyContent: "center"}}>
             <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
-              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/NDCIxrWqIWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
             </div>  
-            <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
+            {/* <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
               <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Diário da Mari</p>
-            </div>
+            </div> */}
           </div>
 
           <div style={{backgroundColor: theme.colors.green.base, padding: "10px"}}>
