@@ -65,7 +65,7 @@ const About = center => (
       <Container center={center}>
         <h1>O Projeto</h1>
 
-        <p>Ẹkọ (pronuncia-se Ékó), na língua Iorubá, significa instrução, 
+        <p>Ẹkọ (pronuncia-se Ékó), na língua Iorubá, significa Educação, Instrução, 
           que é o nosso principal objetivo nessa iniciativa. Somos uma plataforma 
           de educação digital feita por engenheiros de software e cientistas de 
           dados. E isso já explica bastante o que você vai encontrar por aqui: Informação 
