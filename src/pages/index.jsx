@@ -180,6 +180,21 @@ const rotate = keyframes`
 
 `;
 
+const fade = keyframes`
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+
+`;
+
 const TranslateYElement = styled.div`
   animation-timing-function: ease;
   animation-delay: 0s;
@@ -188,6 +203,16 @@ const TranslateYElement = styled.div`
   animation-fill-mode: both;
   animation-play-state: running;
   animation: ${fadeInDown} 15s ease-in-out 0s infinite;
+`;
+
+const FadeElement = styled.div`
+  animation-timing-function: ease;
+  animation-delay: 7s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation: ${fade} 7s ease-in-out 7s infinite;
 `;
 
 const RetangleSloganA =  styled.div`
@@ -260,13 +285,13 @@ const StyledKnownProjects = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 6rem 0;
+  padding: 6rem 0 0;
   background: ${theme.colors.orange.base};
   @media (max-width: 1000px) {
-    padding: 4rem 2rem 1rem 4rem;
+    padding: 4rem 2rem 1rem 0;
   }
   @media (max-width: 700px) {
-    padding: 4rem 1rem 1rem 1rem;
+    padding: 4rem 1rem 1rem 0;
   }
 `;
 
@@ -323,6 +348,7 @@ const sloganBodyWhiteCenter = {
   fontSize: '24px',
   maxWidth: '600px',
   textAlign: "center",
+  margin: "0 auto 3rem",
   color: theme.colors.white.base
 }
 
@@ -380,7 +406,7 @@ const Index = ({ data }) => {
   @media (max-width: 700px) {
     left: 0;
     right: 0;
-
+    padding: 5rem 0 0 0;
   }
 `;
 
@@ -466,7 +492,7 @@ const AdinkraLine = styled.div`
   }
 
   @media screen and (max-width: ${theme.breakpoints.s}){
-    top: 44%;
+    top: 40%;
   }
 
   @media screen and (max-width: 375px){
@@ -500,7 +526,9 @@ const PostListCss = styled.div`
       <StyledMultipleBg>
   
           <SyledIntro>O que você precisa saber sobre Tecnologia para enfrentar a Discriminação na Internet
-          <TextChange strings={stringsDescription} />
+          <FadeElement>
+            <TextChange strings={stringsDescription} />
+          </FadeElement>
           </SyledIntro>
             
             {/*<AdinkraGrid level={0} opacity={0.1} />
@@ -617,19 +645,19 @@ const PostListCss = styled.div`
       </PostWrapper>
 
       <StyledKnownProjects>
-        <div style={{maxWidth: "1200px", margin: "0 auto", display: "block"}}>
-          <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>MOSTRE SUA VOZ</h2>
+        <div style={{width: '100%', maxWidth: "1200px", margin: "0 auto", display: "block"}}>
+          <h2 style={{fontSize: '52px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>MOSTRE SUA VOZ</h2>
           <Text>
             <p style={sloganBodyWhiteCenter}>
               Conheça aqui outros projetos que fazem da Internet um lugar melhor.
             </p>
           </Text>
-          <div style={{display:"flex", justifyContent: "center"}}>
-            <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
+          <div style={{display:"flex", justifyContent: "center", flexDirection: 'column'}}>
+            <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "70%", height: "60vh"}}>
               <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
             </div>  
-            <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
+            <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "70%", height: "60vh"}}>
               <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Diário da Mari</p>
             </div>
