@@ -492,7 +492,7 @@ const AdinkraLine = styled.div`
   }
 
   @media screen and (max-width: ${theme.breakpoints.s}){
-    top: 43%;
+    top: 45%;
   }
 
   @media screen and (max-width: 375px){
