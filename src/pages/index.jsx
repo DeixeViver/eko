@@ -649,16 +649,16 @@ const PostListCss = styled.div`
           <h2 style={{fontSize: '52px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>MOSTRE SUA VOZ</h2>
           <Text>
             <p style={sloganBodyWhiteCenter}>
-              Conheça aqui outros projetos que fazem da Internet um lugar melhor.
+              Conheça aqui outros projetos que fazem da Internet um lugar melhor, entenda como eles funcionam e projete-se você também!
             </p>
           </Text>
           <div style={{display:"flex", justifyContent: "center", flexDirection: 'column'}}>
             <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "70%", height: "60vh"}}>
-              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/NDCIxrWqIWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
             </div>  
             <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "70%", height: "60vh"}}>
-              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/7_1NDzntIFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Diário da Mari</p>
             </div>
           </div>

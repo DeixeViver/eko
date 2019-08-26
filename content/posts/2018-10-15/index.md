@@ -24,23 +24,23 @@ baradinkra: ['6','5']
 Dados são pequenas observações sobre um determinado contexto.
 Podem ser públicos, privados, abertos ou não.
 
-Nome, Nome de usuário, Site, Biografia, Email, Telefone, Quantas geladeiras você tem em casa. Tudo isso são dados, pequenas observações sobre nós mesmos, que nós fornecemos quando fazemos o cadastro em uma rede social, como o Twitter ou Instagram, ou quando respondemos ao Censo Demográfico do IBGE.
+Nome, Nome de Usuário, Site, Biografia, E-mail, Telefone, Quantas geladeiras você tem em casa. Tudo isso são dados. Pequenas observações sobre nós que fornecemos quando fazemos o cadastro em uma rede social, como o Twitter ou Instagram, ou quando respondemos ao Censo Demográfico do IBGE.
 
 ![alt text](dados.png "Dados")
 
 <br>
 
-Dependendo da política de privacidade e das configurações que o usuário faça, alguns desses dados serão privados e só estarão disponíveis para o próprio usuário e a empresa responsável pela rede social (ou pelo menos deveria ser assim né!?), e outros estarão visíveis para todas as outras pessoas que usam a rede ou não, como o seu nome de usuário ou foto de perfil.
+Dependendo da política de privacidade e das configurações que o usuário faça, alguns desses dados serão privados e só estarão disponíveis para o próprio usuário e para a empresa responsável pela rede social (ou pelo menos deveria ser assim, né!?), e outros estarão visíveis para todas as pessoas que usam a rede ou não, como o seu nome de usuário ou foto de perfil.
 
-Dados públicos são dados sem restrição de acesso mas o termo público também se refere a dados que falam sobre uma população, como são os dados do IBGE, no cenário brasileiro, e também de muitos órgãos governamentais que vêm aderindo a publicização de seus dados. Essas informações muita valia quando queremos saber mais sobre nós enquanto sociedade. E é aí que entra o que chamamos de dados abertos ou não.
+Dados públicos são dados sem restrição de acesso. Mas o termo público também se refere a dados que falam sobre uma população, como são os dados do IBGE, no cenário brasileiro, e também de muitos órgãos governamentais que vêm aderindo a publicização de seus dados. Essas informações têm muita valia quando queremos saber mais sobre nós enquanto sociedade. E é aí que entra o que chamamos de dados abertos ou não.
 
 Dado aberto é todo aquele dado que pode ser manipulado por qualquer pessoa, e para isso ele precisa ser facilmente legível para o computador.
 
-No caso, quando os órgãos dispõem os dados em formato CSV (Comma Separated Values ou Valores Separados por Vígula) - <a href="https://www.tudoexcel.com.br/planilhas/diferenca-entre-excel-e-csv-2997.html" target="_blank">Veja aqui sobre a diferença entre CSV e Excel</a> - , é um exemplo de dados em formato aberto, visto que é muito fácil acessar dados assim. Porém se esse órgão dispõe apenas fotos de planilhas ou arquivos pdf, por exemplo, isso dificulta o acesso ao conteúdo, tornando aquilo um dado não aberto, mas ainda assim um dado público. 
+No caso, quando os órgãos dispõem os dados em formato CSV (Comma Separated Values ou Valores Separados por Vírgula) - <a href="https://www.tudoexcel.com.br/planilhas/diferenca-entre-excel-e-csv-2997.html" target="_blank">Veja aqui sobre a diferença entre CSV e Excel</a> - , é um exemplo de dados em formato aberto, visto que é muito fácil acessar dados assim. Porém, se esse órgão dispõe apenas fotos de planilhas ou arquivos pdf, por exemplo, isso dificulta o acesso ao conteúdo, tornando aquilo um dado não aberto, mas ainda assim um dado público. 
 
 > O que isso quer dizer na prática? 
 
-Que se você tem uma tabela com dados sobre a expectativa de vida da população brasileira ao longo dos anos e deseja filtrar os dados para exibir a expectativa de vida considerando a população negra ao longo dos anos, você vai poder fazer isso de forma muito fácil se o dados estiver em um formato CSV ou até excel. Mas se for uma foto da tabela, NÃO.
+Que se você tem uma tabela com dados sobre a expectativa de vida da população brasileira em determinado período e deseja filtrar os dados para exibir a expectativa de vida considerando a população negra ao longo dos anos, você vai poder fazer isso de forma muito fácil se os dados estiverem em um formato CSV ou até excel. Mas se for uma foto da tabela, NÃO.
 
 Acesse a <a href="http://dados.gov.br/pagina/cartilha-publicacao-dados-abertos" target="_blank">cartilha sobre dados abertos</a> e saiba mais sobre isso.
 
@@ -62,40 +62,39 @@ O <a href="http://dados.gov.br/" target="_blank">http://dados.gov.br/</a> é um 
 E o que podemos fazer a partir disso? Saber mais sobre a nossa sociedade, sobre pautas públicas, projetos de lei, contrapor argumentos infundados e notícias falsas, fiscalizar o poder público e construir conhecimento cruzando esses dados com as nossas vivências. 
 E é aí que entram as Narrativas e Contranarrativas.
 
-Narrativas são histórias. É aquilo que a gente conta, de forma fictícia objetivando o entretenimento de forma fantasiosa. Ou contamos de forma verídica, factual, objetivando retratar uma realidade, fatos e observações verídicas.
+Narrativas são histórias. É aquilo que a gente conta, de forma fictícia, objetivando o entretenimento de forma fantasiosa. Ou contamos de forma verídica, factual, objetivando retratar uma realidade, fatos e observações verídicas.
 
-O que não dá pra fazer é distorcer informações e querer apresentar isso a outras pessoas como sendo real. Isso é construir uma narrativa de forma ilusória, de forma falsa o que resulta nas nossas tão atuais Fake News.
+O que não dá pra fazer é distorcer informações e querer apresentar isso a outras pessoas como sendo real. Isso é construir uma narrativa de forma ilusória, falsa e que resulta nas nossas tão atuais Fake News.
 
 <center>
 <img src="https://media.giphy.com/media/3o85xyklT2t8VVjxxC/giphy.gif" width=520 height=310>
 </center>
 
-Já as contranarrativas são histórias também mas com um objetivo específico de contrapor um narrativa já conhecida, de adicionar um novo ponto de vista sobre um assunto de forma a desconstruir um conceito ou preconceito anterior. Um exemplo disso são as crescentes contranarrativas sobre como mulheres podem desenvolver suas carreiras profissionais e ocupar postos de trabalhos diversos, assunto que infelizmente ainda hoje é abordado com discriminação coibindo mulheres a terem obrigações exclusiva ou prioritáriamente com a casa e a família.
+Já as contranarrativas são histórias também, mas com um objetivo específico de contrapor um narrativa já conhecida, de adicionar um novo ponto de vista sobre um assunto de forma a desconstruir um conceito ou preconceito anterior. Um exemplo disso são as crescentes contranarrativas sobre como mulheres podem desenvolver suas carreiras profissionais e ocupar postos de trabalhos diversos, assunto que infelizmente ainda hoje é abordado com discriminação coibindo mulheres a terem obrigações exclusivas ou prioritariamente com a casa e a família.
 
 O Saferlab construiu um <a href="http://saferlab.org.br/guia.pdf" target="_blank">super guia</a> abordando o assunto e explicando os caminhos para o desenvolvimento dessa ferramenta tão importante na luta contra a discriminação, online e offline. Conforme o guia alguns tipos de contranarrativas são:
 
-> - Contranarrativas com dados e informações
-> - Contranarrativas de pessoas e projetos inspiradores
-> - Contranarrativas de respostas diretas (Nosso famoso textão!)
-> - Contranarrativas invertendo a lógica
+> - Contranarrativas com dados e informações;
+> - Contranarrativas de pessoas e projetos inspiradores;
+> - Contranarrativas de respostas diretas (Nosso famoso textão!);
+> - Contranarrativas invertendo a lógica.
 
-Um dos exemplos presente no guia do Saferlab é a subversão feita com a hashtag #Écoisadepreto que converteu uma frase inicialmente falada com intuito racista em uma campanha enaltecendo realizações de pessoas negras. Acesse <a href="http://saferlab.org.br/guia.pdf" target="_blank">Tool Box Crie Sua Contranarrativa!</a>
-E veja outros exemplos e dicas.
+Um dos exemplos presente no guia do Saferlab é a subversão feita com a hashtag #Écoisadepreto que converteu uma frase inicialmente falada com intuito racista em uma campanha enaltecendo realizações de pessoas negras. Acesse <a href="http://saferlab.org.br/guia.pdf" target="_blank">Tool Box Crie Sua Contranarrativa!</a> e veja outros exemplos e dicas.
 
 ![alt text](adinkra_9.png "Mão na massa")
 
-## Vamos fazer!?
+## Vamos fazer?!
 
 Já sabemos o que são dados, narrativas, contranarrativas e de onde tirar dados. Agora nós vamos para a parte prática fazendo uma introdução das ferramentas e conceitos que podemos utilizar para acessar esses dados e tirar informações deles.
 
-- <a href="https://github.com/" target="_blank">Github</a> — É uma ferramenta que as pessoas utilizam para publicar, compartilhar e versionar arquivos, como textos e códigos. O Github se utiliza do Git para permitir o versionamento de arquivos. É esse versionamento que permite que a gente dê ctrl+z nos projetos, sistemas, textos… Louvado Seja!
+- <a href="https://github.com/" target="_blank">Github</a> — É uma ferramenta que as pessoas utilizam para publicar, compartilhar e versionar arquivos, como textos e códigos. O Github se utiliza do Git para permitir o versionamento de arquivos. É esse versionamento que permite que a gente dê ctrl+z nos projetos, sistemas, textos, tudooooo!
 
 - <a href="https://python.org.br/introducao/" target="_blank">Python</a> — É uma linguagem de programação que tem em seus princípios a legibilidade e permite fazer uma série de tarefas de forma bem simples.
 
 - <a href="https://dadosedecisoes.com.br/o-jupyter-notebook-o-que-e/" target="_blank">Jupyter Notebook</a>
  — Ferramenta que permite a visualização e execução de código e texto. É o formato que vamos usar para explorar e descrever tudo o que vamos fazendo com os dados passo a passo.
 
-- Biblioteca — É um conjunto de algoritmos que alguém encapsulou em um único lugar. De forma que outras pessoas possam reutilizar o código.
+- Biblioteca — É um conjunto de algoritmos que alguém encapsulou em um único lugar de forma que outras pessoas possam reutilizar o código.
 
 - <a href="https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1" target="_blank">Pandas</a> — É uma biblioteca desenvolvida para Python que permite importar e manipular dados de forma muito simples.
 
@@ -125,11 +124,10 @@ Se você executou parte a parte do nosso algoritmo para analisar dados da educa�
 <img src="https://media.giphy.com/media/3ohhwzeceMRpHj56uY/giphy.gif">
 </center>
 
-Ter conhecimento sobre essas dados é importante se queremos falar da educação brasileira, propor projetos nesse área ou construir políticas públicas a fim de melhorar a infraestrutura educacional do nosso país. Existe uma <a href="https://www.nexojornal.com.br/grafico/2019/05/23/A-diferen%C3%A7a-entre-a-infraestrutura-de-escolas-p%C3%BAblicas-e-privadas" target="_blank">matéria do Nexo Jornal</a> que fala sobre a infraestrutura das escolas, comparando rede pública e privada, inclusive por estado. Foi feita com dados do Censo escolar de 2018 (que estão disponíveis naquele link maravilhoso do INEP que colocamos na nossa lista lá no início da trilha) e por ter dados mais atualizados do que aqueles que utilizamos na parte prática nos dá uma oportunidade de comparar como os dados mudaram de  2012 pra cá. Será que mudaram?
+Ter conhecimento sobre esses dados é importante se quisermos falar da educação brasileira, propor projetos nessa área ou construir políticas públicas a fim de melhorar a infraestrutura educacional do nosso país. Existe uma <a href="https://www.nexojornal.com.br/grafico/2019/05/23/A-diferen%C3%A7a-entre-a-infraestrutura-de-escolas-p%C3%BAblicas-e-privadas" target="_blank">matéria do Nexo Jornal</a> que fala sobre a infraestrutura das escolas, comparando rede pública e privada, inclusive por estado. A matéria foi feita com dados do Censo Escolar de 2018 (que estão disponíveis naquele link maravilhoso do INEP que colocamos na nossa lista lá no início da trilha) e por ter dados mais atualizados do que aqueles que utilizamos na parte prática nos dá uma oportunidade de comparar como os dados mudaram de 2012 pra cá. Será que mudaram?
 
-O que fizemos aqui foi um exercício básico, para mostrar como é possível ter acesso a dados abertos. Todas essas dúvidas que você tem agora sobre a infraestrutura das escolas, se falta dinheiro para os banheiros e laboratórios, por exemplo, faz parte do trabalho com dados. 
-Nem sempre conseguimos ter todas as respostas mas sempre temos novas perguntas e podemos utilizar de outros dados e materiais para tentar cruzar informações de forma a saber mais sobre aquele contexto, como com dados sobre os recursos públicos destinados à educação... Sim, eles existe! 
-Ta vendo aí a importância da abertura dos dados?
+O que fizemos aqui foi um exercício básico para mostrar como é possível ter acesso a dados abertos. Todas essas dúvidas que você tem agora sobre a infraestrutura das escolas, se falta dinheiro para os banheiros e laboratórios, por exemplo, faz parte do trabalho com dados. 
+Nem sempre conseguimos ter todas as respostas, mas sempre temos novas perguntas e podemos utilizar de outros dados e materiais para tentar cruzar informações de forma a saber mais sobre aquele contexto, como com dados sobre os recursos públicos destinados à educação... Sim, eles existem! Tá vendo aí a importância da abertura dos dados?
 
 <a href="http://inep.gov.br/web/guest/investimentos-publicos-em-educacao" target="_blank">Investimentos Públicos em Educação</a>
 
@@ -139,7 +137,7 @@ Mãos à obra!
 
 ## Extra
 
-Essa uma playlist incrivel do Énois Agência de Jornalismo que explica conceitos bacanas sobre como fazer um documentário, mas nós recomendamos para todo mundo que está produzindo conteúdo pensando em narrativas tanto textuais como vídeos. Vale o embasamento :)
+Essa uma playlist incrível do Énois Agência de Jornalismo que explica conceitos bacanas sobre como fazer um documentário, mas nós recomendamos para todo mundo que está produzindo conteúdo pensando em narrativas tanto textuais como audiovisuais. Vale o embasamento. :)
 
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/UfvBU7iWmdY?list=PLhkWZx0gxkbjwvnJAn0CpoIWW9GwKtCIL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
