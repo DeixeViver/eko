@@ -655,11 +655,14 @@ const PostListCss = styled.div`
           <div style={{display:"flex", justifyContent: "center", flexDirection: 'column'}}>
             <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "70%", height: "60vh"}}>
               <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/NDCIxrWqIWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
+              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}> 
+                <a href="http://sejaextraordinaria.com.br/" target="_blank" title="Seja Extraordinária">Seja Extraordinária</a> </p>
             </div>  
-            <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "70%", height: "60vh"}}>
+           <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "70%", height: "60vh"}}>
               <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/7_1NDzntIFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Diário da Mari</p>
+              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}> 
+                <a href="https://www.instagram.com/rupturablack/" target="_blank" title="Ruptura Black">Ruptura Black</a> e o 
+                <a href="https://www.instagram.com/odiarioda_mari/" target="_blank" title="Diário da Mari"> Diário da Mari</a> </p>
             </div>
           </div>
 
