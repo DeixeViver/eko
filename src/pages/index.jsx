@@ -513,7 +513,7 @@ const PostListCss = styled.div`
 const VideosContainer = styled.div`
   display: flex;
   justify-content: center;
-  flexDirection: column;
+  flex-direction: column;
 
   @media screen and (min-width: ${theme.breakpoints.l}){
     flex-direction: row;   
@@ -662,11 +662,11 @@ const VideosContainer = styled.div`
             </p>
           </Text>
           <VideosContainer>
-            <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "95%", height: "60vh", maxWidth: "500px"}}>
+            <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "90%", height: "60vh", maxWidth: "500px"}}>
               <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/NDCIxrWqIWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
             </div>  
-            <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "95%", height: "60vh", maxWidth: "500px"}}>
+            <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "90%", height: "60vh", maxWidth: "500px"}}>
               <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/7_1NDzntIFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Diário da Mari</p>
             </div>
