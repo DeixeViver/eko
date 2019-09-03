@@ -4,28 +4,35 @@ import safernet from '../../static/safernet.png';
 
 
 const Wrapper = styled.footer`
-  position: relative;
-  padding-top: 0.5rem;
-  bottom: 0;
   box-shadow: ${props => props.theme.shadow.footer};
-  font-family: 'Confortaa', cursive;
   font-weight: 500;
   display: flex;
-  align-items: flex-start;
-  padding-top: 0;
-  justify-content: flex-start
+  flex-direction:column;
+  flex: 2;
+
+  @media (min-width: ${props => props.theme.breakpoints.m}) {
+    padding-top: 0.5rem;
+    bottom: 0;
+    box-shadow: ${props => props.theme.shadow.footer};
+    font-family: 'Confortaa', cursive;
+    font-weight: 500;
+    display: flex;  
+    flex-direction:row;
+    align-items: flex-start;
+    padding-top: 0;
+    justify-content: flex-start
+  }
 `;
 
 const Text = styled.div`
   margin: 0;
-  flex: 2 1 0;
   padding: 0.9rem;
   text-align: center;
   background: #d9f7fa;
-  height: 50px;
+  font-family: 'Confortaa', cursive;
+  flex: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   color: ${props => props.theme.colors.black.light};
 
     
@@ -33,29 +40,28 @@ const Text = styled.div`
   }
 `;
 
+
+
 const TextDeixe = styled.div`
-  flex: 1 1 0;
   margin: 0;
   padding: 0.5rem;
   font-size: 14px;
   text-align: center;
   background: #bfd7d8;
   color: ${props => props.theme.colors.black.light};
-
-  height: 50px;
+  font-family: 'Confortaa', cursive;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 `;
 
 const imgMember = {
-  width: '100px',
+  width: '130px',
   borderRadius: 12,
-  flex: 2,
-  marginBottom: 0,
-  position: 'absolute',
-  right: 0,
-  top: "-78px"
+  margin:0,
+  borderBottomLeftRadius: 0,
+  borderBottomRightRadius: 0,
 }
 
 const ViewDivisor = styled.div`
@@ -75,19 +81,23 @@ background: linear-gradient(90deg,
 
 const Footer = () => (
   <div>
-    <Wrapper>
-      <TextDeixe>
-        <span>Feito com muito amor pela equipe Deixe ViVer</span>
-      </TextDeixe>
-      
-      <Text>
-        <span>
-          Projeto Financiado, motivado e inspirado pelo SAFERNET
-        </span>
-        <img style={imgMember} src={safernet} alt={"Safernet Logo"} />
-      </Text>
-    </Wrapper>
-    
+    <div style={{flexDirection: "row", display: "flex", alignItems: "flex-end"}}>
+      <Wrapper>
+        <TextDeixe>
+          <span>Feito com muito amor pela equipe Deixe ViVer</span>
+        </TextDeixe>
+        
+        <Text>
+          <span>
+            Projeto Financiado, motivado e inspirado pelo SAFERNET
+          </span>
+        </Text>
+      </Wrapper>
+      <img style={imgMember} src={safernet} alt={"Safernet Logo"} />
+
+    </div>
+   
+
     <ViewDivisor/>
   </div>
 

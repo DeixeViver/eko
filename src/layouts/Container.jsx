@@ -67,21 +67,43 @@ const Wrapper = styled.section`
   }
 
   & blockquote {
-    margin: 2rem auto;
-    width: 60%;
-    padding: 0.5rem;
-    background-color: ${props => props.theme.colors.white.base};
+    margin: 0 auto 2rem auto;
+    width: 95%;
+    padding: 0.1rem;
+    background-color: ${props => props.theme.colors.pink.base};
+
+    @media (min-width: ${props => props.theme.breakpoints.m}) {
+      margin: 2rem auto;
+      width: 60%;
+      padding: 0.5rem;
+      background-color: ${props => props.theme.colors.white.base};
+
+    }
  
     & p {
-      border: 3px solid ${props => props.theme.colors.pink.base};
-      margin: 1.5rem;
-      padding: 1rem;
+      padding: 0.5rem;
       line-height: 1.6;
       width: 100%;
-      margin: 0;
-      font-size: 26px;
+      font-size: 22px;
       font-weight: 300;
       font-style: italic;
+      color: #fafafa;
+      text-align: center;
+      margin: 0;
+
+      @media (min-width: ${props => props.theme.breakpoints.m}) {
+        border: 3px solid ${props => props.theme.colors.pink.base};
+        margin: 1.5rem;
+        padding: 1rem;
+        line-height: 1.6;
+        width: 100%;
+        margin: 0;
+        font-size: 26px;
+        font-weight: 300;
+        font-style: italic;
+        color: #666;
+  
+      }
     }
    }
 
