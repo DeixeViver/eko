@@ -81,7 +81,7 @@ Te entendo colega, sair de casa hoje em dia é realmente um sacrifício. Seja se
 
 > **Criptografia fim a fim:**
 <br>
-De maneira bem rasa, a criptografia é um conjunto de técnicas para mascarar uma mensagem de modo que apenas quem enviou ou em quem recebeu conseguem decifra-lá. Um exemplo bem simplório, sabe quando você está numa roda de amigos, mas precisa urgente contar um babado pra amiga ou amigo sem que ninguém saiba? Daí vocês começam a falar em códigos que só vocês entedem? Pronto, você acabou de fazer uma criptografia.
+De maneira simples, a criptografia é um conjunto de técnicas para mascarar uma mensagem de modo que apenas quem enviou ou em quem recebeu conseguem decifra-lá. Um exemplo: sabe quando você está numa roda de amigos, mas precisa urgente contar um babado pra amiga ou amigo sem que ninguém saiba? Daí vocês começam a falar em códigos que só vocês entedem? Pronto, você acabou de fazer uma criptografia.
 <br>
 <br>
 Existem várias formas de criptografar uma mensagem. Na criptografia fim a fim, quando eu quero te enviar uma mensagem, ela é criptografada no meu celular e só pode ser descriptografada e entendida quando chega no seu celular, ou seja, se alguém captura a mensagem no meio do caminho não vai adiantar de nada pois não será possível entender o que está escrito - O AUGE!
