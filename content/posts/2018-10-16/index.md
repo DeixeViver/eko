@@ -2,13 +2,13 @@
 path: "/trilha-1"
 cover: "./gradiente.jpg"
 date: "2018-10-15"
-title: "Trilha 01 - Algoritmos invisíveis"
+title: "Trilha 01 - Algoritmos Invisíveis"
 published: true
 tags: ['algoritmos','trilha', 'conhecimento']
 video: false
 videosrc: ''
 fronttitlea: 'Trilha 01 — Algoritmos Invisíveis'
-fronttitleb: 'O espaço inacessível da Internet e sua relação com Discurso de Ódio'
+fronttitleb: 'O espaço inacessível da Internet e sua relação com discurso de ódio'
 frontsubtitle: ''
 barpercentage: [25, 48, 67, 81]
 baradinkra: ['1','7','3', '4']
@@ -81,7 +81,7 @@ Mas o grande ponto aí é:
 
 > Não se pode exercer o direito à Liberdade de Expressão a custo da Dignidade da Pessoa Humana, que é um dos fundamentos da Constituição brasileira.
 
-Discurso de Ódio é o discurso que visa desqualificar e inferiorizar uma pessoa ou um grupo de pessoas com base em características que as façam pertencentes a um grupo social como etnia, gênero, condição social, opção sexual, religião… incitando a exclusão, defendendo o ódio, a violência ou a discriminação daquela pessoa ou grupo.
+Discurso de Ódio é o discurso que visa desqualificar e inferiorizar uma pessoa ou um grupo de pessoas com base em características que as façam pertencentes a um grupo social como etnia, gênero, condição social, orientação sexual, religião… incitando a exclusão, defendendo o ódio, a violência ou a discriminação daquela pessoa ou grupo.
 
 Esse é um vídeo que exemplifica bem os problemas e desafios relacionados ao DO na Internet. Faz parte do Movimento Contra o Discurso de Ódio desenvolvido pelo Setor de Juventude do Conselho da Europa.
 
@@ -101,10 +101,10 @@ Dadas as devidas definições vamos à parte que nos cabe nesse rolê que é pen
 
 Pensando em como os algoritmos na Internet funcionam e no combate ao DO Online, quando compartilhamos um vídeo, foto, postagem que tem relação com DO ou quando respondemos diretamente uma dessas mensagens é preciso ponderar sobre algumas questões:
 
-### 1 -  Você pode estar dando atenção ao Hater
+### 1 -  Você pode estar dando atenção ao *Hater*
 E nesse caso, “alimentar os haters” pode não ser uma boa estratégia visto que o objetivo dessas pessoas muitas vezes é apenas causar mal-estar e chamar atenção.
 
-### 2 - Tenham empatia com a Vítima
+### 2 - Tenham empatia com a vítima
 Ao compartilhar um relato de discriminação você deve considerar também a exibição que pode gerar na vida da pessoa que sofreu o ato, pois dependendo da repercussão a vítima pode ter que reviver aquela situação e isso pode ser doloroso.
 
 ### 3 - Procure os meios oficiais de denúncia
