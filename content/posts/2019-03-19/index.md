@@ -10,7 +10,7 @@ videosrc: ''
 fronttitlea: 'Trilha 03 - Segurança nas Redes'
 fronttitleb: 'Segurança digital: Sorria, você está sendo vigiado!'
 frontsubtitle: ''
-barpercentage: [27, 45, 69]
+barpercentage: [23, 40, 69]
 baradinkra: ['8','9','10']
 ---
 

@@ -56,7 +56,6 @@ O <a href="http://dados.gov.br/" target="_blank">http://dados.gov.br/</a> é um 
 - <a href="https://dadosabertos.camara.leg.br/swagger/api.html" target="_blank">API Dados Abertos da Câmara dos Deputados</a>
 - <a href="http://www.ipeadata.gov.br/Default.aspx" target="_blank">IPEA - Instituto de Pesquisa Econômica Aplicada</a>
 - <a href="http://www.ipea.gov.br/atlasviolencia/dados-series/74" target="_blank">IPEA - Atlas da Violência - Homicídios Faixa Etária de 15 - 29 anos - Mulheres</a>
-- <a href="http://www.ipea.gov.br/atlasviolencia/dados-series/71" target="_blank">IPEA - Atlas da Violência - Homicídios Faixa Etária de 15 - 29 anos - Homens</a>
 - <a href="http://apps.who.int/gho/data/view.main.SDG2016LEXREGv?lang=en" target="_blank">Expectativa de Vida - Organização mundial de Saúde</a>
 
 E o que podemos fazer a partir disso? Saber mais sobre a nossa sociedade, sobre pautas públicas, projetos de lei, contrapor argumentos infundados e notícias falsas, fiscalizar o poder público e construir conhecimento cruzando esses dados com as nossas vivências. 
@@ -85,40 +84,31 @@ Um dos exemplos presente no guia do Saferlab é a subversão feita com a hashtag
 
 ## Vamos fazer?!
 
-Já sabemos o que são dados, narrativas, contranarrativas e de onde tirar dados. Agora nós vamos para a parte prática fazendo uma introdução das ferramentas e conceitos que podemos utilizar para acessar esses dados e tirar informações deles.
+Já sabemos o que são dados, narrativas, contranarrativas e de onde tirar dados. Agora nós vamos para a parte prática. E para isso vamos utilizar <a href="https://python.org.br/introducao/" target="_blank">Python</a>  —  Uma linguagem de programação que permite fazer uma série de tarefas de forma bem simples e o <a href="https://colab.research.google.com" target="_blank">Colab Google</a>  —  Uma ferramenta da Google que permite escrever e executar códigos daí mesmo do seu navegador. 
 
-- <a href="https://github.com/" target="_blank">Github</a> — É uma ferramenta que as pessoas utilizam para publicar, compartilhar e versionar arquivos, como textos e códigos. O Github se utiliza do Git para permitir o versionamento de arquivos. É esse versionamento que permite que a gente dê ctrl+z nos projetos, sistemas, textos, tudooooo!
+Vamos praticar explorando o assunto educação básica no Brasil. E tá tudo bem explicadinho nesses vídeos super curtos. Segue a trilha que vai dar certo!
 
-- <a href="https://python.org.br/introducao/" target="_blank">Python</a> — É uma linguagem de programação que tem em seus princípios a legibilidade e permite fazer uma série de tarefas de forma bem simples.
-
-- <a href="https://dadosedecisoes.com.br/o-jupyter-notebook-o-que-e/" target="_blank">Jupyter Notebook</a>
- — Ferramenta que permite a visualização e execução de código e texto. É o formato que vamos usar para explorar e descrever tudo o que vamos fazendo com os dados passo a passo.
-
-- Biblioteca — É um conjunto de algoritmos que alguém encapsulou em um único lugar de forma que outras pessoas possam reutilizar o código.
-
-- <a href="https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-simples-ao-pandas-1e15eea37fa1" target="_blank">Pandas</a> — É uma biblioteca desenvolvida para Python que permite importar e manipular dados de forma muito simples.
-
-- <a href="https://colab.research.google.com" target="_blank">Colab Google</a> — É uma ferramenta da Google que permite escrever e executar códigos daí mesmo do seu navegador. É ele que vamos usar aqui para tornar a nossa prática mais fácil.
-
-Vamos trabalhar explorando o assunto Educação Básica no Brasil e para isso vamos mudar um pouco o ambiente, você vai acessar o link do Colab e vai importar o nosso Notebook:
-
-Notebook sobre Educação Básica: <a href="https://github.com/DeixeViver/eko-dados/blob/master/notebooks/explorando_educacao_basica.ipynb" target="_blank">https://github.com/DeixeViver/eko-dados/blob/master/notebooks/explorando_educacao_basica.ipynb</a>
-
-Nos vídeos abaixo a gente faz uma introdução de como você pode utilizar o Colab. Segue a trilha que vai dar certo!
+### 1 - Como construir algoritmos sem sair do navegador e sem instalar nada
+Link do Colab: https://colab.research.google.com/
 
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/yEYYBCU3JXs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
+### 2 - Como importar um notebook
+Já deixamos um notebook prontinho para você importar no Colab e sair analisando tudo - https://github.com/DeixeViver/eko-dados/blob/master/notebooks/explorandoeducacaobasica.ipynb
+
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/mcyj_a0bLoQ"" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+
+### 3 - Agora vamos salvar o que fizemos né
 
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/kqrwcFl4jjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-Se você executou parte a parte do nosso algoritmo para analisar dados da educação básica de 2012, deve ter se espantando, assim como eu, quando viu que existiam escolas que não tinham sanitário dentro do prédio, ou a quantidade de laboratórios de informática e ciências.
+Se você executou parte a parte do nosso notebook para analisar dados da educação básica de 2012, deve ter se espantando, assim como eu, quando viu que existiam escolas que não tinham sanitário dentro do prédio, ou a quantidade de laboratórios de informática e ciências.
 
 <center>
 <img src="https://media.giphy.com/media/3ohhwzeceMRpHj56uY/giphy.gif">
@@ -137,7 +127,7 @@ Mãos à obra!
 
 ## Extra
 
-Essa uma playlist incrível do Énois Agência de Jornalismo que explica conceitos bacanas sobre como fazer um documentário, mas nós recomendamos para todo mundo que está produzindo conteúdo pensando em narrativas tanto textuais como audiovisuais. Vale o embasamento. :)
+Essa uma playlist incrível do Énois Agência de Jornalismo que explica conceitos bacanas sobre como fazer um documentário, mas nós recomendamos para todo mundo que está produzindo conteúdo pensando em narrativas tanto textuais como audiovisuais. Vale o embasamento!
 
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/UfvBU7iWmdY?list=PLhkWZx0gxkbjwvnJAn0CpoIWW9GwKtCIL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
