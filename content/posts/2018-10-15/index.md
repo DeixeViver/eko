@@ -8,7 +8,7 @@ tags: ['dados', 'trilha', 'conhecimento']
 video: false
 videoname: 'Video1'
 fronttitlea: 'Trilha 02 - Transformando Dados em Ferramentas'
-fronttitleb: 'Dados, Narrativas e Contranarrativas'
+fronttitleb: 'Dados, narrativas e contranarrativas'
 frontsubtitle: ''
 barpercentage: [24, 48]
 baradinkra: ['6','5']
@@ -50,19 +50,19 @@ Acesse a <a href="http://dados.gov.br/pagina/cartilha-publicacao-dados-abertos" 
 
 O <a href="http://dados.gov.br/" target="_blank">http://dados.gov.br/</a> é um grande portal brasileiro de dados públicos e abertos. Outras fontes interessantes são:
 
-> - <a href="https://sidra.ibge.gov.br/home/pimpfrg/nordeste" target="_blank">SIDRA - IBGE</a>
-> - <a href="https://brasil.io/home" target="_blank">Brasil IO</a>
-> - <a href="http://inep.gov.br/web/guest/dados" target="_blank">Microdados do INEP - Dados sobre o Enem, Censo escolar, Enade e muitos outros</a>
-> - <a href="https://dadosabertos.camara.leg.br/swagger/api.html" target="_blank">API Dados Abertos da Câmara dos Deputados</a>
-> - <a href="http://www.ipeadata.gov.br/Default.aspx" target="_blank">IPEA - Instituto de Pesquisa Econômica Aplicada</a>
-> - <a href="http://www.ipea.gov.br/atlasviolencia/dados-series/74" target="_blank">IPEA - Atlas da Violência - Homicídios Faixa Etária de 15 - 29 anos - Mulheres</a>
-> - <a href="http://www.ipea.gov.br/atlasviolencia/dados-series/71" target="_blank">IPEA - Atlas da Violência - Homicídios Faixa Etária de 15 - 29 anos - Homens</a>
-> - <a href="http://apps.who.int/gho/data/view.main.SDG2016LEXREGv?lang=en" target="_blank">Expectativa de Vida - Organização mundial de Saúde</a>
+- <a href="https://sidra.ibge.gov.br/home/pimpfrg/nordeste" target="_blank">SIDRA - IBGE</a>
+- <a href="https://brasil.io/home" target="_blank">Brasil IO</a>
+- <a href="http://inep.gov.br/web/guest/dados" target="_blank">Microdados do INEP - Dados sobre o Enem, Censo escolar, Enade e muitos outros</a>
+- <a href="https://dadosabertos.camara.leg.br/swagger/api.html" target="_blank">API Dados Abertos da Câmara dos Deputados</a>
+- <a href="http://www.ipeadata.gov.br/Default.aspx" target="_blank">IPEA - Instituto de Pesquisa Econômica Aplicada</a>
+- <a href="http://www.ipea.gov.br/atlasviolencia/dados-series/74" target="_blank">IPEA - Atlas da Violência - Homicídios Faixa Etária de 15 - 29 anos - Mulheres</a>
+- <a href="http://www.ipea.gov.br/atlasviolencia/dados-series/71" target="_blank">IPEA - Atlas da Violência - Homicídios Faixa Etária de 15 - 29 anos - Homens</a>
+- <a href="http://apps.who.int/gho/data/view.main.SDG2016LEXREGv?lang=en" target="_blank">Expectativa de Vida - Organização mundial de Saúde</a>
 
 E o que podemos fazer a partir disso? Saber mais sobre a nossa sociedade, sobre pautas públicas, projetos de lei, contrapor argumentos infundados e notícias falsas, fiscalizar o poder público e construir conhecimento cruzando esses dados com as nossas vivências. 
 E é aí que entram as Narrativas e Contranarrativas.
 
-Narrativas são histórias. É aquilo que a gente conta, de forma fictícia, objetivando o entretenimento de forma fantasiosa. Ou contamos de forma verídica, factual, objetivando retratar uma realidade, fatos e observações verídicas.
+Narrativas são histórias. É aquilo que a gente conta, de forma fictícia, objetivando o entretenimento. Ou contamos de forma verídica, objetivando retratar uma realidade, fatos e observações verídicas.
 
 O que não dá pra fazer é distorcer informações e querer apresentar isso a outras pessoas como sendo real. Isso é construir uma narrativa de forma ilusória, falsa e que resulta nas nossas tão atuais Fake News.
 
@@ -74,10 +74,10 @@ Já as contranarrativas são histórias também, mas com um objetivo específico
 
 O Saferlab construiu um <a href="http://saferlab.org.br/guia.pdf" target="_blank">super guia</a> abordando o assunto e explicando os caminhos para o desenvolvimento dessa ferramenta tão importante na luta contra a discriminação, online e offline. Conforme o guia alguns tipos de contranarrativas são:
 
-> - Contranarrativas com dados e informações;
-> - Contranarrativas de pessoas e projetos inspiradores;
-> - Contranarrativas de respostas diretas (Nosso famoso textão!);
-> - Contranarrativas invertendo a lógica.
+- Contranarrativas com dados e informações;
+- Contranarrativas de pessoas e projetos inspiradores;
+- Contranarrativas de respostas diretas (Nosso famoso textão!);
+- Contranarrativas invertendo a lógica.
 
 Um dos exemplos presente no guia do Saferlab é a subversão feita com a hashtag #Écoisadepreto que converteu uma frase inicialmente falada com intuito racista em uma campanha enaltecendo realizações de pessoas negras. Acesse <a href="http://saferlab.org.br/guia.pdf" target="_blank">Tool Box Crie Sua Contranarrativa!</a> e veja outros exemplos e dicas.
 
