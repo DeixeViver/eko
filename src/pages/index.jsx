@@ -96,7 +96,7 @@ export const team = [
       image: lorena,
       name: "Lorena Pereira",
       shortDescription: "Cientista de Dados com Conteúdo",
-      largeDescription: "Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
+      largeDescription: "Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas.",
       github: "https://github.com/lorenaps",
       instagram:""
 
@@ -104,9 +104,8 @@ export const team = [
 
 ];
 
-export const stringsDescription = ["Trabalhamos com Tecnologia e queremos construir um repertório sobre conceitos e ferramentas para lidar com discriminação, desinformação e discurso de ódio na Internet.", 
-                                  "A partir de três assuntos fundamentais construímos as Trilhas do Conhecimento, três seções onde vamos explicar os assuntos de forma simples e rápida.                                  ", 
-                                  "E para nos guiar nesse caminho utilizamos o Adinkra, um conjunto de símbolos africano que tem tudo a ver com essa conversa!"];
+export const stringsDescription = ["Juntamos tecnologia e ancestralidade para falar desse assunto.",
+                                  "Conheça o Adinkra e veja como esse sistema de escrita africano representa ideias tão poderosas."];
 
 export const getNumber = () => {
   let number = Math.floor(Math.random() * Math.floor(3));
@@ -671,7 +670,7 @@ const VideosContainer = styled.div`
               <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/7_1NDzntIFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}> 
                 <a href="https://www.instagram.com/rupturablack/" target="_blank" title="Ruptura Black">Ruptura Black</a> e o 
-                <a href="https://www.instagram.com/odiarioda_mari/" target="_blank" title="Diário da Mari"> Diário da Mari</a> </p>
+                <a href="https://www.instagram.com/odiariodamari_/" target="_blank" title="Diário da Mari"> Diário da Mari</a> </p>
             </div>
           </VideosContainer>
 
