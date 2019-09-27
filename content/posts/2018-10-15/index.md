@@ -7,8 +7,8 @@ published: true
 tags: ['dados', 'trilha', 'conhecimento']
 video: false
 videoname: 'Video1'
-fronttitlea: 'Trilha 02 - Transformando Dados em Ferramentas'
-fronttitleb: 'Dados, narrativas e contranarrativas'
+fronttitlea: 'Trilha 02 - Dados, Narrativas e Contranarrativas'
+fronttitleb: 'Transformando dados em ferramentas'
 frontsubtitle: ''
 barpercentage: [24, 48]
 baradinkra: ['6','5']
