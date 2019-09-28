@@ -433,7 +433,7 @@ const Index = ({ data }) => {
     font-size: 50px;
   }
   @media (min-width: ${theme.breakpoints.l}) {
-    font-size: 60px;
+    font-size: 50px;
   }
 `;
 

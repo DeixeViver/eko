@@ -9,6 +9,7 @@ const Wrapper = styled.footer`
   display: flex;
   flex-direction:column;
   flex: 2;
+  background-color: #fff;
 
   @media (min-width: ${props => props.theme.breakpoints.m}) {
     padding-top: 0.5rem;
@@ -80,7 +81,7 @@ background: linear-gradient(90deg,
 
 
 const Footer = () => (
-  <div>
+  <div style={{backgroundColor: "#FFF"}}>
     <div style={{flexDirection: "row", display: "flex", alignItems: "flex-end"}}>
       <Wrapper>
         <TextDeixe>

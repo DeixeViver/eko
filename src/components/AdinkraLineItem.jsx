@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 import first from "../../static/adrinkas/1.png";
 import css from '@emotion/css';
+import miniIpe from "../../static/miniIpeafro.jpg";
 
 const customStyles = {
   content : {
@@ -112,6 +113,9 @@ export default class AdinkraItemGrid extends React.Component {
                 <div>
                   <h2 ref={subtitle => this.subtitle = subtitle}>{this.state.modalContent.title}</h2>
                   <p>{this.state.modalContent.text}</p>
+                  <a href="http://ipeafro.org.br/" target="_blank">
+                    <img style={{maxWidth: "150px"}} src={miniIpe} />
+                  </a>
                 </div>
               </div>
               <a style={{width: "100%", backgroundColor: Theme.colors.orange.base, color: Theme.colors.white.base, textAlign: "center", display: 'block', cursor: "pointer"}} onClick={this.closeModal}>Fechar</a>

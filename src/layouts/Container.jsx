@@ -43,6 +43,10 @@ const Wrapper = styled.section`
       marginRight: 0.45em;
       
     }
+
+    & ul {
+      margin-bottom: 0 !important;
+    }
   }
 
   & ul {
@@ -60,6 +64,15 @@ const Wrapper = styled.section`
       margin: 0 auto 2rem auto;
       
     }
+
+    & li {
+      margin-left: 4rem;
+    }
+
+    & li p {
+      margin: 0;
+      width: 100%;
+    }
   }
 
   & span {
@@ -69,15 +82,20 @@ const Wrapper = styled.section`
   & blockquote {
     margin: 0 auto 2rem auto;
     width: 95%;
-    padding: 0.1rem;
+    padding: 1rem 0;
     background-color: ${props => props.theme.colors.pink.base};
-
+    color: #f5f5f5;
     @media (min-width: ${props => props.theme.breakpoints.m}) {
       margin: 2rem auto;
       width: 60%;
       padding: 0.5rem;
       background-color: ${props => props.theme.colors.white.base};
+      color: #666;
 
+    }
+
+    & ul {
+      width: 100%
     }
  
     & p {
