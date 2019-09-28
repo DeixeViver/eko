@@ -7,7 +7,7 @@ import {getNumber, chooseColor} from './index';
 import styled from '@emotion/styled';
 import AdinkraGrid from '../components/AdinkraGrid';
 import imersao from "../../static/imersao.jpg";
-import ipeafro from '../../static/ipeafro.png';
+import ipeafro from '../../static/miniIpeafro.jpg';
 
 const StyledMultipleBg = styled.div`
   display: flex;
