@@ -2,41 +2,30 @@
 path: "/trilha-1"
 cover: "./gradiente.jpg"
 date: "2018-10-15"
-title: "Trilha 01 - Algoritmos invisíveis"
+title: "Trilha 01 - Algoritmos Invisíveis"
 published: true
 tags: ['algoritmos','trilha', 'conhecimento']
 video: false
 videosrc: ''
 fronttitlea: 'Trilha 01 — Algoritmos Invisíveis'
-fronttitleb: 'O espaço inacessível da Internet e sua relação com Discurso de Ódio'
+fronttitleb: 'Algoritmos, bolhas sociais, discurso de ódio online e responsabilidade na rede'
 frontsubtitle: ''
-barpercentage: [25, 48, 67, 81]
+barpercentage: [16, 42, 60, 75]
 baradinkra: ['1','7','3', '4']
 ---
 
-## O que são algoritmos?
+## Primeiro de tudo: O que são algoritmos?
 
-São uma série de instruções para alcançar um objetivo.
-Simples, fácil e prático assim!
+Algoritmos são uma série de instruções para alcançar um objetivo. Simples, fácil e prático assim!
 
-Se pensarmos no que fazemos diariamente, iremos observar que seguimos uma série de passos a fim de completar pequenas atividades ao longo do dia. O que quer dizer que basicamente seguimos vários algoritmos projetados pela nossa linda cabeça o dia todo com base nas experiências que tivemos. 
-Não acredita? Pensa aqui comigo…
+Se pensarmos no que fazemos diariamente, vamos perceber que seguimos uma série de passos a fim de completar pequenas atividades ao longo do dia. E esse é um ótimo exemplo do que são algoritmos. 
+Pensa aqui comigo: **O que você precisa fazer para chegar no trabalho pela manhã?**
 
-![alt text](fluxograma.png "Fluxograma sobre Algoritmos")
+![alt text](fluxograma_novo.png "Fluxograma sobre Algoritmos")
 
 <br>
 
-No algoritmo acima estamos considerando que você depende de transporte público e que está em um dia feliz. Agora, continuando o exercício, o que a sua experiência lhe diz sobre o mesmo passo a passo que fizemos só que considerando aqueles dias chuvosos, nos quais o ônibus passa direto por você, quando ele quebra no meio do caminho, ou quando você descobre que tem um total de 0 reais bem na hora de passar pela catraca?
-
-<center>
-<img src="https://media1.tenor.com/images/64865f18a6718ec46d465075f5233e04/tenor.gif">
-</center>
-
-Com certeza isso mudaria bastante o roteiro. Você poderia ter que fazer um caminho alternativo ou ir até o ponto de táxi mais próximo. Enfim, acho que você já entendeu a ideia.
-
-A verdade é que nós estamos acostumados a seguir algoritmos todos os dias, só que quando falamos de computação eles são construídos em um formato diferente e mais rígido do que a imagem acima.
-
-Algoritmos também são chamados de Códigos, Programas, Programas de Computador e Scripts. E são formados basicamente de Variáveis e Métodos. As Variáveis são os dados necessários para seguir os passos especificados para atingir o objetivo do algoritmo, como saber a linha do ônibus que você espera. E os Métodos são as ações, os passos propriamente ditos, como “pegar o ônibus direto para o trabalho”.
+A verdade é que nós estamos acostumados a seguir algoritmos todos os dias, só que quando falamos de computadores e tecnologia da informação eles são construídos em um formato diferente e bem mais rígido do que o nosso fluxograma para chegar ao trabalho.
 
 Beleza! Agora que já sabemos o que são algoritmos por definição e já conseguimos pensar em exemplos reais na nossa vida, vamos entender como exatamente isso acontece na Internet.
 
@@ -44,44 +33,33 @@ Beleza! Agora que já sabemos o que são algoritmos por definição e já conseg
 ## O que os algoritmos fazem na Internet?
 TUDO! T-U-D-O!
 
-Na verdade eles estão por trás de muitas coisas na nossa vida. Todos os nossos aparelhos eletrônicos, aplicativos, sites que usamos, portas automáticas do shopping, leitor de cartão de crédito, tudo isso só é possível através da execução de vários, váaaaaarios algoritmos.
-
-Mas focando a nossa conversa naquilo que acontece na Internet: quais redes sociais você usa? Já fez login nelas hoje? O feed foi atualizado? Você precisou informar seu e-mail/nome de usuário e senha novamente ou já tinha marcado a opção “lembrar dados”?
-
 Os algoritmos na Internet, principalmente nas redes sociais, trabalham basicamente para nos fornecer acesso, fazendo nossa autenticação, organizando o que vemos no feed de notícias e nos possibilitando a interação com outras pessoas através de curtidas, comentários, postagens…
 
 <center>
 <img src="https://media.giphy.com/media/fwioI8NGpiuc0TOSzS/giphy.gif" width="384" height="480">
 </center>
 
-Muitas vezes eles precisam de dados de entrada (que serão Variáveis do algoritmo), no caso, para fazer login em redes como Twitter e Instagram você precisa informar o seu nome de usuário e a sua senha para que o algoritmo de autenticação seja capaz de verificar na base de dados da rede social se existe um usuário com aquele nome e se a senha informada corresponde à senha cadastrada pela dona ou dono daquela conta (esse procedimento é o Método de login e acontece quando você clica no botão).
+Muitas vezes eles precisam de dados de entrada, no caso, para fazer login em redes como Twitter, Instagram e Facebook você precisa informar o seu nome de usuário e a sua senha para que o algoritmo de autenticação seja capaz de verificar se você é mesmo a pessoa dona daquele perfil.
 
 A partir do momento que você entra na rede social tudo aquilo que você faz é vinculado a sua conta. As curtidas, os stories, as fotos postadas, os comentários… tudo.
 
-E é assim, através desses dados de entrada, que um outro algoritmo vai aprendendo as suas preferências na rede, a exemplo de com quais pessoas você mais se relaciona, quais os assuntos que você mais se importa, as postagens que você mais curte, e no fim te dá como resultado uma rede social com conteúdo personalizado. Ele presume pelas suas curtidas quais são as postagens que você quer ver e organiza o seu feed a partir disso, e é nesse momento que vai sendo construída a sua bolha social.
+E é assim, através desses novos dados, que um outro algoritmo vai aprendendo as suas preferências na rede. Ele presume pelas suas curtidas e buscas quais são as postagens que você quer ver e organiza o seu feed a partir disso, e é nesse momento que vai sendo construída a sua bolha social.
 
 <center>
 <img src="https://media.giphy.com/media/vLq5FWMjfN47S/giphy.gif">
 </center>
 
-No fim, você costuma ver mais aquilo com o que você mais interage e aquilo que é direcionado, via anúncios, para “perfis” como o seu.
+Só que estar cercado de postagens que satisfazem a nossa bolha social nos leva a uma
+experiência que exclui as opiniões divergentes da nossa e isso pode passar a sensação de que estamos sempre certos e que só existe uma única forma de enxergar o mundo.
 
-Tomando o Facebook como exemplo, você pode ver neste <a href="https://www.facebook.com/about/privacy#how-we-use-information" target="_blank">link</a> o que a política da plataforma fala sobre como usa os seus dados.
+Nessa situação vamos ver que na nossa bolha será inadmissível fazer piada com a orientação sexual das pessoas, mas na bolha daquele nosso tio o preconceito e o machismo correm soltos. Ou seja, em uma mesma rede social existem públicos separados em grupos, e esses grupos possuem visões de mundo e opiniões, por vezes, extremamente diferentes e incapazes de dialogar entre si.
+
+E à medida que esse cenário se aprofunda na intolerância se torna um ambiente favorável para comportamentos cada vez mais ofensivos chegando ao que chamamos de discurso de ódio.
 
 ![alt text](adinkra_2.png "Discurso de ódio e Dignidade da pessoa humana")
 ## Discurso de Ódio Online
 
-Sabendo como funciona um algoritmo agora vamos introduzir um outro conceito importante para a nossa conversa: Discurso de Ódio. Uma das principais questões quando falamos em Discurso de Ódio (DO) na Internet é sua relação com a Liberdade de Expressão.
-
-Geralmente a primeira coisa alegada por quem emite DO é:
-> “Mas isso é só a minha opinião.”
-> “Eu tenho direito a liberdade de expressão.”
-
-Mas o grande ponto aí é:
-
-> Não se pode exercer o direito à Liberdade de Expressão a custo da Dignidade da Pessoa Humana, que é um dos fundamentos da Constituição brasileira.
-
-Discurso de Ódio é o discurso que visa desqualificar e inferiorizar uma pessoa ou um grupo de pessoas com base em características que as façam pertencentes a um grupo social como etnia, gênero, condição social, opção sexual, religião… incitando a exclusão, defendendo o ódio, a violência ou a discriminação daquela pessoa ou grupo.
+Discurso de Ódio (DO) é o discurso que visa desqualificar e inferiorizar uma pessoa ou um grupo de pessoas com base em características que as façam pertencentes a um grupo social como etnia, gênero, condição social, orientação sexual e religião. Incitando a exclusão, defendendo o ódio, a violência ou a discriminação daquela pessoa ou grupo.
 
 Esse é um vídeo que exemplifica bem os problemas e desafios relacionados ao DO na Internet. Faz parte do Movimento Contra o Discurso de Ódio desenvolvido pelo Setor de Juventude do Conselho da Europa.
 
@@ -93,27 +71,25 @@ Existe um grande desafio em separar DO de mensagens ofensivas direcionadas a uma
 
 Um outro grande desafio do enfrentamento desse tipo de discurso na rede é que muitas vezes ele não é facilmente identificado diante das relações interpessoais, ironia e sarcasmo.
 
-O Discurso de Ódio Online, além de ofender um grupo de pessoas diretamente, age naturalizando a violência contra essas pessoas tornando-se um possível incentivo a crimes de ódio. É importante cada vez mais levantar essa discussão e ter mais informações sobre isso para que possamos entender como agir, quais são os canais oficiais para denúncia e qual a responsabilidade das detentoras das tecnologias.
+O discurso de ódio online, além de ofender um grupo de pessoas diretamente, age naturalizando a violência contra essas pessoas tornando-se um possível incentivo a crimes de ódio. É importante cada vez mais levantar essa discussão para que possamos entender como agir, quais são os canais oficiais para denúncia e qual é a responsabilidade das grandes empresas de tecnologia.
 
 ![alt text](adinkra_3.png "Compartilhei! E agora?")
 ## Compartilhei! E agora?
-Dadas as devidas definições vamos à parte que nos cabe nesse rolê que é pensar e repensar as nossas práticas na Rede bem como o que podemos fazer frente a qualquer tipo de discriminação online.
 
-Pensando em como os algoritmos na Internet funcionam e no combate ao DO Online, quando compartilhamos um vídeo, foto, postagem que tem relação com DO ou quando respondemos diretamente uma dessas mensagens é preciso ponderar sobre algumas questões:
+Dadas as devidas definições agora é hora de pensar e repensar as nossas práticas quando estamos utilizando as redes sociais. Antes de curtir, compartilhar, responder e postar é preciso ponderar sobre algumas questões:
 
-### 1 -  Você pode estar dando atenção ao Hater
-E nesse caso, “alimentar os haters” pode não ser uma boa estratégia visto que o objetivo dessas pessoas muitas vezes é apenas causar mal-estar e chamar atenção.
+### 1 -  Você pode estar dando atenção ao *hater*
+*Hater* é aquele perfil que faz postagens ou comentários cheios de ódio, intolerância ou discriminação.
+Logo, “alimentar os haters” pode não ser uma boa estratégia visto que o objetivo desses perfis, muitas vezes, é apenas causar mal-estar e chamar atenção, sem nenhuma possibilidade real de diálogo.
 
-### 2 - Tenham empatia com a Vítima
+### 2 - Tenham empatia com a vítima
 Ao compartilhar um relato de discriminação você deve considerar também a exibição que pode gerar na vida da pessoa que sofreu o ato, pois dependendo da repercussão a vítima pode ter que reviver aquela situação e isso pode ser doloroso.
 
 ### 3 - Procure os meios oficiais de denúncia
-Ao compartilhar o perfil de alguém que emitiu o DO é preciso ter cuidado pois naquele momento uma pessoa está sendo exposta e isso pode trazer consequências impensáveis para a vida dela. É importante combater o DO e denunciar, mas é preciso ter cautela também e procurar os meios oficiais de fazer isso para evitar incitar qualquer tipo de comportamento agressivo ou "justiça com as próprias mãos".
+Ao compartilhar o perfil de alguém que emitiu o DO é preciso ter cuidado pois naquele momento a pessoa está sendo exposta e isso pode trazer consequências impensáveis para a vida dela. É importante combater o DO e denunciar, mas é preciso ter cautela também e procurar os meios oficiais de fazer isso para evitar incitar qualquer tipo de comportamento agressivo.
 
 ### 4 - Cuidado com os algoritmos de recomendação e com o impulsionamento
 Conforme já conversamos aqui, à medida que interagimos com determinados conteúdos, mais daquele conteúdo será divulgado para nós, e se isso acontecer via anúncio, por exemplo, é possível que os responsáveis pela divulgação estejam lucrando a cada clique no respectivo material.
-
-Quando os algoritmos tornam possível a ampla divulgação de conteúdos relacionados a DO e extremismos acabam dando audiência para esses materiais e isso é capaz de fazer com que eles sejam alcançados por outras pessoas. Tanto pessoas contra quanto pessoas a favor do ato, o que pode vir a naturalizar e fortalecer grupos favoráveis a discriminação online.
 
 ![alt text](adinkra_4.png "Responsabilidade da Rede")
 ## De quem é a responsabilidade?
@@ -122,7 +98,7 @@ Algoritmos são construídos por pessoas, essas pessoas trabalham em empresas e 
 
 A questão é que quanto menos transparência nas tecnologias menos poder de ação nós temos sobre esse cenário e sobre como ele interfere na nossa vida. Por outro lado, quando temos mais transparência sobre os “algoritmos invisíveis” temos mais autonomia crítica para levantar questões sobre como a operação desses algoritmos pode estar corroborando para a perpetuação de práticas discriminatórias, desrespeitosas, irresponsáveis e perversas.
 
-Precisamos de mais transparência para que com mais conhecimentos possamos debater de forma profunda os impactos de práticas e tecnologias para além da Internet. E, assim, endereçar as respectivas falhas, correções e melhorias aos respectivos responsáveis, desde a não propagação de conteúdo indevido até a garantia da diversidade nos ambientes de construção desses algoritmos.
+Precisamos de mais transparência para que com mais conhecimentos possamos debater de forma profunda os impactos de práticas e tecnologias para além da Internet. E, assim, endereçar as falhas, correções e melhorias aos respectivos responsáveis, desde a não propagação de conteúdo indevido até a garantia da diversidade nos ambientes de construção desses algoritmos.
 
 É isso! Vamos para a próxima Trilha!
 
