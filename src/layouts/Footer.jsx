@@ -9,7 +9,7 @@ const Wrapper = styled.footer`
   display: flex;
   flex-direction:column;
   flex: 2;
-  background-color: #fff;
+  background-color: #bfd7d8;
 
   @media (min-width: ${props => props.theme.breakpoints.m}) {
     padding-top: 0.5rem;
