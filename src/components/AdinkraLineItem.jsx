@@ -113,7 +113,7 @@ export default class AdinkraItemGrid extends React.Component {
                 <div>
                   <h2 ref={subtitle => this.subtitle = subtitle}>{this.state.modalContent.title}</h2>
                   <p>{this.state.modalContent.text}</p>
-                  <a href="http://ipeafro.org.br/" target="_blank">
+                  <a href="http://ipeafro.org.br/acoes/pesquisa/adinkra" target="_blank">
                     <img style={{maxWidth: "150px"}} src={miniIpe} />
                   </a>
                 </div>
