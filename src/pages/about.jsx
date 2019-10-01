@@ -111,7 +111,7 @@ const About = center => (
         <br></br>
 
 
-        <img src={ipeafro} alt="Logo IPAFRO"/>
+        <img style={{maxWidth: '150px'}} src={ipeafro} alt="Logo IPAFRO"/>
         </p>
 
       </Container>
