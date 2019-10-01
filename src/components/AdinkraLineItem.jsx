@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 import first from "../../static/adrinkas/1.png";
 import css from '@emotion/css';
+import miniIpe from "../../static/miniIpeafro.jpg";
 
 const customStyles = {
   content : {
@@ -30,7 +31,7 @@ const AdinkraLineItem = styled.div`
   transition: 1s;
   border-radius: 50%;
   flex: 1 0 21%; 
-  max-width: 80px;
+  max-width: 60px;
   cursor: pointer;
 
   @media screen and (max-width: ${Theme.breakpoints.s}){
@@ -40,7 +41,7 @@ const AdinkraLineItem = styled.div`
 
   @media screen and (max-width: 375px){
     flex: 1 0 10%; 
-
+    max-width: 50px;
   }
 
   &:hover {
@@ -112,6 +113,9 @@ export default class AdinkraItemGrid extends React.Component {
                 <div>
                   <h2 ref={subtitle => this.subtitle = subtitle}>{this.state.modalContent.title}</h2>
                   <p>{this.state.modalContent.text}</p>
+                  <a href="http://ipeafro.org.br/" target="_blank">
+                    <img style={{maxWidth: "150px"}} src={miniIpe} />
+                  </a>
                 </div>
               </div>
               <a style={{width: "100%", backgroundColor: Theme.colors.orange.base, color: Theme.colors.white.base, textAlign: "center", display: 'block', cursor: "pointer"}} onClick={this.closeModal}>Fechar</a>

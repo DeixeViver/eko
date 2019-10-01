@@ -7,7 +7,7 @@ import {getNumber, chooseColor} from './index';
 import styled from '@emotion/styled';
 import AdinkraGrid from '../components/AdinkraGrid';
 import imersao from "../../static/imersao.jpg";
-import ipeafro from '../../static/ipeafro.png';
+import ipeafro from '../../static/miniIpeafro.jpg';
 
 const StyledMultipleBg = styled.div`
   display: flex;
@@ -65,7 +65,7 @@ const About = center => (
       <Container center={center}>
         <h1>O Projeto</h1>
 
-        <p>Ẹkọ (pronuncia-se Ékó), na língua Iorubá, significa instrução, 
+        <p>Ẹkọ (pronuncia-se Ékó), na língua Iorubá, significa Educação, Instrução, 
           que é o nosso principal objetivo nessa iniciativa. Somos uma plataforma 
           de educação digital feita por engenheiros de software e cientistas de 
           dados. E isso já explica bastante o que você vai encontrar por aqui: Informação 
@@ -107,9 +107,12 @@ const About = center => (
         representam ideias através de provérbios. Toda a utilização dos<a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" target="_blank" title="símbolos Adinkra"> símbolos Adinkra </a>
         dentro do site deve-se ao material construído pelo <a href="http://ipeafro.org.br/" target="_blank" title="IPEAFRO"> IPEAFRO </a> que nos permitiu a reutilização. 
         Agradecemos a toda equipe pelo trabalho incrível na construção do material e pela possibilidade de reutilização.
-        </p>
+        <br></br>
+        <br></br>
 
-        <img src={ipeafro} alt="Logo IPAFRO"/>
+
+        <img style={{maxWidth: '200px'}} src={ipeafro} alt="Logo IPAFRO"/>
+        </p>
 
       </Container>
   </Layout>

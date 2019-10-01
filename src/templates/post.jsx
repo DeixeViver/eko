@@ -42,12 +42,15 @@ const PostSuggestion = styled.div`
   display: flex;
   align-items: center;
   margin: 1rem 3rem 0 3rem;
+  font-family: 'Comfortaa', cursive !important;
+  color: #666;
 `;
 
 const postCover = styled.div`
   display: flex;
   height: 250px;
   overflow: hide
+  font-family: 'Comfortaa', cursive !important;
 `;
 
 
@@ -222,7 +225,7 @@ const Post = ({ data, pageContext }) => {
           {prev && (
             <Link to={prev.frontmatter.path}>
               Anterior
-              <h3>{prev.frontmatter.title}</h3>
+              <h3 style={{color: theme.colors.primary.dark , fontFamily: "'Comfortaa', cursive"}}>{prev.frontmatter.title}</h3>
             </Link>
           )}
         </PostSuggestion>
@@ -230,7 +233,7 @@ const Post = ({ data, pageContext }) => {
           {next && (
             <Link to={next.frontmatter.path}>
               Proximo
-              <h3>{next.frontmatter.title}</h3>
+              <h3 style={{color: theme.colors.primary.dark , fontFamily: "'Comfortaa', cursive"}}>{next.frontmatter.title}</h3>
             </Link>
           )}
         </PostSuggestion>

@@ -27,6 +27,7 @@ import TeamMember from '../components/TeamMember';
 import AdinkraItemGrid from '../components/AdinkraItemGrid';
 import AdinkraLineItem from '../components/AdinkraLineItem';
 import AdinkraGrid from '../components/AdinkraGrid';
+import TextChange from '../components/TextChange';
 
 
 import ad1 from '../../static/adrinkas/1.png';
@@ -95,13 +96,16 @@ export const team = [
       image: lorena,
       name: "Lorena Pereira",
       shortDescription: "Cientista de Dados com Conteúdo",
-      largeDescription: "Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas de forma consciente.",
+      largeDescription: "Bacharela em Sistemas de Informação pela UNEB e mestranda em Ciências da Computação pela UFCG. Acredito que a tecnologia é meio e que ela pode e deve ser aplicada para melhorar a vida das pessoas.",
       github: "https://github.com/lorenaps",
       instagram:""
 
   },
 
 ];
+
+export const stringsDescription = ["Juntamos tecnologia e ancestralidade para falar desse assunto.",
+                                  "Conheça o Adinkra e veja como esse sistema de escrita africano representa ideias tão poderosas."];
 
 export const getNumber = () => {
   let number = Math.floor(Math.random() * Math.floor(3));
@@ -175,6 +179,21 @@ const rotate = keyframes`
 
 `;
 
+const fade = keyframes`
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+
+`;
+
 const TranslateYElement = styled.div`
   animation-timing-function: ease;
   animation-delay: 0s;
@@ -183,6 +202,16 @@ const TranslateYElement = styled.div`
   animation-fill-mode: both;
   animation-play-state: running;
   animation: ${fadeInDown} 15s ease-in-out 0s infinite;
+`;
+
+const FadeElement = styled.div`
+  animation-timing-function: ease;
+  animation-delay: 7s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation: ${fade} 7s ease-in-out 7s infinite;
 `;
 
 const RetangleSloganA =  styled.div`
@@ -255,10 +284,10 @@ const StyledKnownProjects = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 6rem 0;
+  padding: 6rem 0 0;
   background: ${theme.colors.orange.base};
   @media (max-width: 1000px) {
-    padding: 4rem 2rem 1rem 4rem;
+    padding: 4rem 2rem 1rem 2rem;
   }
   @media (max-width: 700px) {
     padding: 4rem 1rem 1rem 1rem;
@@ -318,6 +347,7 @@ const sloganBodyWhiteCenter = {
   fontSize: '24px',
   maxWidth: '600px',
   textAlign: "center",
+  margin: "0 auto 3rem",
   color: theme.colors.white.base
 }
 
@@ -375,24 +405,26 @@ const Index = ({ data }) => {
   @media (max-width: 700px) {
     left: 0;
     right: 0;
-
+    padding: 5rem 0 0 0;
   }
 `;
 
   const SyledIntro = styled.h1`
-  font-size: 30px;
+  font-size: 28px;
   position: absolute;
   width: 90%;
   margin: 0 auto;
   font-family: 'Comfortaa', cursive;
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.4;
   text-shadow: 2px 3px 8px rgba(170, 170, 170, 1);
   top: 25%;
   
   @media (min-width: 40em) {
     font-size: 40px;
     margin: 0rem 0.5rem;
+  line-height: 1.6;
+
   }
   @media (min-width: 1024px) {
     max-width: 1000px;
@@ -400,7 +432,7 @@ const Index = ({ data }) => {
     font-size: 50px;
   }
   @media (min-width: ${theme.breakpoints.l}) {
-    font-size: 60px;
+    font-size: 50px;
   }
 `;
 
@@ -459,12 +491,12 @@ const AdinkraLine = styled.div`
   }
 
   @media screen and (max-width: ${theme.breakpoints.s}){
-    top: 33%;
+    top: 45%;
   }
 
   @media screen and (max-width: 375px){
     position: absolute;
-    top: 85%;
+    top: 80%;
   }
 `;
 
@@ -476,6 +508,16 @@ const PostListCss = styled.div`
     flex-direction: row-reverse;   
   }
 `;
+
+const VideosContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  @media screen and (min-width: ${theme.breakpoints.l}){
+    flex-direction: row;   
+  }
+`
 
   return (
     <Layout>
@@ -491,7 +533,12 @@ const PostListCss = styled.div`
 
       <StyledMultipleBg>
   
-          <SyledIntro>O que você precisa saber sobre Tecnologia para enfrentar a Discriminação na Internet</SyledIntro>
+          <SyledIntro>O que você precisa saber sobre Tecnologia para enfrentar a Discriminação na Internet
+          <FadeElement>
+            <TextChange strings={stringsDescription} />
+          </FadeElement>
+          </SyledIntro>
+            
             {/*<AdinkraGrid level={0} opacity={0.1} />
             <AdinkraGrid level={1} opacity={0.1} />
             <AdinkraGrid level={2} opacity={0.2} />
@@ -515,7 +562,7 @@ const PostListCss = styled.div`
             
           
       </StyledMultipleBg>
-      <ContinuedDivStyled>
+      {/*<ContinuedDivStyled>
         <Container>
           <Grid>
             <Text>
@@ -533,28 +580,17 @@ const PostListCss = styled.div`
               </b>
               <br></br>
               <br></br>
-              Essas três seções são o que chamamos Trilhas do Conhecimento. E são trilhas porque 
-              passaremos por cada uma delas como se fossem um caminho bem 
-              sinalizado e direcionado. 
-              <br></br>
-              <br></br>
+              E para deixar a experiência mais potente vamos caminhar pelo o que chamamos 
+              de <b>Trilhas do Conhecimento</b> através de um sistema de escrita africano que tem tudo a ver 
+              com essa conversa: o <a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" 
+              target="_blank" title="Adinkra">Adinkra</a>, esse conjunto de símbolos que você vê aqui, 
+              onde cada um deles tem um significado relacionado ao conteúdo da trilha.
 
-              <b>
-              Para tornar a experiência ainda mais potente, que tal guiar esse 
-              caminho com um sistema de escrita africano que tem tudo a ver com essa 
-              conversa? É o <a href="http://ipeafro.org.br/acoes/pesquisa/adinkra/" 
-              target="_blank" title="Adinkra">Adinkra</a>
-              </b>
-              <br></br>
-              <br></br>
-
-              Esse conjunto de símbolos que você vê aqui, onde cada um deles tem um significado 
-              relacionado ao conteúdo da trilha. 
               </p>
             </Text>
             <Text>
               <TranslateYElement>
-                {/*<img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />*/}
+                <img style={{marginBottom: 0}} src={adrinka1} alt="Gatsby Logo" />
                 <img style={{marginBottom: 0, padding: "1rem", backgroundColor: "white", borderRadius: "50%"}} src={ad7} alt="Gatsby Logo" />
 
               </TranslateYElement>
@@ -562,7 +598,7 @@ const PostListCss = styled.div`
           </Grid>
         </Container>
       </ContinuedDivStyled>
-      {/*<StyledAbout>
+      <StyledAbout>
         <Container>
           <Grid>
             <Text>
@@ -591,7 +627,7 @@ const PostListCss = styled.div`
 
       
       <PostWrapper>
-        <h2 id="trilhas" style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI :)</h2>
+        <h2 id="trilhas" style={{fontSize: '52px', textAlign: 'center', color: '#666', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>COMECE POR AQUI</h2>
         
         <PostListCss>
           {edges.map(({ node }) => (
@@ -617,23 +653,26 @@ const PostListCss = styled.div`
       </PostWrapper>
 
       <StyledKnownProjects>
-        <div style={{maxWidth: "1200px", margin: "0 auto", display: "block"}}>
-          <h2 style={{fontSize: '35px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '400'}}>MOSTRE SUA VOZ</h2>
+        <div style={{width: '100%', maxWidth: "1200px", margin: "0 auto", display: "block"}}>
+          <h2 style={{fontSize: '52px', textAlign: 'center', color: '#fafafa', marginBottom: "3rem", fontFamily: "Comfortaa, cursive", fontWeight: '700'}}>MOSTRE SUA VOZ</h2>
           <Text>
             <p style={sloganBodyWhiteCenter}>
-              Conheça aqui outros projetos que fazem da Internet um lugar melhor.
+              Conheça aqui outros projetos que fazem da Internet um lugar melhor, entenda como eles funcionam e projete-se você também!
             </p>
           </Text>
-          <div style={{display:"flex", justifyContent: "center"}}>
-            <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
-              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Seja Extraordinária</p>
+          <VideosContainer>
+            <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "90%", height: "60vh", maxWidth: "500px"}}>
+              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/NDCIxrWqIWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}> 
+                <a href="http://sejaextraordinaria.com.br/" target="_blank" title="Seja Extraordinária">Seja Extraordinária</a> </p>
             </div>  
-            <div style={{margin: "0 15px", display: "flex", flexDirection: "column",}}>
-              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/5Wc7rdAjBJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}>Diário da Mari</p>
+            <div style={{margin: "0 auto", display: "flex", flexDirection: "column", width: "90%", height: "60vh", maxWidth: "500px"}}>
+              <iframe style={{marginBotton: "10px !important"}} width="100%" height="100%" src="https://www.youtube.com/embed/7_1NDzntIFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", marginTop: "-10px"}}> 
+                <a href="https://www.instagram.com/rupturablack/" target="_blank" title="Ruptura Black">Ruptura Black</a> e o 
+                <a href="https://www.instagram.com/odiariodamari_/" target="_blank" title="Diário da Mari"> Diário da Mari</a> </p>
             </div>
-          </div>
+          </VideosContainer>
 
           <div style={{backgroundColor: theme.colors.green.base, padding: "10px"}}>
             <p style={{fontSize: 16, color: "white", fontFamily: "Comfortaa, cursive", textAlign: "center", margin: 0}}>Nos acompanhe no Instagram e veja mais<br/> <a href="https://www.instagram.com/ekoprojeto/" target="_blank" title="Instagram do Eko">Projeto Ẹkọ</a></p>
