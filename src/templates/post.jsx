@@ -225,7 +225,7 @@ const Post = ({ data, pageContext }) => {
           {prev && (
             <Link to={prev.frontmatter.path}>
               Anterior
-              <h3 style={{color: theme.colors.primary.dark , fontFamily: "'Comfortaa', cursive"}}>{next.frontmatter.title}</h3>
+              <h3 style={{color: theme.colors.primary.dark , fontFamily: "'Comfortaa', cursive"}}>{prev.frontmatter.title}</h3>
             </Link>
           )}
         </PostSuggestion>

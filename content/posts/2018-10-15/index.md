@@ -2,7 +2,7 @@
 path: "/trilha-2"
 cover: "./gradiente.jpg"
 date: "2018-10-17"
-title: "Trilha 02 - Transformando Dados em Ferramentas"
+title: "Trilha 02 - Dados, Narrativas e Contranarrativas"
 published: true
 tags: ['dados', 'trilha', 'conhecimento']
 video: false
