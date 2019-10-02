@@ -8,7 +8,7 @@ tags: ['algoritmos','trilha', 'conhecimento']
 video: false
 videosrc: ''
 fronttitlea: 'Trilha 01 — Algoritmos Invisíveis'
-fronttitleb: 'Algoritmos, bolhas sociais, discurso de ódio online e responsabilidade na rede'
+fronttitleb: 'Bolhas sociais, discurso de ódio online e responsabilidade na rede'
 frontsubtitle: ''
 barpercentage: [16, 42, 60, 75]
 baradinkra: ['1','7','3', '4']

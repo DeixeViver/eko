@@ -8,12 +8,12 @@ tags: ['dados', 'trilha', 'conhecimento']
 video: false
 videoname: 'Video1'
 fronttitlea: 'Trilha 02 - Dados, Narrativas e Contranarrativas'
-fronttitleb: 'Transformando dados em ferramentas'
+fronttitleb: 'Como os dados abertos podem ajudar a minha narrativa'
 frontsubtitle: ''
 barpercentage: [24, 48]
 baradinkra: ['6','5']
 ---
-## Como os dados podem ajudar a fortalecer a minha narrativa?
+## Dados e dados abertos: Por onde começar?
 
 <br>
 
