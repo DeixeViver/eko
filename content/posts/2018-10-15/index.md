@@ -96,7 +96,7 @@ Link do Colab: https://colab.research.google.com/
 </center>
 
 ### 2 - Como importar um notebook
-Já deixamos um notebook prontinho para você importar no Colab e sair analisando tudo - https://github.com/DeixeViver/eko-dados/blob/master/notebooks/explorandoeducacaobasica.ipynb
+Já deixamos um notebook prontinho para você importar no Colab e sair analisando tudo - https://github.com/DeixeViver/eko-dados/blob/master/notebooks/explorando_educacao_basica.ipynb
 
 <center>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/mcyj_a0bLoQ"" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
