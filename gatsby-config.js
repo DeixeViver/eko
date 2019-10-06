@@ -5,6 +5,12 @@ module.exports = {
     ...config,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-149488473-1",
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     {
