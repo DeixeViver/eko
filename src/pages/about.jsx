@@ -114,6 +114,18 @@ const About = center => (
         <img style={{maxWidth: '200px'}} src={ipeafro} alt="Logo IPAFRO"/>
         </p>
 
+        <br></br>
+        <br></br>
+        <h2>Entre em contato</h2>
+
+        <p>
+        Nosso objetivo é estar em constante aprimoramento do projeto e sendo assim estamos abertos a 
+        qualquer tipo de dúvida, sugestão ou reclamação. Entre em contato pelo e-mail 
+        <i><b> ekoprojeto@gmail.com </b></i> ou pelo nosso instagram: 
+        <a href="https://www.instagram.com/ekoprojeto/" target="_blank" title="ekoprojeto"> @ekoprojeto.</a>
+        </p>
+        
+
       </Container>
   </Layout>
 );
